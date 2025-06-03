@@ -10,6 +10,24 @@
   --success-color: #27ae60;
   --danger-color: #e74c3c;
   --warning-color: #f39c12;
+  --card-background: #ffffff;
+  --input-background: #ffffff;
+}
+
+[data-theme="dark"] {
+  --primary-color: #ecf0f1;
+  --secondary-color: #bdc3c7;
+  --accent-color: #3498db;
+  --background-color: #1a1a1a;
+  --text-color: #ecf0f1;
+  --light-gray: #2c2c2c;
+  --medium-gray: #3a3a3a;
+  --border-color: #404040;
+  --success-color: #2ecc71;
+  --danger-color: #e74c3c;
+  --warning-color: #f39c12;
+  --card-background: #2c2c2c;
+  --input-background: #3a3a3a;
 }
 
 * {
@@ -24,16 +42,18 @@ body {
   color: var(--text-color);
   line-height: 1.6;
   min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: white;
+  background-color: var(--card-background);
   border: 1px solid var(--border-color);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 h1,
@@ -75,6 +95,7 @@ p {
   border-radius: 8px;
   text-align: left;
   border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 textarea {
@@ -87,7 +108,9 @@ textarea {
   resize: vertical;
   font-family: monospace;
   font-size: 14px;
-  background-color: white;
+  background-color: var(--input-background);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 input[type="file"] {
@@ -96,7 +119,9 @@ input[type="file"] {
   padding: 0.5rem;
   border: 1px solid var(--border-color);
   border-radius: 4px;
-  background-color: white;
+  background-color: var(--input-background);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 /* Exam Options Styles */
@@ -121,7 +146,7 @@ input[type="file"] {
   border: 1px solid var(--border-color);
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.3s ease;
 }
 
 .option-card:hover {
@@ -167,7 +192,9 @@ input[type="number"] {
   border: 1px solid var(--border-color);
   border-radius: 4px;
   font-size: 1rem;
-  background-color: white;
+  background-color: var(--input-background);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 /* Time Settings Styles */
@@ -178,6 +205,7 @@ input[type="number"] {
   border-radius: 8px;
   text-align: left;
   border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .time-selector {
@@ -196,8 +224,10 @@ select {
   border: 1px solid var(--border-color);
   border-radius: 4px;
   font-size: 1rem;
-  background-color: white;
+  background-color: var(--input-background);
+  color: var(--text-color);
   cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 .custom-time-input {
@@ -233,6 +263,7 @@ select {
   padding: 0.75rem;
   border-radius: 6px;
   border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .timer {
@@ -254,9 +285,11 @@ select {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }
+
   100% {
     opacity: 1;
   }
@@ -281,14 +314,15 @@ select {
 .question-item {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background-color: white;
+  background-color: var(--card-background);
   border: none;
   border-radius: 8px;
   position: relative;
+  transition: background-color 0.3s ease;
 }
 
 .question-item.answered {
-  background-color: white;
+  background-color: var(--card-background);
 }
 
 .question-item.correct {
@@ -404,6 +438,7 @@ select {
   border-radius: 8px;
   margin-bottom: 2rem;
   border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .result-item {
@@ -424,12 +459,54 @@ select {
   margin-top: 2rem;
 }
 
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--card-background);
+  color: var(--text-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: var(--light-gray);
+}
+
+.filter-btn.active {
+  background-color: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
 .review-item {
   margin-bottom: 1.5rem;
   padding: 1.5rem;
   background-color: var(--light-gray);
   border-radius: 8px;
   border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.review-item.hidden {
+  display: none;
 }
 
 .review-question {
@@ -470,7 +547,7 @@ button {
 
 .primary-btn {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--background-color);
   padding: 1rem 2rem;
   font-size: 1.1rem;
 }
@@ -489,35 +566,56 @@ button {
   opacity: 0.9;
 }
 
-.fullscreen-btn {
+/* Top Controls */
+.top-controls {
   position: fixed;
   top: 1rem;
   right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 100;
+}
+
+.control-btn {
   background-color: var(--secondary-color);
   color: white;
   padding: 0.75rem;
   font-size: 0;
-  z-index: 100;
   border-radius: 6px;
   width: 48px;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s ease;
 }
 
-.fullscreen-btn:hover {
+.control-btn:hover {
   background-color: var(--primary-color);
 }
 
-.fullscreen-btn.hidden {
+.control-btn.hidden {
   display: none;
 }
 
-.fullscreen-btn svg {
+.control-btn svg {
   width: 20px;
   height: 20px;
   fill: currentColor;
+}
+
+/* Dark mode specific adjustments */
+[data-theme="dark"] .primary-btn {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+[data-theme="dark"] .primary-btn:hover {
+  background-color: #2980b9;
+}
+
+[data-theme="dark"] .option-card.selected {
+  background-color: rgba(52, 152, 219, 0.2);
 }
 
 /* Responsive Styles */
@@ -525,6 +623,12 @@ button {
   .container {
     margin: 1rem;
     padding: 1rem;
+  }
+
+  .top-controls {
+    top: 0.5rem;
+    right: 0.5rem;
+    flex-direction: column;
   }
 
   .quiz-header {
@@ -585,5 +689,15 @@ button {
 
   .feedback-options {
     grid-template-columns: 1fr;
+  }
+
+  .review-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-buttons {
+    width: 100%;
+    justify-content: center;
   }
 }

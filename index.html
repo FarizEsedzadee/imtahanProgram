@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="az">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İmtahan Hazırlıq Proqramı</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
+
 <body>
     <div class="container">
         <div id="start-screen">
             <h1>İmtahan Hazırlıq Proqramı</h1>
             <p>Sual bazasından təsadüfi suallar seçiləcək və variantlar qarışdırılacaq.</p>
-            
+
             <div class="input-section">
                 <h2>Sualları Yüklə</h2>
-                <p>Sualları JSON formatında yükləyin, .txt faylı yükləyin (avtomatik çevrilər) və ya nümunə sualları istifadə edin:</p>
-                <textarea id="questions-input" placeholder="Sualları JSON formatında daxil edin və ya fayl yükləyin"></textarea>
+                <p>Sualları JSON formatında yükləyin, .txt faylı yükləyin (avtomatik çevrilər) və ya nümunə sualları
+                    istifadə edin:</p>
+                <textarea id="questions-input"
+                    placeholder="Sualları JSON formatında daxil edin və ya fayl yükləyin"></textarea>
                 <input type="file" id="file-input" accept=".json,.txt">
                 <button id="load-sample">Nümunə Sualları Yüklə</button>
             </div>
-            
+
             <div class="exam-options">
                 <h2>İmtahan Rejimi</h2>
-                
+
                 <div class="option-card">
                     <input type="radio" id="random-50" name="exam-mode" value="random-50" checked>
                     <label for="random-50">
@@ -30,7 +35,7 @@
                         <p>Bütün suallar arasından təsadüfi 50 sual seçilir</p>
                     </label>
                 </div>
-                
+
                 <div class="option-card">
                     <input type="radio" id="custom-range" name="exam-mode" value="custom-range">
                     <label for="custom-range">
@@ -64,7 +69,7 @@
                             <p>Hər cavabdan sonra düzgün/səhv olduğunu dərhal göstər</p>
                         </label>
                     </div>
-                    
+
                     <div class="option-card">
                         <input type="radio" id="end-feedback" name="feedback-mode" value="end">
                         <label for="end-feedback">
@@ -97,14 +102,14 @@
                     </div>
                 </div>
             </div>
-            
+
             <button id="start-btn" class="primary-btn">İmtahanı Başlat</button>
         </div>
 
         <div id="quiz-screen" class="hidden">
             <button id="fullscreen-btn" class="fullscreen-btn" title="Tam Ekran">
                 <svg id="fullscreen-icon" viewBox="0 0 24 24">
-                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
                 </svg>
             </button>
             <div class="quiz-header">
@@ -165,18 +170,19 @@
                     <span id="feedback-mode">Dərhal</span>
                 </div>
             </div>
-            
+
             <div class="review-section">
                 <h3>Sual Baxışı</h3>
                 <div id="review-container">
                     <!-- Suallar və cavablar burada siyahılanacaq -->
                 </div>
             </div>
-            
+
             <button id="restart-btn" class="primary-btn">Yeni İmtahan Başlat</button>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

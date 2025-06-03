@@ -33,6 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const submitBtn = document.getElementById("submit-btn")
   const fullscreenBtn = document.getElementById("fullscreen-btn")
   const fullscreenIcon = document.getElementById("fullscreen-icon")
+  const themeBtn = document.getElementById("theme-btn")
+  const themeIcon = document.getElementById("theme-icon")
 
   const totalQuestionsEl = document.getElementById("total-questions")
   const correctAnswersEl = document.getElementById("correct-answers")
@@ -44,6 +46,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const feedbackModeEl = document.getElementById("feedback-mode")
   const reviewContainer = document.getElementById("review-container")
   const restartBtn = document.getElementById("restart-btn")
+
+  // Filter buttons
+  const filterAllBtn = document.getElementById("filter-all")
+  const filterCorrectBtn = document.getElementById("filter-correct")
+  const filterWrongBtn = document.getElementById("filter-wrong")
+  const filterUnansweredBtn = document.getElementById("filter-unanswered")
 
   // Quiz State
   let allQuestions = []
@@ -114,6 +122,97 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   ]
 
+  // Theme Management
+  function initializeTheme() {
+    const savedTheme = localStorage.getItem("theme") || "light"
+    setTheme(savedTheme)
+  }
+
+  function setTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme)
+    localStorage.setItem("theme", theme)
+    updateThemeIcon(theme)
+  }
+
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme") || "light"
+    const newTheme = currentTheme === "light" ? "dark" : "light"
+    setTheme(newTheme)
+  }
+
+  function updateThemeIcon(theme) {
+    if (theme === "dark") {
+      // Sun icon for switching to light mode
+      themeIcon.innerHTML =
+        '<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>'
+      themeBtn.title = "Light Mode"
+    } else {
+      // Moon icon for switching to dark mode
+      themeIcon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'
+      themeBtn.title = "Dark Mode"
+    }
+  }
+
+  // Filter functionality
+  function setupFilterButtons() {
+    filterAllBtn.addEventListener("click", () => filterQuestions("all"))
+    filterCorrectBtn.addEventListener("click", () => filterQuestions("correct"))
+    filterWrongBtn.addEventListener("click", () => filterQuestions("wrong"))
+    filterUnansweredBtn.addEventListener("click", () => filterQuestions("unanswered"))
+  }
+
+  function filterQuestions(type) {
+    // Update active button
+    document.querySelectorAll(".filter-btn").forEach((btn) => btn.classList.remove("active"))
+
+    switch (type) {
+      case "all":
+        filterAllBtn.classList.add("active")
+        break
+      case "correct":
+        filterCorrectBtn.classList.add("active")
+        break
+      case "wrong":
+        filterWrongBtn.classList.add("active")
+        break
+      case "unanswered":
+        filterUnansweredBtn.classList.add("active")
+        break
+    }
+
+    // Filter review items
+    const reviewItems = document.querySelectorAll(".review-item")
+    reviewItems.forEach((item, index) => {
+      const userAnswer = userAnswers[index]
+      const correctAnswer = selectedQuestions[index].correctAnswer
+      const isCorrect = userAnswer === correctAnswer
+      const isUnanswered = userAnswer === null
+
+      let shouldShow = false
+
+      switch (type) {
+        case "all":
+          shouldShow = true
+          break
+        case "correct":
+          shouldShow = isCorrect && !isUnanswered
+          break
+        case "wrong":
+          shouldShow = !isCorrect && !isUnanswered
+          break
+        case "unanswered":
+          shouldShow = isUnanswered
+          break
+      }
+
+      if (shouldShow) {
+        item.classList.remove("hidden")
+      } else {
+        item.classList.add("hidden")
+      }
+    })
+  }
+
   // Event Listeners
   loadSampleBtn.addEventListener("click", loadSampleQuestions)
   fileInput.addEventListener("change", handleFileUpload)
@@ -126,11 +225,16 @@ document.addEventListener("DOMContentLoaded", () => {
   })
   restartBtn.addEventListener("click", restartQuiz)
 
-  // Fullscreen functionality
+  // Theme and Fullscreen functionality
+  themeBtn.addEventListener("click", toggleTheme)
   fullscreenBtn.addEventListener("click", toggleFullscreen)
 
   // Exit fullscreen when quiz ends
   document.addEventListener("fullscreenchange", updateFullscreenButton)
+
+  // Initialize theme and filter buttons
+  initializeTheme()
+  setupFilterButtons()
 
   // Exam time selection
   examTimeSelect.addEventListener("change", (e) => {
@@ -307,12 +411,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const dialog = document.createElement("div")
     dialog.style.cssText = `
-      background: white;
+      background: var(--card-background);
+      color: var(--text-color);
       padding: 2rem;
       border-radius: 8px;
       max-width: 600px;
       max-height: 80vh;
       overflow-y: auto;
+      border: 1px solid var(--border-color);
     `
 
     dialog.innerHTML = `
@@ -333,7 +439,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ${question.options
           .map(
             (option, oIndex) => `
-          <label style="display: block; margin: 0.25rem 0;">
+          <label style="display: block; margin: 0.25rem 0; color: var(--text-color);">
             <input type="radio" name="correct_${qIndex}" value="${option}" ${oIndex === 0 ? "checked" : ""}>
             ${String.fromCharCode(97 + oIndex)}) ${option}
           </label>
@@ -537,7 +643,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const optionContent = document.createElement("div")
         optionContent.classList.add("answer-option-content")
-        optionContent.textContent = `${String.fromCharCode(65 + optionIndex)}. ${option}`
+        optionContent.innerHTML = `<strong>${String.fromCharCode(65 + optionIndex)}.</strong> ${option}`
 
         const radioInput = document.createElement("input")
         radioInput.type = "radio"
@@ -773,6 +879,9 @@ document.addEventListener("DOMContentLoaded", () => {
       reviewItem.appendChild(answersEl)
       reviewContainer.appendChild(reviewItem)
     })
+
+    // Reset filter to show all questions initially
+    filterQuestions("all")
   }
 
   function restartQuiz() {
