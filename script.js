@@ -552,23 +552,23 @@ document.addEventListener("DOMContentLoaded", () => {
         radioInput.addEventListener("click", (e) => {
           e.stopPropagation()
 
-          // If already answered, do nothing
-          if (userAnswers[questionIndex] !== null) return
-
-          // Mark as answered
-          const isCorrect = option === question.correctAnswer
-          userAnswers[questionIndex] = option
-
-          // Update counters
-          if (isCorrect) {
-            correctCount++
-          } else {
-            wrongCount++
-          }
-          unansweredCount--
-          updateCounters()
-
           if (feedbackMode === "immediate") {
+            // If already answered in immediate mode, do nothing
+            if (userAnswers[questionIndex] !== null) return
+
+            // Mark as answered
+            const isCorrect = option === question.correctAnswer
+            userAnswers[questionIndex] = option
+
+            // Update counters
+            if (isCorrect) {
+              correctCount++
+            } else {
+              wrongCount++
+            }
+            unansweredCount--
+            updateCounters()
+
             // Show immediate feedback
             questionItem.classList.add("answered")
             questionItem.classList.add(isCorrect ? "correct" : "incorrect")
@@ -595,8 +595,47 @@ document.addEventListener("DOMContentLoaded", () => {
               opt.classList.add("disabled")
             })
           } else {
+            // End feedback mode - allow answer changes
+            const wasFirstAnswer = userAnswers[questionIndex] === null
+            const previousAnswer = userAnswers[questionIndex]
+
+            // Update answer
+            userAnswers[questionIndex] = option
+
+            // Update counters only if this is the first answer
+            if (wasFirstAnswer) {
+              const isCorrect = option === question.correctAnswer
+              if (isCorrect) {
+                correctCount++
+              } else {
+                wrongCount++
+              }
+              unansweredCount--
+            } else {
+              // If changing answer, recalculate correct/wrong counts
+              correctCount = 0
+              wrongCount = 0
+              userAnswers.forEach((answer, idx) => {
+                if (answer !== null) {
+                  if (answer === selectedQuestions[idx].correctAnswer) {
+                    correctCount++
+                  } else {
+                    wrongCount++
+                  }
+                }
+              })
+            }
+            updateCounters()
+
             // Show only that question is answered, no feedback
             questionItem.classList.add("answered-no-feedback")
+            questionItem.classList.remove("correct", "incorrect")
+
+            // Remove existing status if any
+            const existingStatus = questionItem.querySelector(".question-status")
+            if (existingStatus) {
+              existingStatus.remove()
+            }
 
             // Add simple answered status
             const statusDiv = document.createElement("div")
@@ -604,17 +643,23 @@ document.addEventListener("DOMContentLoaded", () => {
             statusDiv.textContent = "Cavablandı"
             questionItem.appendChild(statusDiv)
 
-            // Just mark as selected and disable
+            // Clear previous selections and mark new selection
             const allOptions = answerOptions.querySelectorAll(".answer-option")
             allOptions.forEach((opt) => {
               const optionValue = opt.dataset.option
+              const radioBtn = opt.querySelector('input[type="radio"]')
+
+              // Clear previous visual selections
+              opt.classList.remove("selected")
 
               if (optionValue === option) {
                 opt.classList.add("selected")
+                radioBtn.checked = true
+              } else {
+                radioBtn.checked = false
               }
 
-              // Disable all options
-              opt.classList.add("disabled")
+              // Don't disable options in end feedback mode
             })
           }
         })
