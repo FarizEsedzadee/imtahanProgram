@@ -595,9 +595,8 @@ document.addEventListener("DOMContentLoaded", () => {
               opt.classList.add("disabled")
             })
           } else {
-            // End feedback mode - allow answer changes
+            // End feedback mode - allow answer changes, no visual feedback
             const wasFirstAnswer = userAnswers[questionIndex] === null
-            const previousAnswer = userAnswers[questionIndex]
 
             // Update answer
             userAnswers[questionIndex] = option
@@ -627,39 +626,11 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             updateCounters()
 
-            // Show only that question is answered, no feedback
-            questionItem.classList.add("answered-no-feedback")
-            questionItem.classList.remove("correct", "incorrect")
-
-            // Remove existing status if any
-            const existingStatus = questionItem.querySelector(".question-status")
-            if (existingStatus) {
-              existingStatus.remove()
-            }
-
-            // Add simple answered status
-            const statusDiv = document.createElement("div")
-            statusDiv.classList.add("question-status", "answered")
-            statusDiv.textContent = "Cavablandı"
-            questionItem.appendChild(statusDiv)
-
-            // Clear previous selections and mark new selection
+            // No visual changes - just ensure the radio button is selected
             const allOptions = answerOptions.querySelectorAll(".answer-option")
             allOptions.forEach((opt) => {
-              const optionValue = opt.dataset.option
               const radioBtn = opt.querySelector('input[type="radio"]')
-
-              // Clear previous visual selections
-              opt.classList.remove("selected")
-
-              if (optionValue === option) {
-                opt.classList.add("selected")
-                radioBtn.checked = true
-              } else {
-                radioBtn.checked = false
-              }
-
-              // Don't disable options in end feedback mode
+              radioBtn.checked = opt.dataset.option === option
             })
           }
         })
