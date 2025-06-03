@@ -53,6 +53,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const filterWrongBtn = document.getElementById("filter-wrong")
   const filterUnansweredBtn = document.getElementById("filter-unanswered")
 
+  // Floating sidebar elements
+  const floatingSidebar = document.getElementById("floating-sidebar")
+  const sidebarTimer = document.getElementById("sidebar-timer")
+  const sidebarCorrect = document.getElementById("sidebar-correct")
+  const sidebarWrong = document.getElementById("sidebar-wrong")
+  const sidebarUnanswered = document.getElementById("sidebar-unanswered")
+  const sidebarTotal = document.getElementById("sidebar-total")
+
   // Quiz State
   let allQuestions = []
   let selectedQuestions = []
@@ -153,6 +161,85 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // Floating Sidebar Management
+  function setupFloatingSidebar() {
+    let lastScrollY = window.scrollY
+    let isVisible = false
+    let isQuizActive = false
+
+    function updateSidebarVisibility() {
+      // Only show sidebar during quiz
+      if (!isQuizActive) {
+        if (isVisible) {
+          floatingSidebar.classList.remove("visible")
+          isVisible = false
+        }
+        return
+      }
+
+      const currentScrollY = window.scrollY
+      const shouldShow = currentScrollY > 200 && currentScrollY > lastScrollY
+
+      if (shouldShow && !isVisible) {
+        floatingSidebar.classList.add("visible")
+        isVisible = true
+      } else if ((!shouldShow || currentScrollY < 50) && isVisible) {
+        floatingSidebar.classList.remove("visible")
+        isVisible = false
+      }
+
+      lastScrollY = currentScrollY
+    }
+
+    window.addEventListener("scroll", updateSidebarVisibility)
+
+    // Functions to control sidebar state
+    function showSidebar() {
+      isQuizActive = true
+    }
+
+    function hideSidebar() {
+      isQuizActive = false
+      floatingSidebar.classList.remove("visible")
+      isVisible = false
+    }
+
+    return { showSidebar, hideSidebar }
+  }
+
+  function updateSidebarCounters() {
+    sidebarCorrect.textContent = correctCount
+    sidebarWrong.textContent = wrongCount
+    sidebarUnanswered.textContent = unansweredCount
+    sidebarTotal.textContent = selectedQuestions.length
+  }
+
+  function updateSidebarTimer(seconds) {
+    const hours = Math.floor(seconds / 3600)
+    const minutes = Math.floor((seconds % 3600) / 60)
+    const remainingSeconds = seconds % 60
+
+    let timeText
+    if (hours > 0) {
+      timeText = `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`
+    } else {
+      timeText = `${minutes.toString().padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`
+    }
+
+    sidebarTimer.textContent = timeText
+
+    // Add warning classes
+    const warningThreshold = Math.min(180, timeLimit * 0.2)
+    const dangerThreshold = Math.min(60, timeLimit * 0.1)
+
+    sidebarTimer.classList.remove("warning", "danger")
+    if (seconds <= dangerThreshold) {
+      sidebarTimer.classList.add("danger")
+    } else if (seconds <= warningThreshold) {
+      sidebarTimer.classList.add("warning")
+    }
+  }
+
   // Filter functionality
   function setupFilterButtons() {
     filterAllBtn.addEventListener("click", () => filterQuestions("all"))
@@ -232,9 +319,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // Exit fullscreen when quiz ends
   document.addEventListener("fullscreenchange", updateFullscreenButton)
 
-  // Initialize theme and filter buttons
+  // Initialize theme, filter buttons, and floating sidebar
   initializeTheme()
   setupFilterButtons()
+  const sidebarControls = setupFloatingSidebar()
 
   // Exam time selection
   examTimeSelect.addEventListener("change", (e) => {
@@ -304,15 +392,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Check if it's a JSON file or try to parse as JSON first
       if (file.name.endsWith(".json")) {
-        questionsInput.value = content
-        return
+        try {
+          // Validate JSON by parsing it
+          JSON.parse(content)
+          questionsInput.value = content
+
+          // Update the range inputs based on the number of questions
+          const questions = JSON.parse(content)
+          if (Array.isArray(questions)) {
+            toQuestionInput.value = questions.length
+            toQuestionInput.max = questions.length
+            fromQuestionInput.max = questions.length
+          }
+          return
+        } catch (error) {
+          alert("JSON faylı düzgün formatda deyil. Zəhmət olmasa düzgün JSON faylı yükləyin.")
+          return
+        }
       }
 
-      // Try to parse as JSON first
+      // Try to parse as JSON first for any file
       try {
-        JSON.parse(content)
-        questionsInput.value = content
-        return
+        const parsedJSON = JSON.parse(content)
+        if (Array.isArray(parsedJSON)) {
+          questionsInput.value = content
+
+          // Update the range inputs based on the number of questions
+          toQuestionInput.value = parsedJSON.length
+          toQuestionInput.max = parsedJSON.length
+          fromQuestionInput.max = parsedJSON.length
+          return
+        }
       } catch (error) {
         // If not JSON, try to parse as text format
         try {
@@ -323,16 +433,24 @@ document.addEventListener("DOMContentLoaded", () => {
           // Update the range inputs based on the number of questions
           toQuestionInput.value = parsedQuestions.length
           toQuestionInput.max = parsedQuestions.length
+          fromQuestionInput.max = parsedQuestions.length
 
           // Optionally show dialog to set correct answers
           if (confirm("Düzgün cavabları indi təyin etmək istəyirsiniz?")) {
             showCorrectAnswerDialog(parsedQuestions)
           }
         } catch (parseError) {
-          alert("Fayl formatı tanınmadı. Zəhmət olmasa düzgün formatda fayl yükləyin.")
+          alert(
+            "Fayl formatı tanınmadı. Zəhmət olmasa düzgün JSON formatında suallar və ya mətn formatında suallar yükləyin.",
+          )
         }
       }
     }
+
+    reader.onerror = () => {
+      alert("Fayl oxunarkən xəta baş verdi. Zəhmət olmasa yenidən cəhd edin.")
+    }
+
     reader.readAsText(file, "UTF-8")
   }
 
@@ -522,6 +640,25 @@ document.addEventListener("DOMContentLoaded", () => {
         return
       }
 
+      // Validate question structure
+      for (let i = 0; i < allQuestions.length; i++) {
+        const q = allQuestions[i]
+        if (!q.question || !Array.isArray(q.options) || !q.correctAnswer) {
+          alert(
+            `Sual ${i + 1} düzgün formatda deyil. Hər sual "question", "options" və "correctAnswer" sahələrinə malik olmalıdır.`,
+          )
+          return
+        }
+        if (q.options.length < 2) {
+          alert(`Sual ${i + 1} ən azı 2 variant olmalıdır.`)
+          return
+        }
+        if (!q.options.includes(q.correctAnswer)) {
+          alert(`Sual ${i + 1} üçün düzgün cavab variantlar arasında yoxdur.`)
+          return
+        }
+      }
+
       // Get exam time
       const examTimeInSeconds = getExamTime()
       if (examTimeInSeconds === null) return
@@ -589,6 +726,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Update counters
       updateCounters()
+      updateSidebarCounters()
 
       // Start timer
       startTime = new Date()
@@ -598,8 +736,9 @@ document.addEventListener("DOMContentLoaded", () => {
       startScreen.classList.add("hidden")
       quizScreen.classList.remove("hidden")
 
-      // Show fullscreen button
+      // Show fullscreen button and activate sidebar
       fullscreenBtn.classList.remove("hidden")
+      sidebarControls.showSidebar()
 
       // Show all questions
       showAllQuestions()
@@ -674,6 +813,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             unansweredCount--
             updateCounters()
+            updateSidebarCounters()
 
             // Show immediate feedback
             questionItem.classList.add("answered")
@@ -731,6 +871,7 @@ document.addEventListener("DOMContentLoaded", () => {
               })
             }
             updateCounters()
+            updateSidebarCounters()
 
             // No visual changes - just ensure the radio button is selected
             const allOptions = answerOptions.querySelectorAll(".answer-option")
@@ -769,10 +910,12 @@ document.addEventListener("DOMContentLoaded", () => {
   function startCountdownTimer() {
     let timeRemaining = timeLimit
     updateTimerDisplay(timeRemaining)
+    updateSidebarTimer(timeRemaining)
 
     timerInterval = setInterval(() => {
       timeRemaining--
       updateTimerDisplay(timeRemaining)
+      updateSidebarTimer(timeRemaining)
 
       // Add warning classes when time is running out
       const warningThreshold = Math.min(180, timeLimit * 0.2) // 20% of total time or 3 minutes, whichever is smaller
@@ -806,6 +949,9 @@ document.addEventListener("DOMContentLoaded", () => {
   function submitQuiz() {
     // Stop timer
     clearInterval(timerInterval)
+
+    // Hide sidebar
+    sidebarControls.hideSidebar()
 
     // Update results screen
     totalQuestionsEl.textContent = selectedQuestions.length
@@ -889,8 +1035,9 @@ document.addEventListener("DOMContentLoaded", () => {
     resultsScreen.classList.add("hidden")
     startScreen.classList.remove("hidden")
 
-    // Hide fullscreen button
+    // Hide fullscreen button and sidebar
     fullscreenBtn.classList.add("hidden")
+    sidebarControls.hideSidebar()
 
     // Exit fullscreen if active
     if (document.fullscreenElement) {
