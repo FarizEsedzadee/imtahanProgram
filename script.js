@@ -1,3 +1,346 @@
+class QuizApp {
+  constructor() {
+    this.questions = [
+      {
+        question: "JavaScript-də dəyişən elan etmək üçün hansı açar sözlər istifadə olunur?",
+        options: {
+          a: "var, let, const",
+          b: "variable, let, constant",
+          c: "var, define, const",
+          d: "let, define, variable",
+        },
+        correct: "a",
+      },
+      {
+        question: "Aşağıdakılardan hansı JavaScript-də məlumat tipi deyil?",
+        options: {
+          a: "string",
+          b: "boolean",
+          c: "float",
+          d: "undefined",
+        },
+        correct: "c",
+      },
+      {
+        question: "JavaScript-də massiv yaratmaq üçün hansı sintaksis istifadə olunur?",
+        options: {
+          a: "array = (1, 2, 3)",
+          b: "array = [1, 2, 3]",
+          c: "array = {1, 2, 3}",
+          d: "array = <1, 2, 3>",
+        },
+        correct: "b",
+      },
+      {
+        question: "== və === operatorları arasında fərq nədir?",
+        options: {
+          a: "Heç bir fərq yoxdur",
+          b: "== tip yoxlaması edir, === etmir",
+          c: "=== tip yoxlaması edir, == etmir",
+          d: "Hər ikisi eyni işi görür",
+        },
+        correct: "c",
+      },
+      {
+        question: "JavaScript-də funksiya necə elan edilir?",
+        options: {
+          a: "function myFunction() {}",
+          b: "def myFunction() {}",
+          c: "func myFunction() {}",
+          d: "method myFunction() {}",
+        },
+        correct: "a",
+      },
+      {
+        question: "DOM nə deməkdir?",
+        options: {
+          a: "Data Object Model",
+          b: "Document Object Model",
+          c: "Dynamic Object Model",
+          d: "Display Object Model",
+        },
+        correct: "b",
+      },
+      {
+        question: "JavaScript-də şərt operatoru hansıdır?",
+        options: {
+          a: "condition ? true : false",
+          b: "if ? then : else",
+          c: "check ? yes : no",
+          d: "test ? correct : wrong",
+        },
+        correct: "a",
+      },
+      {
+        question: "null və undefined arasında fərq nədir?",
+        options: {
+          a: "Heç bir fərq yoxdur",
+          b: "null qəsdən boş dəyər, undefined təyin edilməmiş dəyər",
+          c: "undefined qəsdən boş dəyər, null təyin edilməmiş dəyər",
+          d: "Hər ikisi eyni mənanı verir",
+        },
+        correct: "b",
+      },
+      {
+        question: "JavaScript-də döngü növləri hansılardır?",
+        options: {
+          a: "for, while, do-while",
+          b: "loop, repeat, cycle",
+          c: "iterate, foreach, repeat",
+          d: "for, repeat, while",
+        },
+        correct: "a",
+      },
+      {
+        question: "Event listener necə əlavə edilir?",
+        options: {
+          a: "element.addEvent('click', function)",
+          b: "element.addEventListener('click', function)",
+          c: "element.attachEvent('click', function)",
+          d: "element.bindEvent('click', function)",
+        },
+        correct: "b",
+      },
+    ]
+
+    this.currentQuestion = 0
+    this.score = 0
+    this.selectedAnswer = null
+    this.isAnswered = false
+
+    this.initializeElements()
+    this.loadQuestion()
+    this.attachEventListeners()
+  }
+
+  initializeElements() {
+    this.questionText = document.getElementById("question-text")
+    this.optionA = document.getElementById("option-a")
+    this.optionB = document.getElementById("option-b")
+    this.optionC = document.getElementById("option-c")
+    this.optionD = document.getElementById("option-d")
+    this.nextBtn = document.getElementById("next-btn")
+    this.restartBtn = document.getElementById("restart-btn")
+    this.currentQuestionSpan = document.getElementById("current-question")
+    this.totalQuestionsSpan = document.getElementById("total-questions")
+    this.progress = document.getElementById("progress")
+    this.quizContainer = document.getElementById("quiz-container")
+    this.resultContainer = document.getElementById("result-container")
+    this.finalScore = document.getElementById("final-score")
+    this.correctAnswers = document.getElementById("correct-answers")
+    this.wrongAnswers = document.getElementById("wrong-answers")
+    this.percentage = document.getElementById("percentage")
+    this.resultMessage = document.getElementById("result-message")
+    this.restartQuiz = document.getElementById("restart-quiz")
+
+    this.answerOptions = document.querySelectorAll(".answer-option")
+  }
+
+  attachEventListeners() {
+    this.answerOptions.forEach((option) => {
+      option.addEventListener("click", () => this.selectAnswer(option))
+    })
+
+    this.nextBtn.addEventListener("click", () => this.nextQuestion())
+    this.restartBtn.addEventListener("click", () => this.restartQuiz())
+    this.restartQuiz.addEventListener("click", () => this.restartQuiz())
+  }
+
+  loadQuestion() {
+    const question = this.questions[this.currentQuestion]
+
+    this.questionText.textContent = question.question
+    this.optionA.textContent = question.options.a
+    this.optionB.textContent = question.options.b
+    this.optionC.textContent = question.options.c
+    this.optionD.textContent = question.options.d
+
+    this.currentQuestionSpan.textContent = this.currentQuestion + 1
+    this.totalQuestionsSpan.textContent = this.questions.length
+
+    this.updateProgress()
+    this.resetAnswerStyles()
+    this.nextBtn.disabled = true
+    this.isAnswered = false
+    this.selectedAnswer = null
+  }
+
+  selectAnswer(selectedOption) {
+    if (this.isAnswered) return
+
+    this.selectedAnswer = selectedOption.dataset.answer
+    this.isAnswered = true
+
+    // Remove previous selections
+    this.answerOptions.forEach((option) => {
+      option.classList.remove("selected")
+    })
+
+    // Add selected class
+    selectedOption.classList.add("selected")
+
+    // Show correct/wrong answers
+    this.showAnswerResults()
+
+    this.nextBtn.disabled = false
+  }
+
+  showAnswerResults() {
+    const correctAnswer = this.questions[this.currentQuestion].correct
+
+    this.answerOptions.forEach((option) => {
+      const answer = option.dataset.answer
+
+      if (answer === correctAnswer) {
+        option.classList.add("correct")
+      } else if (answer === this.selectedAnswer && answer !== correctAnswer) {
+        option.classList.add("wrong")
+      }
+    })
+
+    if (this.selectedAnswer === correctAnswer) {
+      this.score++
+    }
+  }
+
+  resetAnswerStyles() {
+    this.answerOptions.forEach((option) => {
+      option.classList.remove("selected", "correct", "wrong")
+    })
+  }
+
+  nextQuestion() {
+    this.currentQuestion++
+
+    if (this.currentQuestion < this.questions.length) {
+      this.loadQuestion()
+    } else {
+      this.showResults()
+    }
+  }
+
+  updateProgress() {
+    const progressPercent = ((this.currentQuestion + 1) / this.questions.length) * 100
+    this.progress.style.width = progressPercent + "%"
+  }
+
+  showResults() {
+    this.quizContainer.style.display = "none"
+    this.resultContainer.style.display = "block"
+
+    const wrongAnswers = this.questions.length - this.score
+    const percentageScore = Math.round((this.score / this.questions.length) * 100)
+
+    this.finalScore.textContent = this.score
+    this.correctAnswers.textContent = this.score
+    this.wrongAnswers.textContent = wrongAnswers
+    this.percentage.textContent = percentageScore + "%"
+
+    // Set result message based on score
+    let message = ""
+    let messageClass = ""
+
+    if (percentageScore >= 90) {
+      message = "Əla! Siz JavaScript-də çox yaxşı biliyə sahibsiniz!"
+      messageClass = "excellent"
+    } else if (percentageScore >= 70) {
+      message = "Yaxşı! JavaScript biliyiniz qənaətbəxşdir."
+      messageClass = "good"
+    } else if (percentageScore >= 50) {
+      message = "Orta səviyyə. Daha çox təcrübə lazımdır."
+      messageClass = "average"
+    } else {
+      message = "JavaScript öyrənməyə daha çox vaxt ayırmalısınız."
+      messageClass = "poor"
+    }
+
+    this.resultMessage.textContent = message
+    this.resultMessage.className = `result-message ${messageClass}`
+  }
+
+  restartQuiz() {
+    this.currentQuestion = 0
+    this.score = 0
+    this.selectedAnswer = null
+    this.isAnswered = false
+
+    this.quizContainer.style.display = "block"
+    this.resultContainer.style.display = "none"
+
+    this.loadQuestion()
+  }
+}
+
+let feedbackMode
+let sidebarCorrect
+let correctCount
+let sidebarWrong
+let wrongCount
+let sidebarUnanswered
+let unansweredCount
+let selectedQuestions
+let currentQuestionIndex
+let sidebarTotal
+
+function updateSidebarCounters() {
+  if (feedbackMode === "immediate") {
+    // Immediate feedback modunda bütün məlumatları göstər
+    document.getElementById("sidebar-correct-item").classList.remove("hidden")
+    document.getElementById("sidebar-wrong-item").classList.remove("hidden")
+    document.getElementById("sidebar-unanswered-item").classList.remove("hidden")
+
+    sidebarCorrect.textContent = correctCount
+    sidebarWrong.textContent = wrongCount
+    sidebarUnanswered.textContent = unansweredCount
+  } else {
+    // End feedback modunda düzgün/səhv saylarını gizlə, yalnız qalan sualları göstər
+    document.getElementById("sidebar-correct-item").classList.add("hidden")
+    document.getElementById("sidebar-wrong-item").classList.add("hidden")
+    document.getElementById("sidebar-unanswered-item").classList.remove("hidden")
+
+    sidebarUnanswered.textContent = unansweredCount
+  }
+
+  sidebarTotal.textContent = selectedQuestions.length
+}
+
+function getFeedbackMode() {
+  // Implement the logic to determine the feedback mode.
+  // For example, you can get it from a form input or a configuration variable.
+  // For now, let's assume it's always "immediate".
+  feedbackMode = "immediate"
+}
+
+function startQuiz() {
+  // Reset counters
+  correctCount = 0
+  wrongCount = 0
+  unansweredCount = selectedQuestions.length
+  currentQuestionIndex = 0
+
+  // Get feedback mode
+  getFeedbackMode()
+
+  // Set up sidebar visibility based on feedback mode
+  if (feedbackMode === "immediate") {
+    document.getElementById("sidebar-correct-item").classList.remove("hidden")
+    document.getElementById("sidebar-wrong-item").classList.remove("hidden")
+    document.getElementById("sidebar-unanswered-item").classList.remove("hidden")
+  } else {
+    document.getElementById("sidebar-correct-item").classList.add("hidden")
+    document.getElementById("sidebar-wrong-item").classList.add("hidden")
+    document.getElementById("sidebar-unanswered-item").classList.remove("hidden")
+  }
+
+  updateSidebarCounters()
+  // loadQuestion() is not defined in this scope.  It's a method of the QuizApp class.
+  // If you want to call it, you need a QuizApp instance.
+  // For example:
+  // const quizApp = new QuizApp();
+  // quizApp.loadQuestion();
+}
+
+// Initialize the quiz when the page loads
 document.addEventListener("DOMContentLoaded", () => {
   // DOM Elements
   const startScreen = document.getElementById("start-screen")
