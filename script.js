@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const questionLimitInput = document.getElementById("question-limit")
   const optionCards = document.querySelectorAll(".option-card")
 
+  const examTimeSelect = document.getElementById("exam-time")
+  const customTimeInput = document.getElementById("custom-time")
+  const customTimeDiv = document.querySelector(".custom-time-input")
+
   const questionsContainer = document.getElementById("questions-container")
   const questionCount = document.getElementById("question-count")
   const timer = document.getElementById("timer")
@@ -31,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const unansweredEl = document.getElementById("unanswered")
   const successRateEl = document.getElementById("success-rate")
   const questionRangeEl = document.getElementById("question-range")
+  const examDurationEl = document.getElementById("exam-duration")
   const reviewContainer = document.getElementById("review-container")
   const restartBtn = document.getElementById("restart-btn")
 
@@ -40,11 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
   let userAnswers = []
   let startTime
   let timerInterval
-  const timeLimit = 15 * 60 // 15 minutes in seconds
+  let timeLimit = 15 * 60 // Default 15 minutes in seconds
   let correctCount = 0
   let wrongCount = 0
   let unansweredCount = 0
   let usedRange = ""
+  let examDuration = "15 dəqiqə"
 
   // Sample Questions in Azerbaijani
   const sampleQuestions = [
@@ -107,6 +113,15 @@ document.addEventListener("DOMContentLoaded", () => {
   submitBtn.addEventListener("click", submitQuiz)
   restartBtn.addEventListener("click", restartQuiz)
 
+  // Exam time selection
+  examTimeSelect.addEventListener("change", (e) => {
+    if (e.target.value === "custom") {
+      customTimeDiv.style.display = "block"
+    } else {
+      customTimeDiv.style.display = "none"
+    }
+  })
+
   // Exam mode selection
   optionCards.forEach((card) => {
     card.addEventListener("click", () => {
@@ -139,6 +154,14 @@ document.addEventListener("DOMContentLoaded", () => {
   // Functions
   function loadSampleQuestions() {
     questionsInput.value = JSON.stringify(sampleQuestions, null, 2)
+
+    // Update the range inputs based on the number of sample questions
+    toQuestionInput.value = sampleQuestions.length
+    toQuestionInput.max = sampleQuestions.length
+    fromQuestionInput.max = sampleQuestions.length
+
+    // Reset file input to allow new file uploads
+    fileInput.value = ""
   }
 
   function handleFileUpload(event) {
@@ -314,6 +337,33 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(modal)
   }
 
+  function getExamTime() {
+    const selectedTime = examTimeSelect.value
+    if (selectedTime === "custom") {
+      const customMinutes = Number.parseInt(customTimeInput.value) || 15
+      if (customMinutes < 1 || customMinutes > 300) {
+        alert("Fərdi vaxt 1 ilə 300 dəqiqə arasında olmalıdır.")
+        return null
+      }
+      examDuration = `${customMinutes} dəqiqə`
+      return customMinutes * 60
+    } else {
+      const minutes = Number.parseInt(selectedTime)
+      if (minutes >= 60) {
+        const hours = Math.floor(minutes / 60)
+        const remainingMinutes = minutes % 60
+        if (remainingMinutes === 0) {
+          examDuration = `${hours} saat`
+        } else {
+          examDuration = `${hours} saat ${remainingMinutes} dəqiqə`
+        }
+      } else {
+        examDuration = `${minutes} dəqiqə`
+      }
+      return minutes * 60
+    }
+  }
+
   function startQuiz() {
     try {
       // Parse questions from input
@@ -329,6 +379,11 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Düzgün sual formatı deyil. Zəhmət olmasa düzgün JSON formatında suallar daxil edin.")
         return
       }
+
+      // Get exam time
+      const examTimeInSeconds = getExamTime()
+      if (examTimeInSeconds === null) return
+      timeLimit = examTimeInSeconds
 
       // Determine which mode is selected and how many questions to use
       let questionsToUse = []
@@ -525,9 +580,12 @@ document.addEventListener("DOMContentLoaded", () => {
       updateTimerDisplay(timeRemaining)
 
       // Add warning classes when time is running out
-      if (timeRemaining <= 60) {
+      const warningThreshold = Math.min(180, timeLimit * 0.2) // 20% of total time or 3 minutes, whichever is smaller
+      const dangerThreshold = Math.min(60, timeLimit * 0.1) // 10% of total time or 1 minute, whichever is smaller
+
+      if (timeRemaining <= dangerThreshold) {
         timer.classList.add("danger")
-      } else if (timeRemaining <= 180) {
+      } else if (timeRemaining <= warningThreshold) {
         timer.classList.add("warning")
       }
 
@@ -539,9 +597,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateTimerDisplay(seconds) {
-    const minutes = Math.floor(seconds / 60)
+    const hours = Math.floor(seconds / 3600)
+    const minutes = Math.floor((seconds % 3600) / 60)
     const remainingSeconds = seconds % 60
-    timer.textContent = `Vaxt: ${minutes.toString().padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`
+
+    if (hours > 0) {
+      timer.textContent = `Vaxt: ${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`
+    } else {
+      timer.textContent = `Vaxt: ${minutes.toString().padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`
+    }
   }
 
   function submitQuiz() {
@@ -554,6 +618,7 @@ document.addEventListener("DOMContentLoaded", () => {
     wrongAnswersEl.textContent = wrongCount
     unansweredEl.textContent = unansweredCount
     questionRangeEl.textContent = usedRange
+    examDurationEl.textContent = examDuration
 
     const successRate = (correctCount / selectedQuestions.length) * 100
     successRateEl.textContent = `${successRate.toFixed(2)}%`
@@ -624,7 +689,16 @@ document.addEventListener("DOMContentLoaded", () => {
     timer.textContent = "Vaxt: 15:00"
     timer.classList.remove("warning", "danger")
 
-    // Reset file input
+    // Reset file input properly
     fileInput.value = ""
+    fileInput.type = "text"
+    fileInput.type = "file"
+
+    // Reset custom time input
+    customTimeDiv.style.display = "none"
+    examTimeSelect.value = "15"
+
+    // Clear questions input if needed
+    // questionsInput.value = ""
   }
 })

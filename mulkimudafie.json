@@ -1,0 +1,5491 @@
+[
+  {
+    "question": "Kimyəvi zəhərlənmə ərazisindən çıxmalı:",
+    "options": [
+      "Küləyin istiqamətinə perpendikulyar",
+      "Küləyin istiqamətində",
+      "Küləyin istiqamətinin əksinə",
+      "Küləyə qarşı",
+      "Fərqi yoxdur"
+    ],
+    "correctAnswer": "Küləyin istiqamətinə perpendikulyar"
+  },
+  {
+    "question": "Açıq ərazidə qalanda ildırımdan qorunmalı:",
+    "options": [
+      "Xəndəkdə yerə uzanmalı",
+      "Yalqız ağacın altında gizlənməli",
+      "Torpaqlanmış elektrik dirəyinin altında gizlənməli",
+      "Ən hündür yerə çıxmalı",
+      "Hündür ağacın altında gizlənməli"
+    ],
+    "correctAnswer": "Xəndəkdə yerə uzanmalı"
+  },
+  {
+    "question": "QP-5 əleyhqazı QP-5m-dən fərqlənir:",
+    "options": [
+      "Danışıq tərtibatının olmaması ilə",
+      "Birləşdirici borunun olmaması ilə",
+      "Su qəbulu üçün borunun olmaması",
+      "Şlem-maskanın quruluşu ilə",
+      "Süzücü qutunun quruluşu ilə"
+    ],
+    "correctAnswer": "Danışıq tərtibatının olmaması ilə"
+  },
+  {
+    "question": "QP-5 əleyhqazı QP-4U-dan fərqlənir:",
+    "options": [
+      "Birləşdirici borunun olmaması ilə",
+      "Böyüklər üçün nəzərdə tutuduğuna görə",
+      "Zərbə dalğasına dayanıqlı olduğundan",
+      "Dəm qazını tutduğuna görə",
+      "Uşaqlar üçün nəzərdə tutulduğundan"
+    ],
+    "correctAnswer": "Birləşdirici borunun olmaması ilə"
+  },
+  {
+    "question": "Əleyhqazda aerozol süsgəcinin vəzifəsi:",
+    "options": [
+      "Tüstü, duman, radioaktiv tozu saxlayır",
+      "Yalnız dumanı saxlayır",
+      "Havanı bütün qatışıqlardan təmizləyir",
+      "Buxar, qaz halındakı maddələri saxlayır",
+      "Havanı aktivləşdirir"
+    ],
+    "correctAnswer": "Tüstü, duman, radioaktiv tozu saxlayır"
+  },
+  {
+    "question": "Süzücü qutuda olan şixtanın vəzifəsi:",
+    "options": [
+      "Buxar, qaz halında maddələri tutur",
+      "Bütün zərərli qatışıqları saxlayır",
+      "Ancaq tozları tutur",
+      "Kömürü saxlayır",
+      "Radioaktiv tozu tutur"
+    ],
+    "correctAnswer": "Buxar, qaz halında maddələri tutur"
+  },
+  {
+    "question": "QP-5m əleyhqazı QP-7-dən fərqlənir:",
+    "options": [
+      "Su qəbulu üçün borusu yoxdur",
+      "Klapanlarının sayına görə",
+      "Birləşdirici borusu yoxdur",
+      "Zəhərləyici maddələri tutur",
+      "Gözlük hissəsi fərqlidir"
+    ],
+    "correctAnswer": "Su qəbulu üçün borusu yoxdur"
+  },
+  {
+    "question": "DP-6 əleyhqazından istifadə olunur:",
+    "options": [
+      "Uşaqlar üçün",
+      "MM dəstəsinin üzvləri üçün",
+      "Yalnız sığınacaqda",
+      "Yalnız yaşlı əhali üçün",
+      "Yalnız zirzəmilərdə"
+    ],
+    "correctAnswer": "Uşaqlar üçün"
+  },
+  {
+    "question": "DP-6m əleyhqazı neçə ölçüdə buraxılır:",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "DP-6 əleyhqazı neçə ölçüdə buraxılır:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "1"
+  },
+  {
+    "question": "Yanğın baş verdikdə istifadə olunur:",
+    "options": [
+      "KİP -7,  KİP – 8-dən",
+      "DP-6, DP-6m-dən",
+      "QP-5-dən",
+      "QP-5m-dən",
+      "QP-7-dən"
+    ],
+    "correctAnswer": "KİP -7,  KİP – 8-dən"
+  },
+  {
+    "question": "350 nəfər hansı sığınacaqda yerləşdirilməlidir?",
+    "options": [
+      "Orta",
+      "Böyük",
+      "Kiçik",
+      "Çox böyük",
+      "Çox kiçik"
+    ],
+    "correctAnswer": "Orta"
+  },
+  {
+    "question": "145 nəfər hansı sığınacaqda yerləşdirilməlidir?",
+    "options": [
+      "Kiçik",
+      "Orta",
+      "Böyük",
+      "Çox böyük",
+      "Çox kiçik"
+    ],
+    "correctAnswer": "Kiçik"
+  },
+  {
+    "question": "600 nəfər hansı sığınacaqda yerləşdirilməlidir?",
+    "options": [
+      "Böyük",
+      "Orta",
+      "Kiçik",
+      "Çox böyük",
+      "Fərqi yoxdur"
+    ],
+    "correctAnswer": "Böyük"
+  },
+  {
+    "question": "Qəza çıxış yolu 30m hündürlükdə binadan hansı məsafədə yerləşdirilməlidir?",
+    "options": [
+      "Ən azı 18m",
+      "Ən çoxu 50m",
+      "12m",
+      "Ən azı 15m",
+      "7m"
+    ],
+    "correctAnswer": "Ən azı 18m"
+  },
+  {
+    "question": "200 nəfər yerləşən sığınacağa təmiz ventilyasiya rejimində hava verilməlidir:",
+    "options": [
+      "1400-4000 m3/saat",
+      "300-800 m3/saat",
+      "2000-3000 m3/saat",
+      "100-200 m3/saat",
+      "500 m3/saat"
+    ],
+    "correctAnswer": "1400-4000 m3/saat"
+  },
+  {
+    "question": "300 nəfər yerləşən sığınacağa süzgəc-ventilyasiya rejimində hava verilməlidir:",
+    "options": [
+      "600 m3/saat",
+      "200 m3/saat",
+      "5000 m3/saat",
+      "50 m3/saat",
+      "60 m3/saat"
+    ],
+    "correctAnswer": "600 m3/saat"
+  },
+  {
+    "question": "Başın ölçüsü 60 sm olarsa hansı ölçüdə QP-5 əleyhqazı seçilir?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "0"
+  },
+  {
+    "question": "1 saylı QP-5 əleyhqazı başın hansı ölçüsündə seçilir?",
+    "options": [
+      "63,5-65 sm",
+      "60-63,5 sm",
+      "65,5-68 sm",
+      "68,5-70,5 sm",
+      "71-75 sm"
+    ],
+    "correctAnswer": "63,5-65 sm"
+  },
+  {
+    "question": "2 saylı QP-5 əleyhqazı başın hansı ölçüsündə seçilir?",
+    "options": [
+      "65,5-68 sm",
+      "64,5- 67 sm",
+      "67,5-71 sm",
+      "68,5-70,5 sm",
+      "71-73,5 sm"
+    ],
+    "correctAnswer": "65,5-68 sm"
+  },
+  {
+    "question": "3 saylı QP-5 əlehiqazı başın haqnsı ölçüsündə seçilir?",
+    "options": [
+      "68,5-70,5 sm",
+      "71-73 sm",
+      "64,5-67 sm",
+      "67,5-71 sm",
+      "71 sm-dən böyük"
+    ],
+    "correctAnswer": "68,5-70,5 sm"
+  },
+  {
+    "question": "4 saylı QP-5 əleyhqazı başın hansı ölçüsündə seçilir?",
+    "options": [
+      "71 sm-dən böyük",
+      "64,5-67 sm",
+      "63 sm-dən kiçik",
+      "68 sm",
+      "e.70 sm"
+    ],
+    "correctAnswer": "71 sm-dən böyük"
+  },
+  {
+    "question": "“0” saylı QP-5m əleyhqazı başın hansı ölçüsündə seçilir?",
+    "options": [
+      "61sm-ə qədər",
+      "71sm-dən böyük",
+      "63sm",
+      "67sm",
+      "63-65,5sm"
+    ],
+    "correctAnswer": "61sm-ə qədər"
+  },
+  {
+    "question": "1 saylı QP-4u əleyhqazı üzün hansı hündürlüyündə seçilir?",
+    "options": [
+      "99-109mm",
+      "109-119mm",
+      "112-115mm",
+      "111-114mm",
+      "119mm-dən çox"
+    ],
+    "correctAnswer": "99-109mm"
+  },
+  {
+    "question": "2 saylı QP-4u əleyhqaz maskası üzün hansı hündürlüyündə seçilir?",
+    "options": [
+      "109-119mm",
+      "119-121mm",
+      "99-109mm",
+      "120mm",
+      "127mm"
+    ],
+    "correctAnswer": "109-119mm"
+  },
+  {
+    "question": "3 saylı QP-4u əleyhqaz maskası üzün hansı hündürlüyündə seçilir?",
+    "options": [
+      "119mm-dən böyük",
+      "109mm-dən böyük",
+      "109-119mm",
+      "101-109mm",
+      "115mm"
+    ],
+    "correctAnswer": "119mm-dən böyük"
+  },
+  {
+    "question": "Əleyhqazın birləşdirici borusu hazırlanır:",
+    "options": [
+      "Parçalı rezindən",
+      "Rezindən",
+      "Parçadan",
+      "Plastikdən",
+      "Brezentdən"
+    ],
+    "correctAnswer": "Parçalı rezindən"
+  },
+  {
+    "question": "1 saylı R-2 respiratoru üzün hansı hündürlüyündə seçilir?",
+    "options": [
+      "99-109mm",
+      "119-121mm",
+      "109-119mm",
+      "11-116mm",
+      "121mm"
+    ],
+    "correctAnswer": "99-109mm"
+  },
+  {
+    "question": "3 saylı PTM-1 maskası üzün hansı hündürlüyündə seçilir?",
+    "options": [
+      "91-100mm",
+      "80mm-ə qədər",
+      "81-90mm",
+      "91-97mm",
+      "101-110mm"
+    ],
+    "correctAnswer": "91-100mm"
+  },
+  {
+    "question": "PTM-1 maskaları işlənir:",
+    "options": [
+      "Hamı üçün",
+      "Yalnız böyüklər üçün",
+      "Yalnız uşaqlar üçün",
+      "Yalnız gənclər üçün",
+      "Yalnız MM dəstə üzvləri üçün"
+    ],
+    "correctAnswer": "Hamı üçün"
+  },
+  {
+    "question": "Mühafizə kombinezonu:",
+    "options": [
+      "İzoləedicidir",
+      "Süzücüdür",
+      "Həm izoləedici, həm süzücüdür",
+      "Yalnız radioaktiv maddələrdən qoruyur",
+      "Yalnız zəhərləyici maddələrdən qoruyur"
+    ],
+    "correctAnswer": "İzoləedicidir"
+  },
+  {
+    "question": "2 ölçülü mühafizə kostyumu hansı boyda adam üçündür?",
+    "options": [
+      "165-172sm",
+      "165sm-ə qədər",
+      "172sm-dən hündür",
+      "172-175sm",
+      "175-190sm"
+    ],
+    "correctAnswer": "165-172sm"
+  },
+  {
+    "question": "2 ölçülü umumqoşun mühafizə plaşı hansı boyda adam üçündür?",
+    "options": [
+      "165-170sm",
+      "170-175sm",
+      "175-180sm",
+      "165sm-ə qədər",
+      "180sm-dən hündür"
+    ],
+    "correctAnswer": "165-170sm"
+  },
+  {
+    "question": "Hansı növ nüvə partlayışında işıq şüalanması zədələyici amil kimi təsir göstərmir?",
+    "options": [
+      "Yeraltı",
+      "Suüstü",
+      "Yerüstü",
+      "Hava",
+      "Yalnız sualtı"
+    ],
+    "correctAnswer": "Yeraltı"
+  },
+  {
+    "question": "Radiasiya səviyyəsinin ölçü vahidi:",
+    "options": [
+      "Rentgen/saat",
+      "Metr",
+      "Rentgen",
+      "Paskal",
+      "Nyuton"
+    ],
+    "correctAnswer": "Rentgen/saat"
+  },
+  {
+    "question": "Süzücü əleyhqaz hansı maddədən mühafizə etmir?",
+    "options": [
+      "Dəm qazı",
+      "Radioaktiv",
+      "İprit",
+      "Zarin",
+      "Zoman"
+    ],
+    "correctAnswer": "Dəm qazı"
+  },
+  {
+    "question": "Geyim və əşyaları radioaktiv maddələrdən təmizləmək üçün həyata keçirilməlidir:",
+    "options": [
+      "Dezaktivasiya",
+      "Deqazasiya",
+      "Sanitar təmizləmə, deqazasiya",
+      "Deratizasiya",
+      "Dezinfeksiya"
+    ],
+    "correctAnswer": "Dezaktivasiya"
+  },
+  {
+    "question": "Geyim və əşyaları bakteryoloji maddələrdən təmizləmək üçün həyata keçirilir:",
+    "options": [
+      "Dezinfeksiya",
+      "Dezaktivasiya",
+      "Deqazasiya",
+      "Dezinseksiya, deqazasiya",
+      "Deratizasiya, dezaktivasiya"
+    ],
+    "correctAnswer": "Dezinfeksiya"
+  },
+  {
+    "question": "Hansı zədələyici amil adama birbaşa təsir göstərmir?",
+    "options": [
+      "Elektromaqnit impulsu",
+      "İşıq şüalanması",
+      "Radioaktiv çirklənmə",
+      "Nüfuzedici radiasiya",
+      "Zərbə dalğası"
+    ],
+    "correctAnswer": "Elektromaqnit impulsu"
+  },
+  {
+    "question": "Adamın əl sümüyü qırılmışsa Aİ-2 aptekçəsinin hansı yuvasından vasitə götürülməlidir:",
+    "options": [
+      "№1",
+      "№2",
+      "№3",
+      "№4",
+      "№5"
+    ],
+    "correctAnswer": "№1"
+  },
+  {
+    "question": "Əleyhqaz ixtira olunub:",
+    "options": [
+      "1915-ci il",
+      "1927-ci il",
+      "1908-ci il",
+      "1893-cü il",
+      "1940-cı il"
+    ],
+    "correctAnswer": "1915-ci il"
+  },
+  {
+    "question": "Əleyhqazı ixtira edib:",
+    "options": [
+      "N.Zelinski",
+      "A.İvanov",
+      "M.Lomonosov",
+      "A. Novikov",
+      "Vukaloviç"
+    ],
+    "correctAnswer": "N.Zelinski"
+  },
+  {
+    "question": "Nüvə partlayışının hansı zədələyici amili dəridə yanıqlar əmələ gətirə bilər:",
+    "options": [
+      "İşıq şüalanması",
+      "Nüfuzedici radiasiya",
+      "Elektromaqnit impulsu",
+      "Zərbə dalğası",
+      "Radioaktiv çirklənmə"
+    ],
+    "correctAnswer": "İşıq şüalanması"
+  },
+  {
+    "question": "Dezaktivasiya nədir?",
+    "options": [
+      "Çirklənmiş səthlərdən radioaktiv maddələrin kənar olunması",
+      "Zəhərləyici maddələrin səthlərdən təmizlənməsi",
+      "Mikrobların xarici mühitdə məhv edilməsi",
+      "Yoluxucu xəstəliklərin müalicəsi",
+      "Bakteriyaların zərərsizləşdirilməsi"
+    ],
+    "correctAnswer": "Çirklənmiş səthlərdən radioaktiv maddələrin kənar olunması"
+  },
+  {
+    "question": "İldırım vurmuş adama göstərilən üsullardan hansı ziyan verə bilər:",
+    "options": [
+      "Zərərçəkmişi torpağa basdırmaq",
+      "Zərərçəkmişin bədənini qızdırmaq",
+      "Süni nəfəs vermək",
+      "Təcili həkim çağırmaq",
+      "Ətrafda olan adamların zərərçəkmişə yardımı"
+    ],
+    "correctAnswer": "Zərərçəkmişi torpağa basdırmaq"
+  },
+  {
+    "question": "12-ci mərtəbədə yerləşən mənzilinizin qapısını açarkən güclü tüstüləmə aşkar etdikdə:",
+    "options": [
+      "Qapını kip örtməli və yanğınsöndürən komandaya zəng etməli",
+      "Liftlə aşağı düşüb, binanı təcili tərk etməli",
+      "Tüstü mənbəyini operativ surətdə aşkar etməli",
+      "Təcili olaraq qonşuları köməyə çağırmalı",
+      "Qapını açıq qoyub, pəncərəni kip örtməli"
+    ],
+    "correctAnswer": "Qapını kip örtməli və yanğınsöndürən komandaya zəng etməli"
+  },
+  {
+    "question": "Zəhərləyici maddələr olan sahələrdə iş görərkən qəbul etməli:",
+    "options": [
+      "Zəhərlənmə əlehinə antidot həb",
+      "1№li bakteriya əlehinə dərman",
+      "1№li radiasiyadan mühafizə dərmanı",
+      "Hər hansı antibiotik",
+      "Qatıq məhsulları"
+    ],
+    "correctAnswer": "Zəhərlənmə əlehinə antidot həb"
+  },
+  {
+    "question": "“Hava həyəcanı” siqnalı verilərkən avtobusda olan adamlar:",
+    "options": [
+      "Avtobus dayandıqda ondan düşməlidir",
+      "Sürücüdən avtobusu dərhal dayandırmağı tələb etməli",
+      "Avtobusdan düşüb dərhal evə getməli",
+      "İş yerinə tələsməli",
+      "Şəhərdənkənar zonaya tələsməlidir"
+    ],
+    "correctAnswer": "Avtobus dayandıqda ondan düşməlidir"
+  },
+  {
+    "question": "4 sutka ərzində qəbul edilmiş hansı radioaktiv şüalanma dozası təhlükəsizdir?",
+    "options": [
+      "50R-ə qədər",
+      "60R-ə qədər",
+      "60-80R",
+      "100R",
+      "90R"
+    ],
+    "correctAnswer": "50R-ə qədər"
+  },
+  {
+    "question": "10-30 gün ərzində qəbul edilmiş hansı radioaktiv şüalanma dozası təhlükəsizdir?",
+    "options": [
+      "100R-ə qədər",
+      "150R-ə qədər",
+      "100-150R",
+      "150-200R",
+      "120-140R"
+    ],
+    "correctAnswer": "100R-ə qədər"
+  },
+  {
+    "question": "Fosforlu-üzvi maddələrə aiddir:",
+    "options": [
+      "Zarin",
+      "İprin",
+      "Xlorsian",
+      "Fosgen",
+      "Sianid turşusu"
+    ],
+    "correctAnswer": "Zarin"
+  },
+  {
+    "question": "Dəri-rezorbtiv təsirli ZM-lərə aiddir:",
+    "options": [
+      "İprit",
+      "Sulfat turşusu",
+      "Zoman",
+      "Xlorsian",
+      "Fosgen"
+    ],
+    "correctAnswer": "İprit"
+  },
+  {
+    "question": "Ümumtəsirli zəhərləyici maddələrə aiddir:",
+    "options": [
+      "Xlorsian",
+      "Xlorid turşusu",
+      "Fosgen",
+      "Zarin",
+      "İprit"
+    ],
+    "correctAnswer": "Xlorsian"
+  },
+  {
+    "question": "Boğucu təsirli zəhərləyici maddələrə aiddir:",
+    "options": [
+      "Fosgen",
+      "İprit",
+      "Zarin",
+      "Sianid turşusu",
+      "Fosfor"
+    ],
+    "correctAnswer": "Fosgen"
+  },
+  {
+    "question": "Deqazasiya nədir?",
+    "options": [
+      "ZM- lərin zərərsizləşdirilməsi",
+      "Radioaktiv maddələrin neytrallaşdırılması",
+      "Həşəratların məhv edilməsi",
+      "Gəmiricilərin ləğv edilməsi",
+      "Mikroblarınh məhv edilməsi"
+    ],
+    "correctAnswer": "ZM- lərin zərərsizləşdirilməsi"
+  },
+  {
+    "question": "Deratizasiya nədir?",
+    "options": [
+      "Gəmiricilərin məhv edilməsi",
+      "Həşəratların məhv edilməsi",
+      "Zəhərləyici maddələrin zərərsizləşdirilməsi",
+      "Radioaktiv maddələrin səthlərdən təmizlənməsi",
+      "Mikrobların məhv edilməsi"
+    ],
+    "correctAnswer": "Gəmiricilərin məhv edilməsi"
+  },
+  {
+    "question": "Dezinseksiya nədir?",
+    "options": [
+      "Həşəratların məhv edilməsi",
+      "Gəmiricilərin məhv edilməsi",
+      "Radioaktiv maddələrin zərərsizləşdirilməsi",
+      "Zəhərləyici maddələrin zərərsizləşdirilməsi",
+      "Adamların sanitar təmizlikdən keçməsi"
+    ],
+    "correctAnswer": "Həşəratların məhv edilməsi"
+  },
+  {
+    "question": "Karantin nədir?",
+    "options": [
+      "Xüsusi təhlükəli keçici xəstəliklərin qarşısının alınması tədbirləri",
+      "Zəhərləyici maddələrin zərərsizləşdirmə tədbirləri",
+      "Radioaktiv çirklənmə ərazisinin təmizlənmə tədbirləri",
+      "Adamların sanitar təmizliyindən keçməsi",
+      "Az təhlükəli xəstəliklərin qarşısının alınması"
+    ],
+    "correctAnswer": "Xüsusi təhlükəli keçici xəstəliklərin qarşısının alınması tədbirləri"
+  },
+  {
+    "question": "Nüfuzedici radiasiya ibarətdir:",
+    "options": [
+      "Qamma şüa və neytron selindən",
+      "Ultrabənövşəyi və infraqırmızı şüalardan",
+      "Neytron və elektron selindən",
+      "Qısa müddətli elektromaqnit sahəsindən",
+      "Görünən şüalardan"
+    ],
+    "correctAnswer": "Qamma şüa və neytron selindən"
+  },
+  {
+    "question": "Nüvə partlayışının işıq şüalanması ibarətdir:",
+    "options": [
+      "Infraqırmızı, ultrabənövşəyi və görünən işıq selindən",
+      "Qamma şüalar vəneytron selindən",
+      "Radioaktiv– şüalar selindən",
+      "Neytron və elektron selindən",
+      "Yalnız neytronlar selindən"
+    ],
+    "correctAnswer": "Infraqırmızı, ultrabənövşəyi və görünən işıq selindən"
+  },
+  {
+    "question": "Zərbə dalğası maniəyə rast gələndə izafi təzyiq:",
+    "options": [
+      "2-8 dəfə yüksəlir",
+      "3 dəfə azalır",
+      "20 dəfə artır",
+      "5 dəfə azalır",
+      "Dəyişmir"
+    ],
+    "correctAnswer": "2-8 dəfə yüksəlir"
+  },
+  {
+    "question": "Adamlar kimyəvi zəhərlənmə ocağından çıxdıqda ən əvvəl nə etməli?",
+    "options": [
+      "Sanitar təmizliyindən keçməlidir",
+      "Deqazasiya olunmalıdır",
+      "Dezaktivasiya prosesi həyata keçirilməlidir",
+      "Dezinfeksiya olunmalıdır",
+      "Deratizasiya olunmalıdır"
+    ],
+    "correctAnswer": "Sanitar təmizliyindən keçməlidir"
+  },
+  {
+    "question": "Zəlzələ vaxtı binanın yuxarı mərtəbələrində yaşayan adamların davranışı:",
+    "options": [
+      "Qapı yerində pəncərə şüşəsindən uzaqda durmalı",
+      "Pilləkən meydançasına qaçıb liftlə aşağı düşməli",
+      "Eyvana çıxıb aşağı atılmalı",
+      "Eyvandan kəndirlə düşməli",
+      "Təcili surətdə sığınacağa qaçmalı"
+    ],
+    "correctAnswer": "Qapı yerində pəncərə şüşəsindən uzaqda durmalı"
+  },
+  {
+    "question": "Zəlzələ vaxtı küçədə olan adamların davranışı:",
+    "options": [
+      "Binalardan uzaqlaşmalı",
+      "Sığınacağa qaçmalı",
+      "Mənzilə qaçmalı",
+      "Zirzəmidə gizlənməli",
+      "Metroya qaçmalı"
+    ],
+    "correctAnswer": "Binalardan uzaqlaşmalı"
+  },
+  {
+    "question": "Təbii fəlakət baş verəndən sonra qaranlıq binaya daxil olmuş adam:",
+    "options": [
+      "Fonardan istifadə etməli",
+      "Elektrik lampasını yandırmalı",
+      "Kibrit yandırmalı",
+      "Qaranlıqda hərəkət etməli",
+      "Şam yandırmalı"
+    ],
+    "correctAnswer": "Fonardan istifadə etməli"
+  },
+  {
+    "question": "Hava zərbə dalğasından adamı nə qorumur?",
+    "options": [
+      "əleyhqaz",
+      "xəndək",
+      "sığınacaq",
+      "daldalanacaq",
+      "təpəcik"
+    ],
+    "correctAnswer": "əleyhqaz"
+  },
+  {
+    "question": "Observasiya nədir?",
+    "options": [
+      "Bakterioloji zəhərlənmə ocağında məhdudlaşdırma",
+      "Zəhərləyici maddələrdən təmizləmə",
+      "Radioaktiv maddələrin zərərsizləşdirilməsi",
+      "Dəstələrin yaradılması",
+      "Xilasetmə dəstələrinin buraxılması"
+    ],
+    "correctAnswer": "Bakterioloji zəhərlənmə ocağında məhdudlaşdırma"
+  },
+  {
+    "question": "Mənzildə qaz iyi hiss edəndə ilk davranış:",
+    "options": [
+      "Qonşudan 104 xidmətinə zəng",
+      "Işığı yandırmalı, 104 xidmətinə zəng",
+      "Pəncərələri açıb işığı yandırmaq",
+      "Yalnız qonşulara xəbər vermək",
+      "Qazın sızan yerini tapıb kibrit yandırmaq"
+    ],
+    "correctAnswer": "Qonşudan 104 xidmətinə zəng"
+  },
+  {
+    "question": "Hansı yanğında köpüklü OP-10 odsöndürəndən istifadə etmək olmaz?",
+    "options": [
+      "Elektrik naqilləri",
+      "Benzin",
+      "Bütün neft məhsulları",
+      "Zibil, ağac",
+      "Kağız, karton"
+    ],
+    "correctAnswer": "Elektrik naqilləri"
+  },
+  {
+    "question": "Çernobıl AES-də qəza baş verən il:",
+    "options": [
+      "1986",
+      "1974",
+      "1987",
+      "1988",
+      "1954"
+    ],
+    "correctAnswer": "1986"
+  },
+  {
+    "question": "Beynəlxalq MM günü:",
+    "options": [
+      "1 mart",
+      "1 aprel",
+      "1 sentyabr",
+      "1 noyabr",
+      "1 dekabr"
+    ],
+    "correctAnswer": "1 mart"
+  },
+  {
+    "question": "Fukusima AES-də qəza baş verən il:",
+    "options": [
+      "2011",
+      "2007",
+      "2009",
+      "2010",
+      "2012"
+    ],
+    "correctAnswer": "2011"
+  },
+  {
+    "question": "Nüvə silahının ən güclü zədələyici amili:",
+    "options": [
+      "Zərbə dalğası",
+      "Nüfuzedici radiasiya",
+      "Elektromaqnit impulsu",
+      "Radioaktiv çirklənmə",
+      "Işıq şüalanması"
+    ],
+    "correctAnswer": "Zərbə dalğası"
+  },
+  {
+    "question": "1 kq trotil partladıqda istilik ayrılır:",
+    "options": [
+      "4190 kC/kq",
+      "8000 kC/kq",
+      "3400 kC/kq",
+      "2000 kC/kq",
+      "5720 kC/kq"
+    ],
+    "correctAnswer": "4190 kC/kq"
+  },
+  {
+    "question": "Zədələnmiş adamın dərisində suluqlar hansı yanıqda əmələ gəlir?",
+    "options": [
+      "ІІ dərəcəli",
+      "І dərəcəli",
+      "ІІІ dərəcəli",
+      "ІV dərəcəli",
+      "V dərəcəli"
+    ],
+    "correctAnswer": "ІІ dərəcəli"
+  },
+  {
+    "question": "Hansı dərəcəli yanıqda adamın dərisi qızarır,şişir:",
+    "options": [
+      "І",
+      "ІІ",
+      "ІІІ",
+      "ІV",
+      "V"
+    ],
+    "correctAnswer": "І"
+  },
+  {
+    "question": "Hansı dərəcəli yanıqda dəri cansızlaşır, yara əmələ gəlir?",
+    "options": [
+      "ІІІ",
+      "І",
+      "ІІ",
+      "ІV",
+      "V"
+    ],
+    "correctAnswer": "ІІІ"
+  },
+  {
+    "question": "Hansı dərəcəli şüa xəstəliyinin gizli dövrü 2-3 həftə çəkir?",
+    "options": [
+      "І",
+      "ІІ",
+      "ІІІ",
+      "ІV",
+      "V"
+    ],
+    "correctAnswer": "І"
+  },
+  {
+    "question": "Hansı dərəcəli şüa xəstəliyinin gizli dövrü 1 həftə çəkir?",
+    "options": [
+      "ІІ",
+      "І",
+      "ІІІ",
+      "ІV",
+      "V"
+    ],
+    "correctAnswer": "ІІ"
+  },
+  {
+    "question": "Hansı dərəcəli şüa xəstəliyinin gizli dövrü bir neçə saat çəkir?",
+    "options": [
+      "ІІІ",
+      "І",
+      "ІІ",
+      "ІV",
+      "V"
+    ],
+    "correctAnswer": "ІІІ"
+  },
+  {
+    "question": "Hansı dərəcəli şüa xəstəliyi 1,5-2 aya sağalır?",
+    "options": [
+      "ІІ",
+      "І",
+      "ІІІ",
+      "ІV",
+      "V"
+    ],
+    "correctAnswer": "ІІ"
+  },
+  {
+    "question": "Hansı dərəcəli şüa xəstəliyi 6-8 aya sağala bilər?",
+    "options": [
+      "ІІІ",
+      "І",
+      "ІІ",
+      "ІV",
+      "V"
+    ],
+    "correctAnswer": "ІІІ"
+  },
+  {
+    "question": "Hansı xəstəliyin törədicisi bakterioloji vasitə sayılır?",
+    "options": [
+      "Taun",
+      "Qızılyel",
+      "Qızılçıq",
+      "Su çiçəyi",
+      "Quş qripi"
+    ],
+    "correctAnswer": "Taun"
+  },
+  {
+    "question": "Hansı xəstəliyin törədicisi bakterioloji vasitə sayılır?",
+    "options": [
+      "Qara yara",
+      "Vərəm",
+      "Zökəm",
+      "Dermatit",
+      "Şəkərli diabet"
+    ],
+    "correctAnswer": "Qara yara"
+  },
+  {
+    "question": "Hansı xəstəliyin törədicisi bakterioloji vasitə sayılır?",
+    "options": [
+      "Çiçək",
+      "Herpes",
+      "Xərçəng",
+      "SPİD",
+      "Kəmərləyici dərman"
+    ],
+    "correctAnswer": "Çiçək"
+  },
+  {
+    "question": "Hansı xəstəliyin törədicisi bakterioloji vasitə sayılır?",
+    "options": [
+      "Vəba",
+      "Xərçəng",
+      "Eritema",
+      "Vərəm",
+      "Dəmrov"
+    ],
+    "correctAnswer": "Vəba"
+  },
+  {
+    "question": "Hansı xəstəliyin törədicisi bakterioloji vasitə sayılır?",
+    "options": [
+      "Qarın yatalağı, tulyaremiya",
+      "Quş qripi, donuz qripi",
+      "Herpes, suçiçəyi",
+      "Dərinin irinli xəstəlikləri",
+      "Ekzema, impetiqo"
+    ],
+    "correctAnswer": "Qarın yatalağı, tulyaremiya"
+  },
+  {
+    "question": "Təbii şəraitdə yatalaq – paratifon törədiciləri torpaqda nə qədər qalır?",
+    "options": [
+      "15 il",
+      "20 il",
+      "3 il",
+      "5 il",
+      "10 il"
+    ],
+    "correctAnswer": "15 il"
+  },
+  {
+    "question": "Radioaktivlik indikatorlarının vəzifəsi:",
+    "options": [
+      "Ərazinin radioaktiv çirklənməsinin təyini",
+      "Ərazinin radiasiya dozasının təyini",
+      "Geyimlərin çirklənmə dərəcəsinin təyini",
+      "Radiasiya dərəcəsinin təyini",
+      "Adamların şüalanma dərəcəsinin təyini"
+    ],
+    "correctAnswer": "Ərazinin radioaktiv çirklənməsinin təyini"
+  },
+  {
+    "question": "Rentgenmetrlərin vəzifəsi:",
+    "options": [
+      "Çirklənmiş ərazinin radiasiya səviyyəsinin təyini",
+      "Adamların radioaktiv şüalanma dozalarının ölçülməsi",
+      "Obyekt səthlərinin çirklənmə dərəcəsinin müəyyən olunması",
+      "Suların çirklənmə dərəcəsinin təyini",
+      "Ərzaq məhsullarının çirklənməsinin təyini"
+    ],
+    "correctAnswer": "Çirklənmiş ərazinin radiasiya səviyyəsinin təyini"
+  },
+  {
+    "question": "Radiometrlərin vəzifəsi nəyi təyin etməkdir?",
+    "options": [
+      "Səthlərin radioaktiv maddələrlə çirklənmə dərəcəsini",
+      "Radio siqnalların tezliyini",
+      "Adamların radioaktiv şüalanma dozalarını",
+      "Çirklənmə zonasında radiasiya səviyyələrini",
+      "Ərazidə ionların parçalanma sürətini"
+    ],
+    "correctAnswer": "Səthlərin radioaktiv maddələrlə çirklənmə dərəcəsini"
+  },
+  {
+    "question": "Dozimetrlər nəyi təyin edir?",
+    "options": [
+      "Adamların radioaktiv şüalanma dozasını",
+      "Ərazidə radiasiya səviyyəsini",
+      "Obyekt səthlərinin radioaktiv çirklənmə dərəcəsini",
+      "Geyimlərin radioaktiv çirklənmə dərəcəsini",
+      "Ərazinin radioaktiv çirklənməsini"
+    ],
+    "correctAnswer": "Adamların radioaktiv şüalanma dozasını"
+  },
+  {
+    "question": "25 kPa izafi təzyiq nüvə zədələnmə ocağının hansı zonasında olur?",
+    "options": [
+      "Orta d.z.",
+      "Güclü d.z.",
+      "Tam d.z.",
+      "Zəif d.z.",
+      "Heç birində"
+    ],
+    "correctAnswer": "Orta d.z."
+  },
+  {
+    "question": "1 Rentgen şüalanma dozasının təsirindən əmələ gəlir:",
+    "options": [
+      "2 mlrd cüt ion",
+      "5 mlrd cüt ion",
+      "2 mln cüt ion",
+      "4,5 mln cüt ion",
+      "12 mln cüt ion"
+    ],
+    "correctAnswer": "2 mlrd cüt ion"
+  },
+  {
+    "question": "Qəza çıxış yolunun başlığı 50m hündürlükdə binadan hansı məsafədə olmalıdır?",
+    "options": [
+      "Azı 28m",
+      "Azı 40m",
+      "10m-dən çox",
+      "17m-dən çox",
+      "24m-dən çox"
+    ],
+    "correctAnswer": "Azı 28m"
+  },
+  {
+    "question": "İzafi təzyiqin hansı qiymətində zərbə dalğası ümumi yüngül kontuziya yaradır?",
+    "options": [
+      "20-40 kPa",
+      "40-60kPa",
+      "60-100kPa",
+      "100-120kPa",
+      "20-30kPa"
+    ],
+    "correctAnswer": "20-40 kPa"
+  },
+  {
+    "question": "Metal karkaslı binalar izafi təzyiqin hansı qiymətinə dözür?",
+    "options": [
+      "50kPa-a qədər",
+      "70kPa-a qədər",
+      "80kPa-a qədər",
+      "90kPa-a qədər",
+      "100kPa-a qədər"
+    ],
+    "correctAnswer": "50kPa-a qədər"
+  },
+  {
+    "question": "Taxta tikililər izafi təzyiqin hansı qiymətinə dözür?",
+    "options": [
+      "10-kPa-a qədər",
+      "30kPa",
+      "40kPa",
+      "60kPa",
+      "70kPa-a qədər"
+    ],
+    "correctAnswer": "10-kPa-a qədər"
+  },
+  {
+    "question": "Nüvə sursatının gücü 2Mt-dır. Bu bərabərdir:",
+    "options": [
+      "2 mln ton",
+      "2 min ton",
+      "0,2 kt",
+      "200 ton",
+      "20 min ton"
+    ],
+    "correctAnswer": "2 mln ton"
+  },
+  {
+    "question": "Nüvə sursatının gücü 20 kt-dur.  Bu bərabərdir:",
+    "options": [
+      "0,02 Mt",
+      "2000 t",
+      "2 mt",
+      "0,2 mt",
+      "200 t"
+    ],
+    "correctAnswer": "0,02 Mt"
+  },
+  {
+    "question": "Nüvə sursatının gücü 200t-dır. Bu bərabərdir:",
+    "options": [
+      "0,2 kt",
+      "0,02 Mt",
+      "2 kt",
+      "0,2 Mt",
+      "0,02 kt"
+    ],
+    "correctAnswer": "0,2 kt"
+  },
+  {
+    "question": "Atom bombasının partlayış gücü 20 min tondur. Bu bərabərdir:",
+    "options": [
+      "0,02 Mt",
+      "0,2 Mt",
+      "2 Mt",
+      "2 kt",
+      "0,2 kt"
+    ],
+    "correctAnswer": "0,02 Mt"
+  },
+  {
+    "question": "Atom bombasının partlayış gücü 200 kt-dur. Bu bərabərdir:",
+    "options": [
+      "0,2 Mt",
+      "2 min ton",
+      "20 min ton",
+      "0,02 Mt",
+      "2 Mt"
+    ],
+    "correctAnswer": "0,2 Mt"
+  },
+  {
+    "question": "Atom bombasının partlayış gücü 500 kt-dur. Bu bərabərdir:",
+    "options": [
+      "500 min ton",
+      "50 min ton",
+      "0,05 Mt",
+      "5 Mt",
+      "5 min ton"
+    ],
+    "correctAnswer": "500 min ton"
+  },
+  {
+    "question": "MM dəstələrinin yürüşü zamanı komandir harda getməlidir:",
+    "options": [
+      "Öndə",
+      "Arxada",
+      "Ortada",
+      "Fərqi yoxdur",
+      "Yalnız nəqliyyat vasitəsində"
+    ],
+    "correctAnswer": "Öndə"
+  },
+  {
+    "question": "Karantin qoyulan məntəqələrdə:",
+    "options": [
+      "Bazarlar bağlanır",
+      "Adamlar təxliyə olunur",
+      "Su təchizatı gücləndirilir",
+      "Su təchizatı zəifləyir",
+      "Adamların evdən çıxmasına qadağa qoyulur"
+    ],
+    "correctAnswer": "Bazarlar bağlanır"
+  },
+  {
+    "question": "Adamları uçuntulardan xilas etmək üçün düzəldilən keçidlərin eni:",
+    "options": [
+      "0,6-0,8 m",
+      "0,5-0,6 m",
+      "0,9-1,2 m",
+      "1,0-1,2 m",
+      "1,5-1,6 m"
+    ],
+    "correctAnswer": "0,6-0,8 m"
+  },
+  {
+    "question": "Adamları uçuntulardan xilas etmək üçün düzəldilər keçidin hündürlüyü:",
+    "options": [
+      "0,9-1,1 m",
+      "0,7-0,8 m",
+      "1,0-1,2 m",
+      "1,2 -1,3 m",
+      "1,0-1,5 m"
+    ],
+    "correctAnswer": "0,9-1,1 m"
+  },
+  {
+    "question": "Yanğınların qarşısının alınması üçün yaradılan ayırma zolağının eni:",
+    "options": [
+      "50-100 m",
+      "20-50 m",
+      "30-40 m",
+      "20-100 m",
+      "100-150 m"
+    ],
+    "correctAnswer": "50-100 m"
+  },
+  {
+    "question": "Sanitar yuyunma məntəqəsində adambaşına su norması:",
+    "options": [
+      "40 l",
+      "50 l",
+      "60 l",
+      "70 l",
+      "80 l"
+    ],
+    "correctAnswer": "40 l"
+  },
+  {
+    "question": "Sanitar yuyunma məntəqəsində isti suyun temperaturu olmalıdır:",
+    "options": [
+      "38-40 0C",
+      "20-25 0C",
+      "32-34 0C",
+      "45-48 0C",
+      "48-50 0C"
+    ],
+    "correctAnswer": "38-40 0C"
+  },
+  {
+    "question": "Sanitar təmizliyində adama sabun sərfi:",
+    "options": [
+      "25 q",
+      "15 q",
+      "20 q",
+      "30 q",
+      "35 q"
+    ],
+    "correctAnswer": "25 q"
+  },
+  {
+    "question": "Ərazini dezaktivasiya etmək üçün istifadə olunur:",
+    "options": [
+      "Süpürmə və su ilə yuma",
+      "Dezinfeksiyadan",
+      "Deqazasiyadan",
+      "Xloramin və lizoldan",
+      "Formalin və xlorlu əhəngdən"
+    ],
+    "correctAnswer": "Süpürmə və su ilə yuma"
+  },
+  {
+    "question": "Dezaktivasiya etmək üçün götürülən torpaq qatı:",
+    "options": [
+      "5-10 sm",
+      "1-2 sm",
+      "15-20 sm",
+      "20-22 sm",
+      "22-25 sm"
+    ],
+    "correctAnswer": "5-10 sm"
+  },
+  {
+    "question": "Dezaktivasiya etmək üçün çirklənmiş torpağın üstünə təmiz torpaq tökülür:",
+    "options": [
+      "8-10 sm",
+      "2-3 sm",
+      "3-5 sm",
+      "5-7 sm",
+      "15-20 sm"
+    ],
+    "correctAnswer": "8-10 sm"
+  },
+  {
+    "question": "Ərazini dezinfeksiya etmək üçün istifadə olunur:",
+    "options": [
+      "Xloraminlər, qələvilər və s.",
+      "Dezaktivasiya və sair vasitələrdən",
+      "Deqazasiya və s. vasitələr",
+      "Yalnız lizoldan",
+      "Yalnız su ilə yuma"
+    ],
+    "correctAnswer": "Xloraminlər, qələvilər və s."
+  },
+  {
+    "question": "Deqazasiyanı aparırlar:",
+    "options": [
+      "Mexaniki, kimyəvi və fiziki üsulla",
+      "Yalnız kimyəvi üsulla",
+      "Dezaktivasiya üsulu ilə",
+      "Zəhərləyici maddələrlə",
+      "Bioloji vasitə ilə"
+    ],
+    "correctAnswer": "Mexaniki, kimyəvi və fiziki üsulla"
+  },
+  {
+    "question": "SSRİ-də HHYM-nin yaranma tarixi.",
+    "options": [
+      "4.10.1932",
+      "4.08.1932",
+      "4.11.1932",
+      "4.03.1932",
+      "4.10.1934"
+    ],
+    "correctAnswer": "4.10.1932"
+  },
+  {
+    "question": "MM-in yaranma tarixi",
+    "options": [
+      "Iyul 1961",
+      "31 iyul 1992",
+      "Iyul  1962",
+      "Aprel 1959",
+      "Iyul 1963"
+    ],
+    "correctAnswer": "Iyul 1961"
+  },
+  {
+    "question": "AR-in MM haqqında Əsasnaməsi təsdiq olundu",
+    "options": [
+      "31 iyul 1992",
+      "31 iyul 1991",
+      "31 iyun 1992",
+      "31 iyul 1993",
+      "6 avqust 1992"
+    ],
+    "correctAnswer": "31 iyul 1992"
+  },
+  {
+    "question": "MM təşkil olunur:",
+    "options": [
+      "İstehsalat-ərazi prinsipi üzrə",
+      "Yalnız istehsalat prinsipi üzrə",
+      "Yalnız ərazi prinsipi üzrə",
+      "Obyektlər üzrə",
+      "İcra hakimiyyəti xətti üzrə"
+    ],
+    "correctAnswer": "İstehsalat-ərazi prinsipi üzrə"
+  },
+  {
+    "question": "AR-in MM üzrə ümumi rəhbəri:",
+    "options": [
+      "AR prezidenti",
+      "AR-in baş naziri",
+      "AR-in FHNaziri",
+      "Müdafiə naziri",
+      "Respublika MM qərargah rəisi"
+    ],
+    "correctAnswer": "AR prezidenti"
+  },
+  {
+    "question": "AR-in MM üzrə bilavasitə rəhbəri:",
+    "options": [
+      "Baş nazir",
+      "AR-in prezidenti",
+      "Fövqaladə hallar naziri",
+      "Müdafiə naziri",
+      "Respublika MM qərargahı rəisi"
+    ],
+    "correctAnswer": "Baş nazir"
+  },
+  {
+    "question": "“Hava həyəcanı” siqnalı verilməsi davam edir:",
+    "options": [
+      "2-3 dəq",
+      "5 dəq",
+      "6-7 dəq",
+      "7-8 dəq",
+      "8-10 dəq"
+    ],
+    "correctAnswer": "2-3 dəq"
+  },
+  {
+    "question": "MM dəstələrinin önündə gedir:",
+    "options": [
+      "Kəşfiyyat dəstələri",
+      "Xilasetmə dəstələri",
+      "Tibb komandaları",
+      "Yangın əleyhinə komanda",
+      "Zəhərsizləşdirmə dəstələri"
+    ],
+    "correctAnswer": "Kəşfiyyat dəstələri"
+  },
+  {
+    "question": "“Hava həyəcanı” siqnalında əhali:",
+    "options": [
+      "Sığınacağa getməli",
+      "Qapıları kip örtüb mənzildən çıxmamalı",
+      "Mənzildən çıxıb binadan uzaqlaşmalı",
+      "Sığınacaqdan çıxmalı",
+      "Qonşulara xəbər verməli"
+    ],
+    "correctAnswer": "Sığınacağa getməli"
+  },
+  {
+    "question": "“Hava həyəcanı qurtardı” siqnalında əhalinin davranışı:",
+    "options": [
+      "Sığınacağı tərk etməli",
+      "MM rəisinə müraciət etməli",
+      "Şəhərdənkənar zonaya getməli",
+      "Radiasiya əlehinə daldalanacağa getməli",
+      "Fərdi mühafizə vasitələrini çıxarmalı"
+    ],
+    "correctAnswer": "Sığınacağı tərk etməli"
+  },
+  {
+    "question": "“Radiasiya təhlükəsi”  siqnalında əhalinin davranışı:",
+    "options": [
+      "Fərdi mühafizə vasitələrini geyinməli",
+      "Sığınacağı tərk etməli",
+      "Şəhərdənkənar zonaya getməli",
+      "Daldalanacağı tərk etməli",
+      "Fərdi mühafizə vasitəsini çıxarmalı"
+    ],
+    "correctAnswer": "Fərdi mühafizə vasitələrini geyinməli"
+  },
+  {
+    "question": "“Kimya həyəcanı” siqnalında əhalinin davranışı:",
+    "options": [
+      "Əleyhqazı geyinməli",
+      "Respirator taxmalı",
+      "Pambıqlı tənzif sarğını taxmalı",
+      "Antidot dərman qəbul etməli",
+      "Şəhərdənkənar zonaya getməlidir"
+    ],
+    "correctAnswer": "Əleyhqazı geyinməli"
+  },
+  {
+    "question": "Təbii fəlakət deyil:",
+    "options": [
+      "Zəlzələ, daşqın, partlayış",
+      "Daşqın, meşə yanğınları",
+      "Sel, torpaq sürüşməsi, subasma",
+      "Quraqlıq, şimşək, sel",
+      "Sunami, quraqlıq, sel"
+    ],
+    "correctAnswer": "Zəlzələ, daşqın, partlayış"
+  },
+  {
+    "question": "Zəlzələ baş verir:",
+    "options": [
+      "Quruda, suyun altında",
+      "Gecə saatlarında",
+      "Ekvatorda",
+      "Yalnız quruda",
+      "Yalnız suyun altında"
+    ],
+    "correctAnswer": "Quruda, suyun altında"
+  },
+  {
+    "question": "Meteoroloji stansiyalar yaradılır:",
+    "options": [
+      "Təbii fəlakətlərin proqnozlaşdırılması üçün",
+      "Yalnız zəlzələlərin proqnozlaşdırılması üçün",
+      "Yalnız hava şəratinin proqnozlaşdırılması üçün",
+      "Yalnız iqlim şəraiti haqqında məlumat almaq üçün",
+      "Daşqın, hava şəraiti, yanğınlar barədə məlumat əldə etmək üçün"
+    ],
+    "correctAnswer": "Təbii fəlakətlərin proqnozlaşdırılması üçün"
+  },
+  {
+    "question": "Seysmik stansiyaların vəzifəsi:",
+    "options": [
+      "Təbii fəlakətləri proqnozlaşdırmaq",
+      "Tufan olacağını xəbər vermək",
+      "Zəlzələ və daşqını qabaqlamaq",
+      "Təbii fəlakətlərin qarşısını almaq",
+      "Marxal təhlükəsinin qarşısını almaq"
+    ],
+    "correctAnswer": "Təbii fəlakətləri proqnozlaşdırmaq"
+  },
+  {
+    "question": "Zəlzələ haqqında məlumat olarsa:",
+    "options": [
+      "Küçəyə çıxıb binalardan uzaqlaşmalı",
+      "Küçəyə çıxıb binanın yaxınlığında daldalanmalı",
+      "Şəhərdənkənar zonaya getməli",
+      "Küçəyə çıxıb sığınacağa getməli",
+      "Daldalanacaq tapıb ora girməli"
+    ],
+    "correctAnswer": "Küçəyə çıxıb binalardan uzaqlaşmalı"
+  },
+  {
+    "question": "Zəlzələ müəssisədə olarkən baş verərsə:",
+    "options": [
+      "Bütün işlər dayandırılmalıdır",
+      "Müəssisə qərargah rəisinin əmrini gözləməli",
+      "Ani olaraq müəssisəni tərk etməli",
+      "Işi dayandırıb dayanacağa getməli",
+      "MM dəstə üzvləri sexdə qərar qəbul etməli"
+    ],
+    "correctAnswer": "Bütün işlər dayandırılmalıdır"
+  },
+  {
+    "question": "Zəlzələ vaxtı klubda olan adamların davranışı:",
+    "options": [
+      "Klub müdiriyyətinin göstərişi üzrə hərəkət etməli",
+      "Mühafizə qurğularında gizlənməli",
+      "Şəhərdənkənar zonaya çıxmalı",
+      "Klubun zirzəmisinə getməli",
+      "Mülki müdafiə siqnalını gözləməli"
+    ],
+    "correctAnswer": "Klub müdiriyyətinin göstərişi üzrə hərəkət etməli"
+  },
+  {
+    "question": "Daşqın nədir?",
+    "options": [
+      "Su hövzəsində suyun səviyyəsinin kəskin surətdə artması və məcrasından çıxması",
+      "Dağlardan axıb gələn su qum, gil və s. qarışığı",
+      "Dağ göllərindən suyun dərələrə axması",
+      "Torpaq sürüşməsi nəticəsində suyun səviyyəsinin artması",
+      "Yalnız dağlarda baş verən fəlakət"
+    ],
+    "correctAnswer": "Su hövzəsində suyun səviyyəsinin kəskin surətdə artması və məcrasından çıxması"
+  },
+  {
+    "question": "Daşqın haqqında xəbər alındıqda:",
+    "options": [
+      "Əhali təhlükəsiz yerlərə köçürülməlidir",
+      "əhali ən yaxın yaşayış məntəqəsinə köçürülməlidir",
+      "əhali sığınacaqlara girməlidir",
+      "hündür yerə dırmaşmaq lazımdır",
+      "ağır üst paltarları və ayaqqabıları çıxarmaq"
+    ],
+    "correctAnswer": "Əhali təhlükəsiz yerlərə köçürülməlidir"
+  },
+  {
+    "question": "Sel təhlükəsi məlum olur:",
+    "options": [
+      "Ən tezi seldən 2 saat əvvəl",
+      "Sel gələndən ən tezi 5 gün əvvəl",
+      "2 ay qabaq ola bilər",
+      "Leysan yağışlar yağanda",
+      "Ən tezi 15-20 dəq əvvəl"
+    ],
+    "correctAnswer": "Ən tezi seldən 2 saat əvvəl"
+  },
+  {
+    "question": "Sel axınına düşən adamı xilasetmə vasitələri:",
+    "options": [
+      "Kanat, kəndir, şüvül və s.",
+      "Kəndir, ip, qayıq, kater, skafandr",
+      "Üzgüçü vasitələri",
+      "Kater, skafandr",
+      "Bəndlər, şüvül"
+    ],
+    "correctAnswer": "Kanat, kəndir, şüvül və s."
+  },
+  {
+    "question": "Marxal nədir?",
+    "options": [
+      "Covğunlu qar yağması – uçqunu",
+      "Sırsıra ilə zədələnmə",
+      "Təbii fəlakətin nəticəsində  zədələnmə",
+      "Bioloji vasitə ilə zəhərlənmə",
+      "Antidot vasitə"
+    ],
+    "correctAnswer": "Covğunlu qar yağması – uçqunu"
+  },
+  {
+    "question": "Qar çovğunu barədə xəbərdarlıq alanda:",
+    "options": [
+      "Təcili ərzaq, su, yanacaq ehtiyatları yaratmaq",
+      "Sığınacağa getmək",
+      "Müvəqqəti olaraq təxliyyə olunmaq",
+      "Qar və buzu təmizləmək üçün vasitələri toplamaq",
+      "MM orqanlarından xəbəri dəqiqləşdirmək"
+    ],
+    "correctAnswer": "Təcili ərzaq, su, yanacaq ehtiyatları yaratmaq"
+  },
+  {
+    "question": "Yanğın söndürməyin ümumi qaydası:",
+    "options": [
+      "Yanğınsöndürən vasitəni yanan səthə yönəltmək",
+      "Yanğınsöndürən vasitəni güclü alova yönəltmək",
+      "Yanğınsöndürən vasitəni ilk növbədə taxta konstruksiyalara yönəltmək",
+      "Yanan otaqlardakı ən vacib əşyaları söndürmək",
+      "Tüstü dolmuş binadan uzaqlaşıb su gətirib istifadə etmək"
+    ],
+    "correctAnswer": "Yanğınsöndürən vasitəni yanan səthə yönəltmək"
+  },
+  {
+    "question": "Yanğın başlayanda adamların ilk davranışı:",
+    "options": [
+      "Yanğınsöndürən xidmətə xəbər vermək",
+      "Yanan obyektə yaxın qonşulara xəbər vermək",
+      "Yanğının səbəbini öyrənib 101-ə zəng vurmaq",
+      "Yanan evin sahibinə yanğını söndürməkdə kömək",
+      "MM dəstələrinin gəlməyini gözləmək"
+    ],
+    "correctAnswer": "Yanğınsöndürən xidmətə xəbər vermək"
+  },
+  {
+    "question": "İstehsalat qəzalarına aiddir:",
+    "options": [
+      "Mədən sahələrinin çökməsi, yanğın və s.",
+      "Partlayış, AES-də qəza, marxal",
+      "Marxal, partlayış vəs.",
+      "Partlayış, sunami və s.",
+      "Bəndlərin uçması, marxal və s."
+    ],
+    "correctAnswer": "Mədən sahələrinin çökməsi, yanğın və s."
+  },
+  {
+    "question": "İstehsalat qəzalarının yaranma səbəbləri:",
+    "options": [
+      "Təbii fəlakətlər, istehsalat texnologiyasının pozulması",
+      "Yalnız təbii fəlakətlər nəticəsində",
+      "Yalnız istehsalat texnologiyasının pozulması",
+      "Yalnız təhlükəsizlik texnikası qaydalarının pozulması",
+      "Yalnız sunami və partlayış"
+    ],
+    "correctAnswer": "Təbii fəlakətlər, istehsalat texnologiyasının pozulması"
+  },
+  {
+    "question": "Müasir qırğın vasitələrinə aiddir:",
+    "options": [
+      "Kimyəvi, bakterioloji, nüvə silahları",
+      "Yalnız nüvə başlıqlı raket və kimyəvi silah",
+      "Fuqas bombaları, kimyəvi və nüvə silahı",
+      "Nüvə, bakterioloji və fuqas",
+      "Zəhərləyici maddələr, nüvə silahı, qrad qurğusu"
+    ],
+    "correctAnswer": "Kimyəvi, bakterioloji, nüvə silahları"
+  },
+  {
+    "question": "Parçalanma zamanı 1kq uranın əmələ gətirdiyi enerji:",
+    "options": [
+      "84109 kC",
+      "84106 kC",
+      "84MC",
+      "84 min  kC",
+      "84109 C"
+    ],
+    "correctAnswer": "84109 kC"
+  },
+  {
+    "question": "Nüvə silahının gücü ölçülür:",
+    "options": [
+      "Trotil ekvivalenti ilə",
+      "Trotilin sıxlığı ilə",
+      "Trotilin kütləsi ilə",
+      "Trotilin təzyiqi ilə",
+      "Trotil əmsalı ilə"
+    ],
+    "correctAnswer": "Trotil ekvivalenti ilə"
+  },
+  {
+    "question": "Kiçik nüvə sursatının gücü",
+    "options": [
+      "15 kt-a qədər",
+      "50 kt-a qədər",
+      "100 kt-a qədər",
+      "1 Mt-a qədər",
+      "500 t-a qədər"
+    ],
+    "correctAnswer": "15 kt-a qədər"
+  },
+  {
+    "question": "Orta nüvə sursatının gücü",
+    "options": [
+      "15-100 kt",
+      "5-10 kt",
+      "1-5Mt",
+      "100-150 kt",
+      "500-1000 t"
+    ],
+    "correctAnswer": "15-100 kt"
+  },
+  {
+    "question": "İri nüvə sursatının gücü",
+    "options": [
+      "100-500 kt",
+      "400-500 kt",
+      "50- 100 kt",
+      "100 kt-dan çox",
+      "500 kt-dan çox"
+    ],
+    "correctAnswer": "100-500 kt"
+  },
+  {
+    "question": "Çox iri nüvə sursatının gücü",
+    "options": [
+      "500 kt-dan çox",
+      "1 Mt-dan çox",
+      "200 kt-dan çox",
+      "5 Mt-dan çox",
+      "50 Mt-dən az"
+    ],
+    "correctAnswer": "500 kt-dan çox"
+  },
+  {
+    "question": "Bunlardan hansı nüvə partlayışının zədələyici amili deyil:",
+    "options": [
+      "Elektromaqnit sahəsi",
+      "Zərbə dalğası",
+      "İşıq şüalanması",
+      "Nüfuzedici radiasiya",
+      "Radioaktiv çirklənmə"
+    ],
+    "correctAnswer": "Elektromaqnit sahəsi"
+  },
+  {
+    "question": "Hündürlükdə partlayış baş verir:",
+    "options": [
+      "Yerdən azı 10 km yüksəkdə",
+      "Yerdən azı 15 km yüksəkdə",
+      "Yerdən 5 km hündürdə",
+      "Yerdən 16 km yüksəkdə",
+      "Yerdən7 km yüksəkdə"
+    ],
+    "correctAnswer": "Yerdən azı 10 km yüksəkdə"
+  },
+  {
+    "question": "Nüvə partlayışının epimərkəzi harada yerləşir?",
+    "options": [
+      "Yerin üstündə",
+      "Yerin altında",
+      "Partlayış mərkəzində",
+      "Partlayış mərkəzindən aşağıda",
+      "Partlayış mərkəzindən yuxarıda"
+    ],
+    "correctAnswer": "Yerin üstündə"
+  },
+  {
+    "question": "Yerüstü nüvə partlayışında təsir edən zədələyici amillər:",
+    "options": [
+      "Bütün zədələyici amillər",
+      "Zərbə dalğasi, işiq şüalanmasi, nüfuzedici radiasiya",
+      "Zərbə dalğası, ərazinin radioktiv çirklənməsi",
+      "Işıq şüalanması, nüfuzedici radiasiya",
+      "Zərbə dalğası, elektromaqnit impulsu"
+    ],
+    "correctAnswer": "Bütün zədələyici amillər"
+  },
+  {
+    "question": "Hündürlükdə nüvə partlayışında yerin səthinə təsir edən zədələyici amillər:",
+    "options": [
+      "Heç bir zədələyici amil",
+      "Hava zərbə dalğası",
+      "Işıq şüalanması",
+      "Nüfuedici radiasiya",
+      "Işıq şüalanması, elektromaqnit impulsu"
+    ],
+    "correctAnswer": "Heç bir zədələyici amil"
+  },
+  {
+    "question": "Sualtı partlayışda əmələ gələn zədələyici amillər:",
+    "options": [
+      "Suda zərbə dalğası, suyun radioaktiv çirklənməsi",
+      "Suda zərbə dalğası, işıq şüalanması",
+      "Suda zərbə dalğası, nüfuzedici radiasiya",
+      "Suda zərbə dalğası, elektromaqnit impulsu",
+      "Bütün zədələyici amillər"
+    ],
+    "correctAnswer": "Suda zərbə dalğası, suyun radioaktiv çirklənməsi"
+  },
+  {
+    "question": "Yeraltı partlayışda əmələ gələn zədələyici amillər:",
+    "options": [
+      "Sıxma dalğaları, epimərkəzin ətrafının radioaktiv çirklənməsi",
+      "Zərbə dalğası, işıq şüalanması",
+      "Zərbə dalğası, nüfuzedici radiasiya",
+      "Sıxma dalğaları, nüfuzedici radiasiya",
+      "Elektromaqnit impulsu, bütün zədələyici amillər"
+    ],
+    "correctAnswer": "Sıxma dalğaları, epimərkəzin ətrafının radioaktiv çirklənməsi"
+  },
+  {
+    "question": "Havada nüvə partlayışında zərbə dalğasına sərf olunan partlayış enerjisi:",
+    "options": [
+      "50 %",
+      "35 %",
+      "10 %",
+      "20%",
+      "5 %"
+    ],
+    "correctAnswer": "50 %"
+  },
+  {
+    "question": "Nüvə partlayışının işıq şüalanması ibarətdir:",
+    "options": [
+      "Infraqırmızı, ultrabənövşəyi, görünən şüalardan",
+      "Infraqırmızı, ultrabənövşəyi, qamma şüalardan",
+      "Görünən, ultrabənövşəyi və qamma şüalardan",
+      "Qamma şüalar və neytron selindən",
+      "Ultrabənövşəyi, qamma şüalar və neytronlar"
+    ],
+    "correctAnswer": "Infraqırmızı, ultrabənövşəyi, görünən şüalardan"
+  },
+  {
+    "question": "Nüvə partlayışının nüfuzedici radiasiyası ibarətdir:",
+    "options": [
+      "Qamma şüalar və neytron selindən",
+      "Görünən şüalar və qamma şüalar",
+      "Ultrabənövşəyi və infraqırmızı şüalar",
+      "Infraqırmızı, qamma şüalar və neytronlar",
+      "Qamma şüalar və infraqırmızı şüalar"
+    ],
+    "correctAnswer": "Qamma şüalar və neytron selindən"
+  },
+  {
+    "question": "Nüvə partlayışında yaranan odlu kürənin səthində temperatur olur:",
+    "options": [
+      "8000- 10000 0 C",
+      "10000 0 S - 12000 0 C",
+      "12000 15000 0 C",
+      "1000-2000 0 C",
+      "2000 -5000 0 C"
+    ],
+    "correctAnswer": "8000- 10000 0 C"
+  },
+  {
+    "question": "İşıq şülanmasını xarakterizə edən əsas parametr:",
+    "options": [
+      "İşıq impulsu",
+      "Şüalanma dozası",
+      "İşıq gücü",
+      "Radioaktiv çirklənmə",
+      "Nüfuzedici radiasiya"
+    ],
+    "correctAnswer": "İşıq impulsu"
+  },
+  {
+    "question": "İşıq impulsunun ölşü vahidi:",
+    "options": [
+      "kC/m2",
+      "kC/m",
+      "R/m2",
+      "Pa",
+      "R"
+    ],
+    "correctAnswer": "kC/m2"
+  },
+  {
+    "question": "Yerüstü nüvə partlayışında əmələ gələn çalanın diametri:",
+    "options": [
+      "38",
+      "38",
+      "38",
+      "38",
+      "38"
+    ],
+    "correctAnswer": "38"
+  },
+  {
+    "question": "Nüfuzedici radiasiyanı xarakterizə edən parametr:",
+    "options": [
+      "Radiasiya dozası",
+      "İşıq impulsu",
+      "İşıq gücü",
+      "Radioaktiv çirklənmə",
+      "Neytron seli"
+    ],
+    "correctAnswer": "Radiasiya dozası"
+  },
+  {
+    "question": "Radiasiya dozasının ölçü vahidi:",
+    "options": [
+      "R",
+      "R/m2",
+      "Rm",
+      "kC/m2",
+      "R/m"
+    ],
+    "correctAnswer": "R"
+  },
+  {
+    "question": "Havada nüvə partlayışında işıq şüalanmasına sərf olunan partlayış enerjisi:",
+    "options": [
+      "35 %",
+      "5%",
+      "50%",
+      "10%",
+      "15%"
+    ],
+    "correctAnswer": "35 %"
+  },
+  {
+    "question": "Havada nüvə partlayışında radioaktiv çirklənməyə sərf olunan enerji:",
+    "options": [
+      "10%",
+      "35%",
+      "5%",
+      "50%",
+      "15%"
+    ],
+    "correctAnswer": "10%"
+  },
+  {
+    "question": "Nüvə sursatının partlayış mərkəzində izafi təzyiq:",
+    "options": [
+      "1014 Pa",
+      "1012 Pa",
+      "109 kpa",
+      "106 kPa",
+      "106 MPa"
+    ],
+    "correctAnswer": "1014 Pa"
+  },
+  {
+    "question": "Nüvə sursatının partlayış mərkəzində izafi təzyiq:",
+    "options": [
+      "108 MPa",
+      "1010 Pa",
+      "1019 Pa",
+      "10 3 kPa",
+      "1021 Pa"
+    ],
+    "correctAnswer": "108 MPa"
+  },
+  {
+    "question": "Nüvə sursatının partlayış mərkəzində izafi təzyiq:",
+    "options": [
+      "1011 kPa",
+      "10 9 kPa",
+      "109 Pa",
+      "105 kPa",
+      "1018Pa"
+    ],
+    "correctAnswer": "1011 kPa"
+  },
+  {
+    "question": "1Mt-luq istilik-nüvə partlayışında işıq şüalanmasının təsir müddəti:",
+    "options": [
+      "10 san",
+      "15 san",
+      "3 san",
+      "5 san",
+      "23 san"
+    ],
+    "correctAnswer": "10 san"
+  },
+  {
+    "question": "10 Mt-luq istilik-nüvə partlayışında işıq şüalanmasının təsir müddəti:",
+    "options": [
+      "23 san",
+      "3 san",
+      "5 san",
+      "10 san",
+      "27 san"
+    ],
+    "correctAnswer": "23 san"
+  },
+  {
+    "question": "İşıq şüalanması adamlarda yaradır:",
+    "options": [
+      "Yanıqlar",
+      "Şüa xəstəliyi",
+      "Kanserogen xəstəliklər",
+      "Xərçəng xəstəliyi",
+      "Diabetli şəkər"
+    ],
+    "correctAnswer": "Yanıqlar"
+  },
+  {
+    "question": "Rentgen 1 sm3 quru havada əmələ gətirir:",
+    "options": [
+      "2∙109 cüt ion",
+      "3∙109 cüt ion",
+      "2∙106 cüt ion",
+      "2∙103 cüt ion",
+      "3∙106 cüt ion"
+    ],
+    "correctAnswer": "2∙109 cüt ion"
+  },
+  {
+    "question": "Ərazinin radioaktiv çirklənməsinin səbəbi:",
+    "options": [
+      "Radioaktiv maddələrin yerə çökməsi",
+      "İşıq şüalanmasının torpağa təsiri",
+      "Nüfuzedici radiasiya",
+      "Elektromaqnit impulsu və işıq şüalanması",
+      "Hündürlükdə nüvə partlayışı"
+    ],
+    "correctAnswer": "Radioaktiv maddələrin yerə çökməsi"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağı yaranır:",
+    "options": [
+      "Nüvə sursatının tətbiqi zamanı",
+      "Nüvə və bakterioloji silahın tətbiqində",
+      "Nüvə və kimyəvi silahın tətbiqində",
+      "Nüvə, kimyəvi və bakterioloji silahın tətbiqində",
+      "Kimyəvi qırğın silahlarının tətbiqində"
+    ],
+    "correctAnswer": "Nüvə sursatının tətbiqi zamanı"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağının xarici sərhədində izafi təzyiq:",
+    "options": [
+      "10 kPa",
+      "20 kPa",
+      "30 kPa",
+      "40 kPa",
+      "50 kPa"
+    ],
+    "correctAnswer": "10 kPa"
+  },
+  {
+    "question": "Tam dağıntı zonasında nüvə zərbə dalğasının izafi təzyiqi:",
+    "options": [
+      "50 kPa və daha çox",
+      "40 kPa və daha çox",
+      "30-30 kPa",
+      "20-30 kPa",
+      "10 kPa və daha çox"
+    ],
+    "correctAnswer": "50 kPa və daha çox"
+  },
+  {
+    "question": "Güclü dağıntı zonasının xarici sərhədində izafi təzyiq:",
+    "options": [
+      "30 kPa",
+      "10 kPa",
+      "20 kPa",
+      "40 kPa",
+      "50 kPa"
+    ],
+    "correctAnswer": "30 kPa"
+  },
+  {
+    "question": "Orta dağıntı zonasının xarici sərhədində izafi təzyiq:",
+    "options": [
+      "20 kPa",
+      "10 k,Pa",
+      "30 kPa",
+      "40 kPa",
+      "50 kPa"
+    ],
+    "correctAnswer": "20 kPa"
+  },
+  {
+    "question": "Zəif dağıntı zonasının xarici sərhədində izafi təzyiq:",
+    "options": [
+      "10 kPa",
+      "20 kPa",
+      "30 kPa",
+      "40 kPa",
+      "50 kPa"
+    ],
+    "correctAnswer": "10 kPa"
+  },
+  {
+    "question": "Güclü dağıntı zonasının daxili sərhədində izafi təzyiq:",
+    "options": [
+      "50 kPa",
+      "40 kPa",
+      "30 kPa",
+      "20 kPa",
+      "10 kPa"
+    ],
+    "correctAnswer": "50 kPa"
+  },
+  {
+    "question": "Orta dağıntı zonasının daxili sərhədində izafi təzyiq:",
+    "options": [
+      "30 kPa",
+      "10 kPa",
+      "20 kPa",
+      "40 kPa",
+      "50 kPa"
+    ],
+    "correctAnswer": "30 kPa"
+  },
+  {
+    "question": "Zəif dağıntı zonasının daxili sərhədində izafi təzyiq:",
+    "options": [
+      "20 kPa",
+      "10 kPa",
+      "30 kPa",
+      "40 kPa",
+      "50 kPa"
+    ],
+    "correctAnswer": "20 kPa"
+  },
+  {
+    "question": "Zədələnmə radiusu 2 km olan nüvə zədələnmə ocağının sahəsi:",
+    "options": [
+      "12,56 km2",
+      "16,26 km2",
+      "3,14 km2",
+      "6,28 km2",
+      "20,56 km2"
+    ],
+    "correctAnswer": "12,56 km2"
+  },
+  {
+    "question": "Zədələnmə radiusu 3 km olan nüvə zədələnmə ocağının sahəsi:",
+    "options": [
+      "28,26 km2",
+      "50,24 km2",
+      "3,14 km2",
+      "78,5 km2",
+      "113,04 km2"
+    ],
+    "correctAnswer": "28,26 km2"
+  },
+  {
+    "question": "Zədələnmə radiusu 4 km olan nüvə zədələnmə ocağının sahəsi:",
+    "options": [
+      "50,24 km2",
+      "28,26 km2",
+      "6,28 km2",
+      "78,5 km2",
+      "90,5 km2"
+    ],
+    "correctAnswer": "50,24 km2"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağının sahəsi 113,04 km2 olarsa zədələnmə radiusu:",
+    "options": [
+      "6 km",
+      "2 km",
+      "7 km",
+      "4 km",
+      "8 km"
+    ],
+    "correctAnswer": "6 km"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağının sahəsi 153, 86 km2 olarsa zədələnmə radiusu:",
+    "options": [
+      "7 km",
+      "8 km",
+      "6 km",
+      "9 km",
+      "11 km"
+    ],
+    "correctAnswer": "7 km"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağının sahəsi 254,34 km2 olarsa zədələnmə radiusu:",
+    "options": [
+      "9 km",
+      "11 km",
+      "8 km",
+      "7 km",
+      "6 km"
+    ],
+    "correctAnswer": "9 km"
+  },
+  {
+    "question": "Radioaktiv çirklənmə rayonu xarakterizə olunur:",
+    "options": [
+      "Radiasiya səviyyəsi və dozası ilə",
+      "Radiasiya səviyyəsi və işıq şüalanması ilə",
+      "Radiasiya dozası və izafi təzyiqlə",
+      "Rayonun çirklənmiş sahəsi ilə",
+      "Radioaktiv maddələrin yayılma sürəti ilə"
+    ],
+    "correctAnswer": "Radiasiya səviyyəsi və dozası ilə"
+  },
+  {
+    "question": "Radioaktiv çirklənmə rayonu şərti olaraq bölünür:",
+    "options": [
+      "4 zonaya",
+      "3 zonaya",
+      "2 zonaya",
+      "5 zonaya",
+      "6 zonaya"
+    ],
+    "correctAnswer": "4 zonaya"
+  },
+  {
+    "question": "Təhlükəli çirklənmə zonasının (V) daxili sərhədində radiasiya səviyyəsi(R/saat):",
+    "options": [
+      "800",
+      "240",
+      "80",
+      "8",
+      "40"
+    ],
+    "correctAnswer": "800"
+  },
+  {
+    "question": "Təhlükəli çirklənmə zonasının (V) xarici sərhədində radiasiya səviyyəsi  ():",
+    "options": [
+      "240",
+      "800",
+      "80",
+      "8",
+      "1200"
+    ],
+    "correctAnswer": "240"
+  },
+  {
+    "question": "Fövqəladə təhlükəli çirklənmə zonasının (Q) xarici sərhədində radiasiya səviyyəsi  ():",
+    "options": [
+      "800",
+      "1200",
+      "80",
+      "240",
+      "8"
+    ],
+    "correctAnswer": "800"
+  },
+  {
+    "question": "Fövqəladə təhlükəli çirklənmə zonasının (Q) daxilində radiasiya \tsəviyyəsi ():",
+    "options": [
+      "Məlum deyil",
+      "800-dən az",
+      "800",
+      "240",
+      "80"
+    ],
+    "correctAnswer": "Məlum deyil"
+  },
+  {
+    "question": "Güclü çirklənmə zonasının (B) daxili sərhədində radiasiya səviyyəsi \t():",
+    "options": [
+      "240",
+      "800",
+      "400",
+      "80",
+      "40"
+    ],
+    "correctAnswer": "240"
+  },
+  {
+    "question": "Güclü çirklənmə zonasının (B) xarici sərhədində radiasiya səviyyəsi ():",
+    "options": [
+      "80",
+      "800",
+      "400",
+      "240",
+      "40"
+    ],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "Mülayim çirklənmə zonasının (A) daxili sərhədində radiasiya səviyyəsi ():",
+    "options": [
+      "80",
+      "800",
+      "400",
+      "240",
+      "40"
+    ],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "Mülayim çirklənmə zonasının (A) xarici sərhədində radiasiya  səviyyəsi \t():",
+    "options": [
+      "8",
+      "40",
+      "240",
+      "400",
+      "800"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "Fövqəladə təhlükəli çirklənmə zonasının (Q) daxilində doza (R):",
+    "options": [
+      "Məlum deyil",
+      "4000",
+      "1200",
+      "400",
+      "40"
+    ],
+    "correctAnswer": "Məlum deyil"
+  },
+  {
+    "question": "Fövqəladə çirklənmə zonasının (Q) xarici sərhədində doza (R):",
+    "options": [
+      "4000",
+      "1200",
+      "400",
+      "40",
+      "240"
+    ],
+    "correctAnswer": "4000"
+  },
+  {
+    "question": "Təhlükəli çirklənmə zonasının (V) daxili sərhədində doza (R):",
+    "options": [
+      "4000",
+      "1200",
+      "400",
+      "40",
+      "800"
+    ],
+    "correctAnswer": "4000"
+  },
+  {
+    "question": "Təhlükəli çirklənmə zonasının (V) xarici sərhədində doza (R):",
+    "options": [
+      "1200",
+      "4000",
+      "400",
+      "800",
+      "40"
+    ],
+    "correctAnswer": "1200"
+  },
+  {
+    "question": "Güclü çirklənmə zonasının (B) daxili sərhədində doza (R):",
+    "options": [
+      "1200",
+      "4000",
+      "400",
+      "800",
+      "40"
+    ],
+    "correctAnswer": "1200"
+  },
+  {
+    "question": "Güclü çirklənmə zonasının (B) xarici sərhədində doza (R):",
+    "options": [
+      "400",
+      "4000",
+      "1200",
+      "800",
+      "40"
+    ],
+    "correctAnswer": "400"
+  },
+  {
+    "question": "Mülayim çirklənmə zonasının (A) daxili sərhədində doza (R):",
+    "options": [
+      "400",
+      "4000",
+      "1200",
+      "800",
+      "40"
+    ],
+    "correctAnswer": "400"
+  },
+  {
+    "question": "Mülayim çirklənmə zonasının (A) xarici sərhədində doza (R):",
+    "options": [
+      "40",
+      "4000",
+      "1200",
+      "800",
+      "400"
+    ],
+    "correctAnswer": "40"
+  },
+  {
+    "question": "Zərbə dalğasının 30 kPa izafi təzyiqində adamlarda zədələnmə:",
+    "options": [
+      "Yüngül",
+      "Orta",
+      "Çox ağır",
+      "Ağır",
+      "Yaranmır"
+    ],
+    "correctAnswer": "Yüngül"
+  },
+  {
+    "question": "Zərbə dalğasının 50 kpA izafi təzyiqində adamlarda zədələnmə:",
+    "options": [
+      "Orta",
+      "Ağır",
+      "Çox ağır",
+      "Yüngül",
+      "Yaranmır"
+    ],
+    "correctAnswer": "Orta"
+  },
+  {
+    "question": "Zərbə dalğasının 80 kPa izafi təzyiqində adamlarda zədələnmə:",
+    "options": [
+      "Ağır",
+      "Çox ağır",
+      "Yüngül",
+      "Orta",
+      "Ani ölüm"
+    ],
+    "correctAnswer": "Ağır"
+  },
+  {
+    "question": "Zərbə dalğasının 120 kPa izafi təzyiqində adamlarda zədələnmə:",
+    "options": [
+      "Çox ağır",
+      "Ağır",
+      "Yüngül",
+      "Orta",
+      "Çox yüngül"
+    ],
+    "correctAnswer": "Çox ağır"
+  },
+  {
+    "question": "İşıq şüalanmasının təsirindən yanıqlar neçə dərəcəyə bölünür?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "I dərəcəli yanıq işıq impulsunun hansı qiymətində yaranır?",
+    "options": [
+      "100-200 kC/m2",
+      "100 - 300 kC/m2",
+      "100-500 kC/ m2",
+      "200-400 kC/m2",
+      "400-600 kC/m2"
+    ],
+    "correctAnswer": "100-200 kC/m2"
+  },
+  {
+    "question": "II dərəcəli yanıq işıq impulsunun hansı qiymətində yaranır?",
+    "options": [
+      "200-400 kC/m2",
+      "200-400 kC",
+      "100-200 kC/m2",
+      "400-600 kc/m2",
+      "400-500 kC"
+    ],
+    "correctAnswer": "200-400 kC/m2"
+  },
+  {
+    "question": "III dərəcəli yanıq işıq impulsunun hansı qiymətində yaranır?",
+    "options": [
+      "400-600 kC/m2",
+      "100-200 kC/m2",
+      "200-400 kC/m2",
+      "200-400 kC/m2",
+      "400-600 kC"
+    ],
+    "correctAnswer": "400-600 kC/m2"
+  },
+  {
+    "question": "Şüa xəstəliyinin neçə dərəcəsi var?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "I dərəcəli şüa xəstəliyini törədən doza (R):",
+    "options": [
+      "100-200",
+      "50-100",
+      "200-300",
+      "300-500",
+      "500-dən çox"
+    ],
+    "correctAnswer": "100-200"
+  },
+  {
+    "question": "II dərəcəli şüa xəstəliyini törədən doza (R):",
+    "options": [
+      "200-300",
+      "300-500",
+      "100-200",
+      "100-ə qədər",
+      "500-dən çox"
+    ],
+    "correctAnswer": "200-300"
+  },
+  {
+    "question": "III dərəcəli  şüa xəstəliyini törədən doza (R):",
+    "options": [
+      "300-500",
+      "100-200",
+      "200-300",
+      "500-600",
+      "600-dən çox"
+    ],
+    "correctAnswer": "300-500"
+  },
+  {
+    "question": "Adamlar üçün öldürücü doza:",
+    "options": [
+      "500 R-dən yüksək",
+      "100-200 R",
+      "200-300 R",
+      "300-500 R",
+      "300 R-dən yüksək"
+    ],
+    "correctAnswer": "500 R-dən yüksək"
+  },
+  {
+    "question": "Radioaktiv şüalanma dozası nədir?",
+    "options": [
+      "Radioaktiv şüalanma enerjisinin miqdarı",
+      "İşıq impulsunun yaratdığı enerji",
+      "Ultrabənövşəyi və infraqırmızı şüaların miqdarı",
+      "Təhlükəli radioaktiv çirklənmə səviyyəsi",
+      "Nüfuzedici radiasiyanın təsiri"
+    ],
+    "correctAnswer": "Radioaktiv şüalanma enerjisinin miqdarı"
+  },
+  {
+    "question": "Fosforlu üzvi maddələrin adama təsiri:",
+    "options": [
+      "Mərkəzi əsəb sistemini zədələyir",
+      "Ümumtəsirli zəhərləyici təsir göstərir",
+      "Boğucu təsir göstərir",
+      "Dəridən qana sorularaq ağciyəri zədələyir",
+      "Yalnız tənəffüs prosesini pozur."
+    ],
+    "correctAnswer": "Mərkəzi əsəb sistemini zədələyir"
+  },
+  {
+    "question": "Baktereoloji vasitələr ibarətdir:",
+    "options": [
+      "Bakteriya, virus, toksin",
+      "Mikrob, virus, zarin",
+      "Virus, toksin, iprit və s.",
+      "Taun, vəba, vərəm törədicilərindən",
+      "Yalnız viruslar"
+    ],
+    "correctAnswer": "Bakteriya, virus, toksin"
+  },
+  {
+    "question": "Radiasiya şəraiti dedikdə başa düşülür:",
+    "options": [
+      "Ərazinin radioaktiv çirklənmə miqyası, dərəcəsi",
+      "Adamların şüa xəstəliyinə tutulma ehtimalı",
+      "Nüvə zədələnmə ocağında radiasiya şəraiti",
+      "Radioaktiv çirklənmə rayonunun sahəsi",
+      "Şüalanma dozasının qiyməti"
+    ],
+    "correctAnswer": "Ərazinin radioaktiv çirklənmə miqyası, dərəcəsi"
+  },
+  {
+    "question": "Adamların mühafizə qurğularında gizlədilməsindən məqsəd:",
+    "options": [
+      "MQV-dən mühafizə",
+      "MQV və təbii fəlakətlərdən mühafizə",
+      "Subasmalardan mühafizə",
+      "Yalniz zəhərləyici maddələrdən mühafizə",
+      "Zəlzələdən mühafizə"
+    ],
+    "correctAnswer": "MQV-dən mühafizə"
+  },
+  {
+    "question": "Adamların köçürülməsindən məqsəd:",
+    "options": [
+      "Daşqından mühafizə",
+      "Seldən mühafizə",
+      "Zəlzələdən mühafizə",
+      "Marxal təhlükəsindən mühafizə",
+      "Quraqlıqdan mühafizə"
+    ],
+    "correctAnswer": "Daşqından mühafizə"
+  },
+  {
+    "question": "Adamların şəhərdənkənar zonaya köçürülməsindən məqsəd:",
+    "options": [
+      "MQV-dən mühafizə",
+      "Seldən mühafizə",
+      "İstehsalat qəzalarından mühafizə",
+      "Daşqından mühafizə",
+      "Marxaldan mühafizə"
+    ],
+    "correctAnswer": "MQV-dən mühafizə"
+  },
+  {
+    "question": "Sığınacaqlar təsnif olunur:",
+    "options": [
+      "Yerləşmə yerinə, tikilmə vaxtına və s.",
+      "Yalnız binada və ayrıca yerləşməsinə görə",
+      "Adamları MQV-dən qoruma xüsusiyyətlərinə görə",
+      "Tikilmə vaxtına və şəhərdən uzaqlığına görə",
+      "Yalnız mühafizə xüsusiyyətlərinə görə"
+    ],
+    "correctAnswer": "Yerləşmə yerinə, tikilmə vaxtına və s."
+  },
+  {
+    "question": "Tutumuna görə sığınacaqlar bölünür:",
+    "options": [
+      "Kiçik, orta, böyük",
+      "Kiçik, iri, çox iri",
+      "Orta, böyük, çox böyük",
+      "Kiçik, orta",
+      "Çox kiçik, orta, böyük, kiçik"
+    ],
+    "correctAnswer": "Kiçik, orta, böyük"
+  },
+  {
+    "question": "Süzgəc-ventilyasiya avadanlıqları ilə təminatına görə söğınacaqlar olur:",
+    "options": [
+      "2 cür",
+      "3 cür",
+      "1 cür",
+      "4 cür",
+      "5 cür"
+    ],
+    "correctAnswer": "2 cür"
+  },
+  {
+    "question": "Sığınacağın  əsas otağının hündürlüyü  olmalıdır:",
+    "options": [
+      "Azı 2,2m",
+      "Azı 2,4m",
+      "Azı 2m",
+      "Çoxu 4m",
+      "Ən azı 1,8 m"
+    ],
+    "correctAnswer": "Azı 2,2m"
+  },
+  {
+    "question": "Sığınacağın döşəməsi yeraltı suların səviyyəsindən hansı hündürlükdə olmalıdır?",
+    "options": [
+      "Azı 20 sm",
+      "Azı 40 sm",
+      "Azı 10 sm",
+      "Azı 60 sm",
+      "Azı 1m"
+    ],
+    "correctAnswer": "Azı 20 sm"
+  },
+  {
+    "question": "Sığınacaqda nəmlik olmalıdır:",
+    "options": [
+      "70% -ə qədər",
+      "60% -ə qədər",
+      "55%-ə qədər",
+      "75%-ə qədər",
+      "65%-ə qədər"
+    ],
+    "correctAnswer": "70% -ə qədər"
+  },
+  {
+    "question": "Sığınacaqda temperatur olmalıdır?",
+    "options": [
+      "230C-yə qədər",
+      "270C-yə qədər",
+      "200C-yə qədər",
+      "210C-yə qədər",
+      "220C-yə qədər"
+    ],
+    "correctAnswer": "230C-yə qədər"
+  },
+  {
+    "question": "Sığınacaqda karbon qazının miqdarı olmalıdır:",
+    "options": [
+      "1%-ə qədər",
+      "2%-ə qədər",
+      "3%-ə qədər",
+      "4%-ə qədər",
+      "5%-ə qədər"
+    ],
+    "correctAnswer": "1%-ə qədər"
+  },
+  {
+    "question": "Sığınacaqda temperaturun maksimal buraxila bilən qiyməti ola bilər:",
+    "options": [
+      "310C",
+      "290C",
+      "300C",
+      "280C",
+      "330C"
+    ],
+    "correctAnswer": "310C"
+  },
+  {
+    "question": "Sığınacaqda nəmliyin maksimal buraxila bilən qiyməti ola bilər:",
+    "options": [
+      "80%",
+      "75%",
+      "70%",
+      "82%",
+      "85%"
+    ],
+    "correctAnswer": "80%"
+  },
+  {
+    "question": "Sığınacaqda karbon qazının maksimal buraxila bilən qiyməti ola bilər:",
+    "options": [
+      "3%",
+      "2%",
+      "1%",
+      "4%",
+      "5%"
+    ],
+    "correctAnswer": "3%"
+  },
+  {
+    "question": "Sığınacağın süzücü-ventilyasiya sistemi neçə rejimdə işləyir:",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "Radiasiya əleyhinə daldanacaqların əsas vəzifəsi:",
+    "options": [
+      "Radioaktiv şüalanmadan mühafizə",
+      "Nüvə partlayışının bütün zədələyici amillərindən tam mühafizə",
+      "Radioaktiv çirklənmə rayonunu mühafizə",
+      "ZM-lərdən mühafizə",
+      "Bakterioloji vasitələrdən mühafizə"
+    ],
+    "correctAnswer": "Radioaktiv şüalanmadan mühafizə"
+  },
+  {
+    "question": "Daldanacaq-səngərlər olur:",
+    "options": [
+      "Açıq və örtülü səngər formasında",
+      "Sığınacaq formasında",
+      "Yalniz açıq  səngər formasında",
+      "Yalniz örtülü formasında",
+      "Xəndək kimi üstü açıq"
+    ],
+    "correctAnswer": "Açıq və örtülü səngər formasında"
+  },
+  {
+    "question": "Müharibə vaxtı işini davam etdirən müəssisələrin işçiləri:",
+    "options": [
+      "Seyrəldilir",
+      "Köçürülür",
+      "Şəhərdə yaşayır",
+      "MM dəstələri ilə birlikdə şəhərdənkənar zonada fəaliyyət göstərir",
+      "Köçürülür və seyrəldilir"
+    ],
+    "correctAnswer": "Seyrəldilir"
+  },
+  {
+    "question": "Müharibə vaxtı işləməyən əhali:",
+    "options": [
+      "Köçürülür",
+      "Seyrəldilir",
+      "Sığınacaqda gizlənir",
+      "Şəhərdə yaşayır",
+      "Səfərbəyliyə alınır"
+    ],
+    "correctAnswer": "Köçürülür"
+  },
+  {
+    "question": "Köçürmə komissiyalarının təşkilində məqsəd:",
+    "options": [
+      "Əhalinin köçürülməsini təşkil etmək",
+      "İstehsalatda işləyən işçiləri seyrəltmək",
+      "İşləməyən adamları köçürmək",
+      "Köçürülən əhali üçün sığınacaqlar tikmək",
+      "Əhalini ərazi prinsipi üzrə qeydiyyatdan keçirmək"
+    ],
+    "correctAnswer": "Əhalinin köçürülməsini təşkil etmək"
+  },
+  {
+    "question": "Köçürmə tədbirləri yerinə yetirilir:",
+    "options": [
+      "İstehsalat-ərazi prinsipi üzrə",
+      "Ərazi prinsipi üzrə",
+      "İstehsalat-ərazi və köçürmə prinsipi",
+      "İstehsalat prinsipi üzrə",
+      "İcra hakimiyyəti tərəfindən"
+    ],
+    "correctAnswer": "İstehsalat-ərazi prinsipi üzrə"
+  },
+  {
+    "question": "Köçürmə işlərinin yerinə yetirilmə müddəti:",
+    "options": [
+      "Ən qısa müddətdə",
+      "2 gün",
+      "6 saat",
+      "3 gün",
+      "15 dəq"
+    ],
+    "correctAnswer": "Ən qısa müddətdə"
+  },
+  {
+    "question": "Toplanış-köçürmə məntəqələrini təşkil edir:",
+    "options": [
+      "Köçürmə komissiyaları",
+      "MM qərargahı",
+      "MM rəisi",
+      "MM rəisi və qərargahı",
+      "Müəssisə rəhbəri"
+    ],
+    "correctAnswer": "Köçürmə komissiyaları"
+  },
+  {
+    "question": "Toplanış köçürmə məntəqələri yaradılır:",
+    "options": [
+      "Nəqliyyat vasitələrinə mindirmə meydançaları yaxınlığında",
+      "Nüvə silahının tətbiq olunma ehtimalı olan ərazidən xaricdə",
+      "Kimyəvi silahın tətbiq olunma ehtimalı olan ərazidən kənarda",
+      "Xalq təsərrüfatı obyektlərində",
+      "Şəhərdənkənar zonada"
+    ],
+    "correctAnswer": "Nəqliyyat vasitələrinə mindirmə meydançaları yaxınlığında"
+  },
+  {
+    "question": "Köçürmə üçün istifadə olunur:",
+    "options": [
+      "Dəmiryolu, su nəqliyyatı, avtomobil",
+      "Bütün nəqliyyat vasitələrindən",
+      "Avtomobil,təyyarə, gəmi",
+      "Gəmi, qatar, bərə",
+      "Dəmiryolu,su nəqliyyatı, avtomobil və vertolyot"
+    ],
+    "correctAnswer": "Dəmiryolu, su nəqliyyatı, avtomobil"
+  },
+  {
+    "question": "Köçürmə yerinə yetirilir:",
+    "options": [
+      "Piyada və nəqliyyat vasitələri ilə",
+      "Piyada",
+      "Nəqliyyat vasitələri ilə",
+      "Avtomobil və dəmiryolu",
+      "Dəmiryolu, su yolu"
+    ],
+    "correctAnswer": "Piyada və nəqliyyat vasitələri ilə"
+  },
+  {
+    "question": "Şəhərdənkənar zonada şəhərə ən yaxın yerləşdirilir:",
+    "options": [
+      "Seyrəldilənlər",
+      "Köçürülənlər",
+      "Yaşlı əhali",
+      "Qocalar, qadınlar",
+      "Müəssisə rəhbərləri"
+    ],
+    "correctAnswer": "Seyrəldilənlər"
+  },
+  {
+    "question": "Şəhərdənkənar zonada şəhərdən ən uzaqda yerləşdirilir:",
+    "options": [
+      "İşləməyən əhali",
+      "Dayandırılan müəssisələrin işçiləri",
+      "Seyrəldilənlər",
+      "MM dəstəsinin üzvləri",
+      "Avtomobili olan əhali qrupu"
+    ],
+    "correctAnswer": "İşləməyən əhali"
+  },
+  {
+    "question": "Mənəvi amil adamda yaradır:",
+    "options": [
+      "Vətənpərvərlik, yüksək əhvali-ruhiyyə",
+      "Dözüm, iradə, inam və s.",
+      "Yüksək peşə hazırlığı",
+      "Yüksək psixoloji hazırlıq",
+      "Qorxmazlıq, mətanət"
+    ],
+    "correctAnswer": "Vətənpərvərlik, yüksək əhvali-ruhiyyə"
+  },
+  {
+    "question": "Psixoloji hazırlıq xilasetmə işləri zamanı adamda yaradır:",
+    "options": [
+      "Dözüm, iradə, inam və s.",
+      "Vətənpərvərlik, yüksək əhval və s.",
+      "MQV-dən istifadə bacarığı",
+      "Psixi vəziyyət",
+      "MM məqsədlərində iştiraka həvəs"
+    ],
+    "correctAnswer": "Dözüm, iradə, inam və s."
+  },
+  {
+    "question": "Psixoloji hazırlıq adamlarda yaradır:",
+    "options": [
+      "Gərgin şəraitdə fəaliyyət göstərmək bacarığı",
+      "Yüksək peşə hazırlığına yiyələnmək bacarığı",
+      "Vətənə yüksək sevgi hissi",
+      "MQV-dən istifadə bacarığı",
+      "Psixi vəziyyət"
+    ],
+    "correctAnswer": "Gərgin şəraitdə fəaliyyət göstərmək bacarığı"
+  },
+  {
+    "question": "Əhalinin mənəvi-psixoloji tərbiyəsində mühüm rol oynayır:",
+    "options": [
+      "Yüksək səviyyədə keçirilən obyekt kompleks təlimləri",
+      "Plakat və digər əyani vasitələrdən istifadə etməklə keçirilən məşğələlər",
+      "Uzun sürən məşqlər",
+      "MM rəisinin rəhbərliyi altında keçirilən məşğələlər",
+      "Yüksək biliyə malik mütəxəssislərin keçdiyi məşğələlər"
+    ],
+    "correctAnswer": "Yüksək səviyyədə keçirilən obyekt kompleks təlimləri"
+  },
+  {
+    "question": "Obyekt təliminin keçirilməsi barədə qərarı qəbul edilir:",
+    "options": [
+      "Rayon MM rəisi",
+      "Obyektin MM rəisi",
+      "Obyektin MM qərargah rəisi",
+      "Obyektin MM dəstəsinin komandiri",
+      "Birbaşa baş nazir"
+    ],
+    "correctAnswer": "Rayon MM rəisi"
+  },
+  {
+    "question": "Mənəvi-psixoloji keyfiyyətlərin aşılanmasında kimin şəxsi nümunəsi vacibdir?",
+    "options": [
+      "Dəstə komandirinin",
+      "Obyekt MM rəisinin",
+      "MM qərargah rəisinin",
+      "Rayon MM rəisinin",
+      "Dəstədə olan kəşfiyyatçıların"
+    ],
+    "correctAnswer": "Dəstə komandirinin"
+  },
+  {
+    "question": "Nüvə zərbələrinin vurulması ehtimalı böyükdür?",
+    "options": [
+      "İri yaşayış məntəqələrinə, sənaye mərkəzlərinə",
+      "Hərbi dəstələr yerləşən ərazilərə",
+      "Qida sənayesi müəssisələri yerləşən yaşayış məntəqələrinə",
+      "Ağir sənaye müəssisələri yerləşən məntəqələrə",
+      "Köçürülən əhali yerləşən ərazilərə"
+    ],
+    "correctAnswer": "İri yaşayış məntəqələrinə, sənaye mərkəzlərinə"
+  },
+  {
+    "question": "İri şəhərlərin və sənaye  mərkəzlərinin zədələnməsi təhlükəsi zərurət yaradır:",
+    "options": [
+      "Sənaye obyektlərinin iş sabitliyinin yüksədilməsini",
+      "Fəhlə və qulluqçuların əmək şəraitinin yaxşılaşdırılmasını",
+      "Hava hücumundan yerli müdafiə dəstələrinin yaradılmasını",
+      "Əhali üçün radiasiya əleyhinə daldanacaqların inşasını",
+      "Düşmənə zərbə vurmaq üçün vasitələrin istehsalını"
+    ],
+    "correctAnswer": "Sənaye obyektlərinin iş sabitliyinin yüksədilməsini"
+  },
+  {
+    "question": "Obyektin iş sabitliyinin qiymətləndirilməsinə nədən başlamaq lazımdır?",
+    "options": [
+      "Obyekt yerləşən rayonun ərazisindən",
+      "Qonşu obyektlərin istehsal xüsusiyyətindən",
+      "Obyektin istehsal xüsusiyyətindən",
+      "Obyektdə işləyən işçilərin sayından",
+      "Obyektin istehsal edəcəyi məhsulun növündən"
+    ],
+    "correctAnswer": "Obyekt yerləşən rayonun ərazisindən"
+  },
+  {
+    "question": "Sənaye obyektlərinin əsas elementləri:",
+    "options": [
+      "Bina və qurğular",
+      "Obyektin material təchizatı",
+      "Obyektdə yerləşən sığınacaq və daldanacaqlardır",
+      "Obyektin su tutumları",
+      "Obyekt işçiləri"
+    ],
+    "correctAnswer": "Bina və qurğular"
+  },
+  {
+    "question": "Obyektin iş sabitliyini qiymətləndirir:",
+    "options": [
+      "Obyektin rəhbəri, MM qərargah rəisi, baş mütəxəssislər",
+      "Obyektin baş mühəndisi və sex rəisləri",
+      "Obyektin direktoru",
+      "Mühəndis texniki heyət",
+      "Rayonun MM rəisi"
+    ],
+    "correctAnswer": "Obyektin rəhbəri, MM qərargah rəisi, baş mütəxəssislər"
+  },
+  {
+    "question": "Zərbə dalğasının təsirinə görə iş sabitliyinin qiymətləndirilməsində əsas kriteriya:",
+    "options": [
+      "İzafi təzyiq",
+      "İşıq impulsu",
+      "Barometrik təzyiq",
+      "Zərbə dalğasının önündə mütləq təzyiq",
+      "Şüalanma dozası"
+    ],
+    "correctAnswer": "İzafi təzyiq"
+  },
+  {
+    "question": "Obyektin iş sabitliyinin qiymətləndirilməsi aparılır:",
+    "options": [
+      "Nüvə partlayışının zədələyici amillərinin təsirinə görə",
+      "Nüvə partlayışının zərbə dalğasının təsirinə görə",
+      "Nüvə partlayışının işıq şüalanmasının təsirinə görə",
+      "Nüvə partlayışının nüfuzedici radiasiyanın",
+      "Kütləvi qırğın silahlarının təsirinə görə"
+    ],
+    "correctAnswer": "Nüvə partlayışının zədələyici amillərinin təsirinə görə"
+  },
+  {
+    "question": "İşıq şüalanmasının təsirinə görə obyektin iş sabitliyinin   \tqiymətləndirilməsində əsas kriteriya:",
+    "options": [
+      "İşıq impulsu",
+      "Şüalanma dozası",
+      "Radiasiya səviyyəsi",
+      "Trotil ekvivalent",
+      "İşıq impulsu və şülanma dozası"
+    ],
+    "correctAnswer": "İşıq impulsu"
+  },
+  {
+    "question": "Nüfuzedici  radiasiyanın təsirinə görə obyektin iş sabitliyinin \tqiymətləndirilməsində əsas kriteriya:",
+    "options": [
+      "Radiasiya səviyyəsi və doza",
+      "Radiasiya dozası və işıq impulsu",
+      "Radiasiya səviyyəsi və trotil əmsalı",
+      "Partlayış gücü",
+      "Nüfuzedici şüalanma"
+    ],
+    "correctAnswer": "Radiasiya səviyyəsi və doza"
+  },
+  {
+    "question": "Obyektlərin iş sabitliyinin yüksəldilməsinə başlanır:",
+    "options": [
+      "Əmin-amanlıq dövründə",
+      "Basqın təhlükəsi yarandıqda",
+      "Müharibə başladıqda",
+      "Müharibənin ilk dövründə",
+      "Obyekt tikildikdən sonra"
+    ],
+    "correctAnswer": "Əmin-amanlıq dövründə"
+  },
+  {
+    "question": "Obyektin iş sabitliyinin yüksəldilməsinə daxildir:",
+    "options": [
+      "Mühəndis-texniki, texnoloji, təşkilatı tədbirlər",
+      "Mühəndis-texniki tədbirlər",
+      "Mühəndis-texniki, təşkilatı tədbirlər",
+      "Texnoloji, təşkilatı tədbirlər",
+      "Texniki, texnoloji"
+    ],
+    "correctAnswer": "Mühəndis-texniki, texnoloji, təşkilatı tədbirlər"
+  },
+  {
+    "question": "Obyektin iş sabitliyinin yüksəldilməsi üçü ən vacib tədbir:",
+    "options": [
+      "Mühəndis-texniki",
+      "Texnoloji-baxış",
+      "Təşkilati-inzibati",
+      "Keyfiyyətli məhsul istehsalı",
+      "Keyfiyyətli xammalla təchizat"
+    ],
+    "correctAnswer": "Mühəndis-texniki"
+  },
+  {
+    "question": "Tezalışan mayelər saxlanılan qurğuları:",
+    "options": [
+      "Torpaq sədlə əhatəyə alırlar",
+      "Şəhərdən uzaq ərazidə saxlayırlar",
+      "Su tutumlarına yaxın yerdə saxlayırlar",
+      "Yalnız yerin altında saxlayırlar",
+      "İzolyasiya edirlər"
+    ],
+    "correctAnswer": "Torpaq sədlə əhatəyə alırlar"
+  },
+  {
+    "question": "Obyektin elektrik təchizatının sabitliyini yüksəltmək üçün:",
+    "options": [
+      "Obyekt 2 və daha çox mənbədən qidalanır",
+      "Elektik xətləri güclü izolyasiya olunur",
+      "Obyekti qidalandıran mənbənin gücü artırılır",
+      "Obyektin ümumi iş sabitliyi yüksəldilir",
+      "Transformator ehtimal edilən partlayış zonasından kənarda quraşdırılır"
+    ],
+    "correctAnswer": "Obyekt 2 və daha çox mənbədən qidalanır"
+  },
+  {
+    "question": "Obyektin qaz təchizatının sabitliyini yüksəltmək üçün:",
+    "options": [
+      "Qaz təchizatı sistemi qapalı çəkilir",
+      "Qaz təchizatı sistemi şaxəli çəkilir",
+      "Obyekt qaz paylayıcı stansiya yaxında inşa olunur",
+      "Əlavə tənzimləyici qurğu quraşdırılır",
+      "Qazın təzyiqi yüksəldilir"
+    ],
+    "correctAnswer": "Qaz təchizatı sistemi qapalı çəkilir"
+  },
+  {
+    "question": "Obyektin su təchizatının sabitliyini yüksəltmək üçün:",
+    "options": [
+      "Əsas və ehtiyat su təchizatı mənbələri yaradılır",
+      "Əsas su təchizatı mənbəyi kimi artezian sularından istifadə olunur",
+      "Su kəmərlərinin zədələnməsinin qarşısı alınır",
+      "Obyektdə böyük tutumlu su qülləsi inşa olunur",
+      "Su təchizatı sistemi şaxəli çəkilir"
+    ],
+    "correctAnswer": "Əsas və ehtiyat su təchizatı mənbələri yaradılır"
+  },
+  {
+    "question": "Obyektin buxar təchizatının sabitliyini yüksəltmək üçün:",
+    "options": [
+      "Buxar kəmərləri yeraltı çəkilir",
+      "Buxar mənbəyi kimi İEM-dən istifadə olunur",
+      "Buxar mənbəyi kimi suqızdırıcı qazanlar quraşdırılır",
+      "Buxar qazanları möhkəm binalarda yerləşdirilir",
+      "Buxar istilikdəyişdirici aparatda istehsal olunur"
+    ],
+    "correctAnswer": "Buxar kəmərləri yeraltı çəkilir"
+  },
+  {
+    "question": "Mülki müdafiə qüvvələrinin yaradılmasında məqsəd:",
+    "options": [
+      "Xilasetmə və DTİ-lərin görülməsi",
+      "Əhalini MQV-dən mühafizə etmək",
+      "Əhalini istehsal qəzalarından mühafizə",
+      "Əhalini təbii fəlakətlərdən mühafizə etmək",
+      "Əhalinin köçürülməsini təmin etmək"
+    ],
+    "correctAnswer": "Xilasetmə və DTİ-lərin görülməsi"
+  },
+  {
+    "question": "Mülki müdafiə qüvvələrinin əsasını təşkil edir:",
+    "options": [
+      "Şəxsi heyət və müasir texnika",
+      "MM qərargahı və xidmətlər",
+      "MM rəisi və qərargahı",
+      "Kəşfiyyatçılar və pirotexniklər",
+      "Müasir hərbi texnikanı bilən mütəxəssislər"
+    ],
+    "correctAnswer": "Şəxsi heyət və müasir texnika"
+  },
+  {
+    "question": "Suvurma mexanizmlərinə aiddir:",
+    "options": [
+      "Motopompa, nasos",
+      "Nasos, bucurqad",
+      "Su maşını, nasos",
+      "Motopompa, mühərriklər",
+      "Nasos, bucurqad"
+    ],
+    "correctAnswer": "Motopompa, nasos"
+  },
+  {
+    "question": "Metalları kəsmək üçün avadanlıqlara aiddidr:",
+    "options": [
+      "Benzinləkəsən, kerosinləkəsən və s.",
+      "Qaynaq aparatı, bezinləkəsən, blok",
+      "Elektrik qaynaq aparatı, bucurqad",
+      "Qaz qaynaq aparatı, qaz balonu",
+      "Deşici cəkic, qaynaq aparatı və s."
+    ],
+    "correctAnswer": "Benzinləkəsən, kerosinləkəsən və s."
+  },
+  {
+    "question": "K-51 tipli kerosinləkəsən hansı qalınlıqda poladı kəsə bilər?",
+    "options": [
+      "200 mm",
+      "250 mm",
+      "300 mm",
+      "350 mm",
+      "400 mm"
+    ],
+    "correctAnswer": "200 mm"
+  },
+  {
+    "question": "K-51 tipli kerosinləkəsən 1 dəqiqədə hansı qalınlıqda poladı kəsə bilər?",
+    "options": [
+      "75-100 mm",
+      "100-150mm",
+      "125 mm",
+      "200 mm",
+      "250 mm"
+    ],
+    "correctAnswer": "75-100 mm"
+  },
+  {
+    "question": "Kompressor stansiyalarının komplektinin əsasını təşkil edir:",
+    "options": [
+      "Deşici və sındırıcı çəkic",
+      "Hər cür cəkic",
+      "Bucurqad və motopompa",
+      "Nasos və motopompa",
+      "Qaz paylayıcı stansiyaların avadanlıqları"
+    ],
+    "correctAnswer": "Deşici və sındırıcı çəkic"
+  },
+  {
+    "question": "Pnevmatik alətlərin işinin təmin olunmasına xidmət edir:",
+    "options": [
+      "Kompressor stansiyaları",
+      "Hidravlik qurğular",
+      "Ventilyatorlar",
+      "Ventilyasiya-süzgəc qurğuları",
+      "Sığınacağın divarını deşən cəkic"
+    ],
+    "correctAnswer": "Kompressor stansiyaları"
+  },
+  {
+    "question": "Mülki müdafiə qruplarının tərkibi müəyyən olunur:",
+    "options": [
+      "Görüləcək işlərin həcm və xüsusiyyətlərinə görə",
+      "Xilasetmə işləri görüləcək obyektin binalarının sayina görə",
+      "Dəstə üzvlərinin daşınması üçün vasitələrin növünə görə",
+      "Obyektin istehsal etdiyi məhsulun həcm və xüsusiyyətlərinə görə",
+      "Görüləcək işlərin iqtisadi-texniki göstəricilərinə görə"
+    ],
+    "correctAnswer": "Görüləcək işlərin həcm və xüsusiyyətlərinə görə"
+  },
+  {
+    "question": "MM dəstələrinin şəhərdənkənar zonaya çıxarılması həyata keçirilir:",
+    "options": [
+      "Basqın təhlükəsi yarandıqda xüsusi göstəriş üzrə",
+      "Obyekt rəisinin xüsusi göstərişi üzrə",
+      "Yalnız obyekt təlimləri keçirildikdə",
+      "Əmin-amanlıq dövründə basqın təhlükəsi olmadıqda",
+      "Hava həyəcanı siqnalı verilən kimi"
+    ],
+    "correctAnswer": "Basqın təhlükəsi yarandıqda xüsusi göstəriş üzrə"
+  },
+  {
+    "question": "MM dəstələri toplanış rayonuna yola düşür:",
+    "options": [
+      "\"Hava həyəcanı qurtardı\" siqnalından sonra",
+      "\"Hava həyəcanı\" siqnalında",
+      "\"Radiasiya təhlükəsi\" siqnalında",
+      "\"Kimya həyəcanı\" siqnalında",
+      "Gecə saatlarında işıq siqnallarını gizləməklə"
+    ],
+    "correctAnswer": ""
+  },
+  {
+    "question": "MM dəstələrinin şəxsi heyəti xilasetmə işləri görmək üçün şəhərə daşınır:",
+    "options": [
+      "Nəqliyyat vasitələri ilə",
+      "Yalnız su yolu ilə",
+      "Yalnız qatarla",
+      "Təyyarə ilə",
+      "Araba ilə"
+    ],
+    "correctAnswer": "Nəqliyyat vasitələri ilə"
+  },
+  {
+    "question": "Iri şəhərlərin və sənaye mərkəzlərinin zədələnməsi təhlükəsi zərurət yaradır:",
+    "options": [
+      "Obyektlərin iş sabitliyinin yüksəldilməsi",
+      "Işçilərin əmək şəraitinin yaxşılaşdırılması",
+      "Çoxlu tank istehsal olunmasını",
+      "Tüfəng istehsal olunmasını",
+      "Təyyarə istehsalının güçləndirilməsini"
+    ],
+    "correctAnswer": "Obyektlərin iş sabitliyinin yüksəldilməsi"
+  },
+  {
+    "question": "Obyekt təliminin keçirilməsi barədə qərar qəbul edir:",
+    "options": [
+      "Rayon MM rəisi",
+      "Obyektin rəhbəri",
+      "Obyektin baş mühəndisi",
+      "Baş nazir",
+      "Prezident"
+    ],
+    "correctAnswer": "Rayon MM rəisi"
+  },
+  {
+    "question": "Pambıqlı-tənzif sarğı mühafizə edir:",
+    "options": [
+      "Tənəffüz üzvlərini",
+      "Gözləri",
+      "Qulaqları",
+      "Əlləri",
+      "Dərini"
+    ],
+    "correctAnswer": "Tənəffüz üzvlərini"
+  },
+  {
+    "question": "Yürüş zamanı MM dəstələrində avtomobillər arasında məsafə:",
+    "options": [
+      "25-50 m",
+      "Azı 100-200 km",
+      "1 km",
+      "Azı 300 km",
+      "Çoxu 10 m"
+    ],
+    "correctAnswer": "25-50 m"
+  },
+  {
+    "question": "Əhalinin MQV-dən mühafizəsinin neçə üsulu vardır?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "Şəhər MM-in rabitə xidməti rəisi kimdir?",
+    "options": [
+      "Rabitə idarəsinin rəisi",
+      "Mülki müdafiə rəisi",
+      "MM-in qərargah rəisi",
+      "İcra başçısının müavini",
+      "Müəssisə rəhbəri"
+    ],
+    "correctAnswer": "Rabitə idarəsinin rəisi"
+  },
+  {
+    "question": "Şəhər MM-in ictimai asayişi mühafizə xidmətinin rəisi kimdir?",
+    "options": [
+      "Polis rəisi",
+      "Mülki müdafiə rəisi",
+      "MM-in qərargah rəisi",
+      "İcra başçısının müavini",
+      "Obyektin rəhbəri"
+    ],
+    "correctAnswer": "Polis rəisi"
+  },
+  {
+    "question": "Şəhər MM-in yanğın əleyhinə xidmətin rəisi kimdir?",
+    "options": [
+      "Yanğından mühafizə idarəsinin rəisi",
+      "Şəhər MM rəisi",
+      "MM-in qərargah rəisi",
+      "FHN-nin şöbə müdiri",
+      "Obyekt rəisi"
+    ],
+    "correctAnswer": "Yanğından mühafizə idarəsinin rəisi"
+  },
+  {
+    "question": "Şəhər MM-in tibbi xidməti rəisi kimdir?",
+    "options": [
+      "Səhiyyə idarəsinin rəisi",
+      "Şəhər MM rəisinin müavini",
+      "MM-in qərargah rəisi",
+      "FHN-nin idarə rəisi",
+      "Obyekt rəisi"
+    ],
+    "correctAnswer": "Səhiyyə idarəsinin rəisi"
+  },
+  {
+    "question": "1 Rentgen doza 1 sm3 havada yaradır:",
+    "options": [
+      "2 mlrd cüt ion",
+      "3 mlrd cüt ion",
+      "2 mln cüt ion",
+      "0.5 mlrd cüt ion",
+      "1.5 mlrd cüt ion"
+    ],
+    "correctAnswer": "2 mlrd cüt ion"
+  },
+  {
+    "question": "2 Rentgen doza 1 sm3 havada yaradır:",
+    "options": [
+      "4 mlrd cüt ion",
+      "2 mlrd cüt ion",
+      "3 mlrd cüt ion",
+      "5 mln cüt ion",
+      "2 mln cüt ion"
+    ],
+    "correctAnswer": "4 mlrd cüt ion"
+  },
+  {
+    "question": "3 Rentgen doza 1 sm3 havada yaradır:",
+    "options": [
+      "6 mlrd cüt ion",
+      "2 mlrd cüt ion",
+      "2 mln cüt ion",
+      "3 mln cüt ion",
+      "3 mlrd cüt ion"
+    ],
+    "correctAnswer": "6 mlrd cüt ion"
+  },
+  {
+    "question": "4 Rentgen doza 1 sm3 havada yaradır:",
+    "options": [
+      "8 mlrd cüt ion",
+      "8 mln cüt ion",
+      "2 mlrd cüt ion",
+      "4 mlrd cüt ion",
+      "5 mlrd cüt ion"
+    ],
+    "correctAnswer": "8 mlrd cüt ion"
+  },
+  {
+    "question": "10-20 nəfərlik səngərdə neçə giriş yolu qoyulur?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "1"
+  },
+  {
+    "question": "50 nəfərlik səngərdə neçə giriş yolu qoyulur?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "40 nəfərlik səngərdə neçə giriş yolu qoyulur?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "Ən sadə daldalanacağa aiddir:",
+    "options": [
+      "Səngərlər",
+      "Radiasiya əleyhinə daldalanacaqlar",
+      "Kiçik sığınacaqlar",
+      "Suyu qurtarmış quyular",
+      "Yalnız örtülü səngərlər"
+    ],
+    "correctAnswer": "Səngərlər"
+  },
+  {
+    "question": "Açıq səngər zərbə dalğasını neçə dəfə azaldır?",
+    "options": [
+      "1,5-2",
+      "3-4",
+      "10-12",
+      "4,5-5",
+      "7-10"
+    ],
+    "correctAnswer": "1,5-2"
+  },
+  {
+    "question": "Açıq səngər işıq şüalanmasını neçə dəfə azaldır?",
+    "options": [
+      "1,5-2",
+      "3-4",
+      "2-5",
+      "5-7",
+      "Azaltmır"
+    ],
+    "correctAnswer": "1,5-2"
+  },
+  {
+    "question": "Açıq səngər nüfuzedici radiasiyanı neçə dəfə azaldır?",
+    "options": [
+      "1,5-2",
+      "2-3",
+      "2-5",
+      "3-5",
+      "Azaltmır"
+    ],
+    "correctAnswer": "1,5-2"
+  },
+  {
+    "question": "Açıq səngər ərazinin radioaktiv çirklənməsi nəticəsində adamların şüalanma imkanını neçə dəfə azaldır?",
+    "options": [
+      "2-3",
+      "3-5",
+      "10-12",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "2-3"
+  },
+  {
+    "question": "Açıq səngər dezaktivasiya edildikdən sonra adamların şüalanma imkanı neçə dəfə azalar?",
+    "options": [
+      "20",
+      "5",
+      "3",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "Örtülü səngər işıq şüalanmasını neçə dəfə azaldar?",
+    "options": [
+      "Tam mühafizə",
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "correctAnswer": "Tam mühafizə"
+  },
+  {
+    "question": "Örtülü səngər nüfuzedici radiasiyanı neçə dəfə azaldar?",
+    "options": [
+      "200-300",
+      "2-5",
+      "1000",
+      "20",
+      "10"
+    ],
+    "correctAnswer": "200-300"
+  },
+  {
+    "question": "Örtülü səngər radioaktiv şüalanmanı neçə dəfə azaldar?",
+    "options": [
+      "200-300",
+      "20-30",
+      "40-50",
+      "10-15",
+      "Azaltmaz"
+    ],
+    "correctAnswer": "200-300"
+  },
+  {
+    "question": "Səngəri binadan ən azı hansı məsafədə tikmək lazımdır?",
+    "options": [
+      "7 m",
+      "20 m",
+      "5 m",
+      "10 m",
+      "15 m"
+    ],
+    "correctAnswer": "7 m"
+  },
+  {
+    "question": "Örtülü səngər hansı dərinlikdə qazılmalıdır?",
+    "options": [
+      "2 m",
+      "1,2 m",
+      "2,5 m",
+      "3 m",
+      "1 m"
+    ],
+    "correctAnswer": "2 m"
+  },
+  {
+    "question": "Açıq səngər hansı dərinlikdə qazılmalıdır?",
+    "options": [
+      "170-180 sm",
+      "100-120 sm",
+      "2,5 m",
+      "220 sm",
+      "230 sm"
+    ],
+    "correctAnswer": "170-180 sm"
+  },
+  {
+    "question": "Səngərin  üstdən eni nə qədər olmalıdır?",
+    "options": [
+      "110-120 sm",
+      "80-90 sm",
+      "150 sm",
+      "130-140 sm",
+      "1,6 m"
+    ],
+    "correctAnswer": "110-120 sm"
+  },
+  {
+    "question": "Səngərin  dibdə eni nə qədər olmalıdır?",
+    "options": [
+      "80 sm",
+      "50 sm",
+      "40 sm",
+      "1,2 m",
+      "110 sm"
+    ],
+    "correctAnswer": "80 sm"
+  },
+  {
+    "question": "Səngərin uzunluğu adambaşına oturmaq üçün nəzərdə tutulur:",
+    "options": [
+      "0,5-0,6 m",
+      "0,3-0,4 m",
+      "80 sm",
+      "70 sm",
+      "60 sm"
+    ],
+    "correctAnswer": "0,5-0,6 m"
+  },
+  {
+    "question": "Səngərdə 1 adamın uzanması üçün yer nəzərdə tutulur:",
+    "options": [
+      "1,5-1,8 m",
+      "1,3-1,5 m",
+      "1,8-2,2 m",
+      "200 sm",
+      "210 sm"
+    ],
+    "correctAnswer": "1,5-1,8 m"
+  },
+  {
+    "question": "Səngərin dibində düzəldilən oturacağın eni:",
+    "options": [
+      "35 sm",
+      "20 sm",
+      "45 sm",
+      "0,5 m",
+      "0,6 m"
+    ],
+    "correctAnswer": "35 sm"
+  },
+  {
+    "question": "Örtülü səngərə düzəldilən şüvülün diametri:",
+    "options": [
+      "5-7 sm",
+      "2-3 sm",
+      "10-12 sm",
+      "10 sm",
+      "4 sm"
+    ],
+    "correctAnswer": "5-7 sm"
+  },
+  {
+    "question": "Köçürülən əhali özü ilə neçə günlük qida məhsulları götürür?",
+    "options": [
+      "2-3",
+      "1-2",
+      "3-4",
+      "5-6",
+      "7"
+    ],
+    "correctAnswer": "2-3"
+  },
+  {
+    "question": "Nəqliyyatla köçürülən əhali özü ilə neçə kq yük götürə bilər?",
+    "options": [
+      "50",
+      "80",
+      "90",
+      "100",
+      "60"
+    ],
+    "correctAnswer": "50"
+  },
+  {
+    "question": "Süzücü mühafizə paltarı komplektinə hopdurulan pasta məhlulu:",
+    "options": [
+      "OP-7",
+      "PO-8",
+      "OP-12",
+      "OP-5",
+      "OP-14"
+    ],
+    "correctAnswer": "OP-7"
+  },
+  {
+    "question": "Süzücü mühafizə paltarı komplektinə hopdurulan pasta məhlulu:",
+    "options": [
+      "OP-10",
+      "OP-15",
+      "PO-15",
+      "OP-5",
+      "OP-3"
+    ],
+    "correctAnswer": "OP-10"
+  },
+  {
+    "question": "Karantinin mənası nədir?",
+    "options": [
+      "40 gün",
+      "10 gün",
+      "Xəstəlik",
+      "Təhlükə",
+      "Qapama"
+    ],
+    "correctAnswer": "40 gün"
+  },
+  {
+    "question": "Düşmənin basqın təhlükəsi yarandıqda mühüm obyektlərdə idarəetmə təşkil olunur:",
+    "options": [
+      "Müəssisədə və şəhərdənkənar zonada",
+      "Yalnız zonada",
+      "Toplanış köçürmə məntəqələrində",
+      "Aralıq köçürmə məntəqələrində",
+      "Yalnız şəhərdənkənar zonada"
+    ],
+    "correctAnswer": "Müəssisədə və şəhərdənkənar zonada"
+  },
+  {
+    "question": "Mühüm obyektlərin elektrik təhcizatında neçə mənbə olmalıdır?",
+    "options": [
+      "Azı 2",
+      "Azı 3",
+      "3-4",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "Azı 2"
+  },
+  {
+    "question": "Buraz hansı materialdan hazırlanır?",
+    "options": [
+      "Metal, sintetik, bitki",
+      "Yalnız metal",
+      "Yalnız sintetik",
+      "Alüminium və platin",
+      "Yalnız şüvül"
+    ],
+    "correctAnswer": "Metal, sintetik, bitki"
+  },
+  {
+    "question": "Polispast nədir?",
+    "options": [
+      "Ağırlıqqaldıran quruluş",
+      "Qazma aləti",
+      "Partlayıcı maddə",
+      "Pnevmatik alət",
+      "Hidravlik sıxıcı"
+    ],
+    "correctAnswer": "Ağırlıqqaldıran quruluş"
+  },
+  {
+    "question": "Bucurqad nədir?",
+    "options": [
+      "Qaldırıcı və dartıcı maşın",
+      "Yalnız qaldırıcı maşın",
+      "Yalnız dartıcı maşın",
+      "Pnevmatik alət",
+      "Hidravlik alət"
+    ],
+    "correctAnswer": "Qaldırıcı və dartıcı maşın"
+  },
+  {
+    "question": "Motopompa nədir?",
+    "options": [
+      "Yanacaqla işləyən su nasosu",
+      "Elektrik enerjisi ilə işləyən su nasosu",
+      "Həcimli suqızdırıcı",
+      "Axınlı suqızdırıcı",
+      "Ventilyator"
+    ],
+    "correctAnswer": "Yanacaqla işləyən su nasosu"
+  },
+  {
+    "question": "Irritantların insanlara təsir müddəti:",
+    "options": [
+      "1-10 dəq",
+      "30-40 dəq",
+      "1 saat",
+      "2 saat",
+      "1 sutka"
+    ],
+    "correctAnswer": "1-10 dəq"
+  },
+  {
+    "question": "Kimyəvi silahlar taktiki cəhətdən neçə tip olur?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "Təsir sürətinə görə kimyəvi silahlar neçə cür olur?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "Təsir müddətinə görə kimyəvi silahlar neçə cür olur?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "5",
+      "4"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "Kimyəvi silahın tətbiq vasitələri hansılardır?",
+    "options": [
+      "Raket, mərmi, mina",
+      "Yalnız raket",
+      "Yalnız aviasiya bombaları",
+      "Yalnız mərmilər",
+      "Fuqas bombaları və minalar"
+    ],
+    "correctAnswer": "Raket, mərmi, mina"
+  },
+  {
+    "question": "Qadınlar neçə yaşa qədər MM dəstəsi üzvü ola bilərlər?",
+    "options": [
+      "55",
+      "50",
+      "58",
+      "60",
+      "62"
+    ],
+    "correctAnswer": "55"
+  },
+  {
+    "question": "İzafi təzyiqin ölçü vahidi:",
+    "options": [
+      "Paskal",
+      "Nyuton",
+      "Nyuton/m3",
+      "Kq/m",
+      "Ton"
+    ],
+    "correctAnswer": "Paskal"
+  },
+  {
+    "question": "Qadın tibb işçiləri neçə yaşa qədər MM dəstəsi üzvü ola bilərlər?",
+    "options": [
+      "55",
+      "50",
+      "52",
+      "60",
+      "62"
+    ],
+    "correctAnswer": "55"
+  },
+  {
+    "question": "Hansı yaşa qədər uşağı olan qadın tibb işçiləri MM dəstəsi üzvü ola bilməzlər?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "Kişilər neçə yaşından sonra MM dəstəsinə üzv ola bilərlər?",
+    "options": [
+      "18",
+      "16",
+      "17",
+      "19",
+      "24"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "question": "Obyektin MM rəisi kimdir:",
+    "options": [
+      "Obyektin rəhbəri",
+      "Qərargah rəisi",
+      "Obyektin baş mühəndisi",
+      "Sahə naziri",
+      "Icra başçısı"
+    ],
+    "correctAnswer": "Obyektin rəhbəri"
+  },
+  {
+    "question": "AR-in FHN-i yaradıldı:",
+    "options": [
+      "16.12.2005",
+      "16.10.2006",
+      "10.09.2004",
+      "25.04.2006",
+      "05.11.2005"
+    ],
+    "correctAnswer": "16.12.2005"
+  },
+  {
+    "question": "AR-in FHN-nin strukturu təsdiq olunmuşdur :",
+    "options": [
+      "19.04.2006",
+      "21.12.2006",
+      "19.10.2005",
+      "19.04.2007",
+      "04.10.2004"
+    ],
+    "correctAnswer": "19.04.2006"
+  },
+  {
+    "question": "Təbii fəlakətlər bunlardır :",
+    "options": [
+      "Daşqın,sel, zəlzələ, quraqlıq və.s",
+      "Zəlzələ, daşqın partlayış və.s",
+      "Yanğın, daşqın, quraqlıq",
+      "Neft kimya sənayesində partlayışlar",
+      "Zəlzələ yanğın partlayış"
+    ],
+    "correctAnswer": "Daşqın,sel, zəlzələ, quraqlıq və.s"
+  },
+  {
+    "question": "Zəlzələ vaxtı ictimai yerdə olan adamlar nə etməlidir :",
+    "options": [
+      "Vəzifəli şəxslərin göstərişlərinə əməl etməli",
+      "Şəhərdən köçməlidir",
+      "Işə getməli",
+      "Evə tələsməlidir",
+      "Sığınacağa getməli"
+    ],
+    "correctAnswer": "Vəzifəli şəxslərin göstərişlərinə əməl etməli"
+  },
+  {
+    "question": "Daşqın nədir:",
+    "options": [
+      "Təbii fəlakət",
+      "Istehsalat qəzası",
+      "Qəza",
+      "Təbii fəlakət və qəza",
+      "Sel və torpaq sürüşməsi"
+    ],
+    "correctAnswer": "Təbii fəlakət"
+  },
+  {
+    "question": "Daşqına səbəb :",
+    "options": [
+      "Leysan yağışlar, qarın əriməsi",
+      "Iqlimin dəyişməsi",
+      "Sunami baş verməsi",
+      "Suyun donaraq həcmini böyütməsi",
+      "Qar yağması, buz əmələ gəlməsi"
+    ],
+    "correctAnswer": "Leysan yağışlar, qarın əriməsi"
+  },
+  {
+    "question": "Sel nədir :",
+    "options": [
+      "Dağlardan axıb gələn su, qum, daş və.s qarışığı",
+      "Su və inşaat materialları qarışığı",
+      "Leysan yağışlarının yağması",
+      "Buzun sürətlə əriməsi",
+      "Dağ göllərinin həddən artıq dolması"
+    ],
+    "correctAnswer": "Dağlardan axıb gələn su, qum, daş və.s qarışığı"
+  },
+  {
+    "question": "Sel təhlükəsi nə zaman məlum olur :",
+    "options": [
+      "ən çoxu 2saat əvvəl",
+      "Sel gəlməmişdən 1-2 ay qabaq",
+      "1 həftə əvvəl",
+      "Sel gələndən sonra",
+      "Yağışlar yağandan sonra"
+    ],
+    "correctAnswer": "ən çoxu 2saat əvvəl"
+  },
+  {
+    "question": "Kişilər neçə yaşa qədər MM dəstəsi üzvü ola bilərlər?",
+    "options": [
+      "62",
+      "60",
+      "55",
+      "65",
+      "58"
+    ],
+    "correctAnswer": "62"
+  },
+  {
+    "question": "Qar çovğunu haqda xəbərdarlıq alanda :",
+    "options": [
+      "Su, ərzaq, yanacaq ehtiyatı görmək",
+      "Təhlükəsiz yerə köçmək",
+      "Avtomobilə minmək",
+      "Sığınacaqa girmək",
+      "Qarı təmizləmək"
+    ],
+    "correctAnswer": "Su, ərzaq, yanacaq ehtiyatı görmək"
+  },
+  {
+    "question": "150 R şüalanma dozasında adamda hansı şüa xəstəliyi yaranır?",
+    "options": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "Yaranmır"
+    ],
+    "correctAnswer": "I"
+  },
+  {
+    "question": "Istehsalat qəzalarına aiddir :",
+    "options": [
+      "Yanğın, partlayış, bəndlərin uçması və.s",
+      "Torpaq sürüşməsi, yanğın, partlayış və.s",
+      "Bəndlərin uçması, marxal",
+      "Zəlzələ, sunami, partlayış, yanğın və.s",
+      "Daşqın, sel, partlayış və.s"
+    ],
+    "correctAnswer": "Yanğın, partlayış, bəndlərin uçması və.s"
+  },
+  {
+    "question": "1 kq uranın nüvələri parçalandıqda əmələ gələn enerji:",
+    "options": [
+      "84 mln. MC",
+      "184 min MC",
+      "84 kC",
+      "1500 C",
+      "100 kC"
+    ],
+    "correctAnswer": "84 mln. MC"
+  },
+  {
+    "question": "230 R şüalanma dozasında adamda hansı şüa xəstəliyi yaranır?",
+    "options": [
+      "II",
+      "I",
+      "III",
+      "IV",
+      "Yaranmır"
+    ],
+    "correctAnswer": "II"
+  },
+  {
+    "question": "350 R şüalanma dozasında adamda hansı şüa xəstəliyi yaranır?",
+    "options": [
+      "III",
+      "II",
+      "I",
+      "IV",
+      "0"
+    ],
+    "correctAnswer": "III"
+  },
+  {
+    "question": "400 R şüalanma dozasında adamda hansı şüa xəstəliyi yaranır?",
+    "options": [
+      "III",
+      "II",
+      "I",
+      "0",
+      "IV"
+    ],
+    "correctAnswer": "III"
+  },
+  {
+    "question": "620 nəfəri hansı sığınacağa yerləşdirmək olar?",
+    "options": [
+      "Böyük",
+      "Kiçik",
+      "Orta",
+      "Çox iri",
+      "Fərqi yoxdur"
+    ],
+    "correctAnswer": "Böyük"
+  },
+  {
+    "question": "310 R doza hansı radioaktiv çirklənmə zonasına aiddir?",
+    "options": [
+      "A",
+      "B",
+      "V",
+      "C",
+      "Q"
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Hündürlükdə partlayış baş verir :",
+    "options": [
+      "Yerdən azı 10 km yüksəklikdə",
+      "Troposferdə",
+      "Yerdən 5 km uzaqlıqda",
+      "Suyun üstündə",
+      "Yerin altında"
+    ],
+    "correctAnswer": "Yerdən azı 10 km yüksəklikdə"
+  },
+  {
+    "question": "Nüvə partlayışının epimərkəzi haradır:",
+    "options": [
+      "Yerin üstündə",
+      "Havada",
+      "Suyun üstündə",
+      "Yerdən 5 km hündürlükdə",
+      "Suyun altında"
+    ],
+    "correctAnswer": "Yerin üstündə"
+  },
+  {
+    "question": "Yerüstü nüvə partlayışında hansı zədələyici amillər əmələ gəlir :",
+    "options": [
+      "Bütün zədələyici amillər",
+      "Işıq şüalanması, zərbə dalğası",
+      "Zərbə dalğası, elektromaqnit impulsu",
+      "Elektromaqnit impulsundan başqa bütün amillər",
+      "Işıq şüalanmasından başqa bütün amillər"
+    ],
+    "correctAnswer": "Bütün zədələyici amillər"
+  },
+  {
+    "question": "500 R doza hansı radioaktiv çirklənmə zonasına aiddir?",
+    "options": [
+      "B",
+      "A",
+      "C",
+      "V",
+      "Q"
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "1500 R doza hansı radioaktiv çirklənmə zonasına aiddir?",
+    "options": [
+      "V",
+      "A",
+      "B",
+      "Q",
+      "C"
+    ],
+    "correctAnswer": "V"
+  },
+  {
+    "question": "5000 R doza hansı radioaktiv çirklənmə zonasına aiddir?",
+    "options": [
+      "Q",
+      "A",
+      "B",
+      "V",
+      "C"
+    ],
+    "correctAnswer": "Q"
+  },
+  {
+    "question": "PTM-1 tənəffüz üzvlərini  mühafizə edir:",
+    "options": [
+      "Radioaktiv toz və bakterial maddələrdən",
+      "Nüfuzedici radiasiyadan",
+      "Zərbə dalğasından",
+      "Yalnız bakterialardan",
+      "ZM-lərdən"
+    ],
+    "correctAnswer": "Radioaktiv toz və bakterial maddələrdən"
+  },
+  {
+    "question": "40 kPa izafi təzyiq nüvə zədələnmə ocağının hansı dağıntı zonasına aiddir?",
+    "options": [
+      "Güclü",
+      "Orta",
+      "Tam",
+      "Zəif",
+      "Mülayim"
+    ],
+    "correctAnswer": "Güclü"
+  },
+  {
+    "question": "Nüvə partlayışında yaranan odlu kürənin səthində temperatur nə qədər olur ?",
+    "options": [
+      "8000-10000",
+      "5000-6000",
+      "12000",
+      "2000",
+      "7000"
+    ],
+    "correctAnswer": "8000-10000"
+  },
+  {
+    "question": "Uçuntuların sökülməsi, təmizlənməsi, daşınması üçün maşın və mexanizimlərə aiddir:",
+    "options": [
+      "Ekskavator,buldozer, avtokran, bucurqad və.s",
+      "Yalnız nasoslar",
+      "Buldozer, kerosinləkəsən və qatar",
+      "Yalnız ekskavator",
+      "Pnevmatikalət, kompressor, gəmi"
+    ],
+    "correctAnswer": "Ekskavator,buldozer, avtokran, bucurqad və.s"
+  },
+  {
+    "question": "kC Yerüstü nüvə partlayışında əmələ gələn çalanın diametri:",
+    "options": [
+      "D=",
+      "H=D/6",
+      "D=42",
+      "D=",
+      "H=D/10"
+    ],
+    "correctAnswer": "D="
+  },
+  {
+    "question": "Yerüstü partlayışda əmələ gələn çalanın dərinliyi:",
+    "options": [
+      "H=(1/6÷1/10)D",
+      "H=D/10",
+      "H=D/20",
+      "q",
+      "H="
+    ],
+    "correctAnswer": "H=(1/6÷1/10)D"
+  },
+  {
+    "question": "Nüfuzedici radiasiya ibarətdir:",
+    "options": [
+      "Qamma şüalar və neytron seli",
+      "Neytron seli,infraqırmızı şüalar",
+      "Qamma şüaları",
+      "Görünən şüalar,neytron seli",
+      "Ultrabənövşəyi şüalar"
+    ],
+    "correctAnswer": "Qamma şüalar və neytron seli"
+  },
+  {
+    "question": "Nüfuzedici radiasiyanı xarakterizə edən parametr:",
+    "options": [
+      "Radiasiya dozası",
+      "Neytron seli",
+      "Zaman",
+      "Izafi təzyiq",
+      "Temperatur"
+    ],
+    "correctAnswer": "Radiasiya dozası"
+  },
+  {
+    "question": "23 kPa izafi təzyiq hansı dağıntı zonasında əmələ gəlir?",
+    "options": [
+      "Orta",
+      "Tam",
+      "Güclü",
+      "Zəif",
+      "Mülayim"
+    ],
+    "correctAnswer": "Orta"
+  },
+  {
+    "question": "20kt-luq nüvə partlayışında işıq şüalanmasının təsir müddəti:",
+    "options": [
+      "3 san",
+      "5 dəq",
+      "85 san",
+      "3 dəq",
+      "1 dəq"
+    ],
+    "correctAnswer": "3 san"
+  },
+  {
+    "question": "Işıq şüalanması adamlarda:",
+    "options": [
+      "Yanıqlar əmələ gətirir",
+      "Şüa xəstəliyi yaradır",
+      "Zəhərlənmə yaradır",
+      "Xəstəliklər yaradır",
+      "Kontuziya yaradır"
+    ],
+    "correctAnswer": "Yanıqlar əmələ gətirir"
+  },
+  {
+    "question": "Ərazinin radioaktiv çirklənməsi səbəbi:",
+    "options": [
+      "Radiokativ maddələrin yerə çökməsidir",
+      "Işıq şüalanmasıdır",
+      "Elektromaqnit impulsu",
+      "Hava nüvə partlayışıdır",
+      "Nüfuzedici radiasiya"
+    ],
+    "correctAnswer": "Radiokativ maddələrin yerə çökməsidir"
+  },
+  {
+    "question": "Ərazinin radioaktiv maddələrlə çirklənməsi xarakterizə olunur :",
+    "options": [
+      "Radiasiya səviyyəsi ilə",
+      "Zaman ilə",
+      "Izafi təzyiq ilə",
+      "Işıq impulsu ilə",
+      "Partlayış gücü ilə"
+    ],
+    "correctAnswer": "Radiasiya səviyyəsi ilə"
+  },
+  {
+    "question": "Zaman keçdikdə radiasiya səviyyəsi:",
+    "options": [
+      "Azalır",
+      "5 dəfə azalır",
+      "3 dəfə artır",
+      "Dəyişmir",
+      "1000 dəfə artır"
+    ],
+    "correctAnswer": "Azalır"
+  },
+  {
+    "question": "Radiasiya səviyyəsinin düşmə düsturu:",
+    "options": [
+      "P=",
+      "P=qt",
+      "P=",
+      "P=",
+      "P="
+    ],
+    "correctAnswer": "P="
+  },
+  {
+    "question": "Elektromaqnit impulsu təsir edir:",
+    "options": [
+      "Radioelektron, elektrik qurğularına",
+      "Adamlara,mayelərə",
+      "Xəstə adamlara",
+      "Hündür binalara",
+      "Sığınacaq və daldanacaqlara"
+    ],
+    "correctAnswer": "Radioelektron, elektrik qurğularına"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağı yaranır:",
+    "options": [
+      "Nüvə silahının tətbiqi zamanı",
+      "Kimyəvi silahdan istifadə zamanı",
+      "Bakterioloji silahın təsiri zamanı",
+      "Xilasetmə rayonlarında",
+      "Nüvə silahı saxlanılan yerdə"
+    ],
+    "correctAnswer": "Nüvə silahının tətbiqi zamanı"
+  },
+  {
+    "question": "15 kPa izafi təzyiq hansı dağıntı zonasına uyğun gəlir?",
+    "options": [
+      "zəif",
+      "orta",
+      "tam",
+      "güclü",
+      "mülayim"
+    ],
+    "correctAnswer": "zəif"
+  },
+  {
+    "question": "70 kPa izafi təzyiq hansı dağıntı zonasına uyğundur?",
+    "options": [
+      "tam",
+      "güclü",
+      "orta",
+      "zəif",
+      "böyük"
+    ],
+    "correctAnswer": "tam"
+  },
+  {
+    "question": "Güclü dağıntı zonasında nüvə zərbə dalğasının izafi təzyiqi:",
+    "options": [
+      "50-30 kPa",
+      "50-40 kPa",
+      "30-20 kPa",
+      "20-10 kPa",
+      "40-20 kPa"
+    ],
+    "correctAnswer": "50-30 kPa"
+  },
+  {
+    "question": "Orta dağıntı zonasında nüvə zərbə dalğasının izafi təzyiqi:",
+    "options": [
+      "30-20 kPa",
+      "50-30 kPa",
+      "40-30 kPa",
+      "100-50 kPa",
+      "20-10 kPa"
+    ],
+    "correctAnswer": "30-20 kPa"
+  },
+  {
+    "question": "Zəif dağıntı zonasında nüvə zərbə dalğasının izafi təzyiqi:",
+    "options": [
+      "20-10 kPa",
+      "30-20 kPa",
+      "40-30 kPa",
+      "100-50 kPa",
+      "100-70 kPa"
+    ],
+    "correctAnswer": "20-10 kPa"
+  },
+  {
+    "question": "Nüvə dağıntı zonası şərti olaraq neçə zonaya bölünür?",
+    "options": [
+      "4 zona",
+      "6 zona",
+      "2 zona",
+      "5 zona",
+      "Bölünmür"
+    ],
+    "correctAnswer": "4 zona"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağının sahəsi hesablanır:",
+    "options": [
+      "S=",
+      "S=",
+      "S=2",
+      "S=",
+      "S=4"
+    ],
+    "correctAnswer": "S="
+  },
+  {
+    "question": "Zədələnmə radisusu 1 km olan nüvə zədələnmə ocağının sahəsi:",
+    "options": [
+      "3.14 km²",
+      "6.28 m²",
+      "15 km²",
+      "1200 m²",
+      "3.14 m²"
+    ],
+    "correctAnswer": "3.14 km²"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağının sahəsi 3.14  olarsa zədələnmə radiusu:",
+    "options": [
+      "1 km",
+      "10 km",
+      "5 km",
+      "100 km",
+      "2 km"
+    ],
+    "correctAnswer": "1 km"
+  },
+  {
+    "question": "Nüvə zədələnmə radiusu 10 km olan nüvə zədələnmə ocağının sahəsi :",
+    "options": [
+      "314 km²",
+      "3.14 km²",
+      "31.4 km²",
+      "1000 m²",
+      "1200 m²"
+    ],
+    "correctAnswer": "314 km²"
+  },
+  {
+    "question": "Nüvə zədələnmə ocağının sahəsi 314 km2 olarsa zədələnmə radiusu :",
+    "options": [
+      "10 km",
+      "1000 km",
+      "1 km",
+      "5 km",
+      "20 km"
+    ],
+    "correctAnswer": "10 km"
+  },
+  {
+    "question": "150 kPa izafi təzyiq hansı dağıntı zonasına uyğundur?",
+    "options": [
+      "Tam",
+      "Güclü",
+      "Orta",
+      "Zəif",
+      "Mülayim"
+    ],
+    "correctAnswer": "Tam"
+  },
+  {
+    "question": "300 kPa izafi təzyiq hansı dağıntı zonasına uyğundur?",
+    "options": [
+      "Tam",
+      "Güclü",
+      "Orta",
+      "Zəif",
+      "Mülayim"
+    ],
+    "correctAnswer": "Tam"
+  },
+  {
+    "question": "1 kt-luq yerüstü nüvə partlayışında əmələ gələn çuxurun diametri:",
+    "options": [
+      "38 m",
+      "58 m",
+      "0,3 m",
+      "1 km",
+      "200 m"
+    ],
+    "correctAnswer": "38 m"
+  },
+  {
+    "question": "1000 t-luq yerüstü nüvə partlayışında əmələ gələn çuxurun diametri:",
+    "options": [
+      "38 m",
+      "98 m",
+      "138 m",
+      "200 m",
+      "10 m"
+    ],
+    "correctAnswer": "38 m"
+  },
+  {
+    "question": "1 Mt-luq yerüstü nüvə partlayışında əmələ gələn çuxurun diametri:",
+    "options": [
+      "380 m",
+      "600 m",
+      "680 m",
+      "50 m",
+      "38 m"
+    ],
+    "correctAnswer": "380 m"
+  },
+  {
+    "question": "1000 kt-luq yerüstü nüvə partlayışında əmələ gələn çuxurun diametri:",
+    "options": [
+      "380 m",
+      "38 m",
+      "76 m",
+      "190 m",
+      "520 m"
+    ],
+    "correctAnswer": "380 m"
+  },
+  {
+    "question": "125 kt-luq yerüstü nüvə partlayışında əmələ gələn çuxurun diametri:",
+    "options": [
+      "190m",
+      "38 m",
+      "76 m",
+      "380 m",
+      "19 m"
+    ],
+    "correctAnswer": "190m"
+  },
+  {
+    "question": "Qəza-çıxış yolunun en kəsik üzrə ölçüləri:",
+    "options": [
+      "90x130 sm",
+      "120x150 sm",
+      "60x150 sm",
+      "80x80 sm",
+      "90x90 sm"
+    ],
+    "correctAnswer": "90x130 sm"
+  },
+  {
+    "question": "Sığınacağın qəza-çıxış yolu başlığının qapısının ölçüləri:",
+    "options": [
+      "0.6x0.8 m",
+      "50x50 sm",
+      "1x1 sm",
+      "100x150 sm",
+      "0.9x1.2 sm"
+    ],
+    "correctAnswer": "0.6x0.8 m"
+  },
+  {
+    "question": "Süzücü ventilyasiya sisteminin iş rejimləri:",
+    "options": [
+      "Təmiz ventilyasiya və süzücü ventilyasiya rejimi",
+      "Yalnız təmiz ventilyasiya rejimində",
+      "Yalnız süzücü ventilyasiya rejimində",
+      "Rejimin dəxli yoxdur",
+      "Yüksək təzyiq rejimi"
+    ],
+    "correctAnswer": "Təmiz ventilyasiya və süzücü ventilyasiya rejimi"
+  },
+  {
+    "question": "Mülayim çirklənmə zonasının (A)  xarici sərhədində radiasiya dozası və səviyyəsi:",
+    "options": [
+      "40 R, 8 R/saat",
+      "1200 R,  240 R/saat",
+      "400 R,  80 R/saat",
+      "240 R, 1200 R/saat",
+      "4000 R, 800 R/saat"
+    ],
+    "correctAnswer": "40 R, 8 R/saat"
+  },
+  {
+    "question": "Güclü çirklənmə zonasının xarici sərhədində radiasiya dozası və səviyyəsi:",
+    "options": [
+      "400 R,80 R/saat",
+      "1200 R,240 R/saat",
+      "400 R,1200 R/saat",
+      "40 R,8 R/saat",
+      "4000 R , 240 R/saat"
+    ],
+    "correctAnswer": "400 R,80 R/saat"
+  },
+  {
+    "question": "Təhlükəli çirklənmə zonasının (V) xarici sərhədində radiasiya dozası və səviyyəsi:",
+    "options": [
+      "1200 R, 240 R/saat",
+      "40 R,80 R/saat",
+      "4000 R,800 R/saat",
+      "240 R/saat ,1200 R",
+      "80 R/saat,400 R"
+    ],
+    "correctAnswer": "1200 R, 240 R/saat"
+  },
+  {
+    "question": "Fövqəladə təhlükəli çirklənmə zonasının (Q)  xarici sərhədində radiasiya dozası və səviyyəsi :",
+    "options": [
+      "800 R/saat,4000R",
+      "1200 R,240 R/saat",
+      "800 R,80 R/saat",
+      "240 R, 8 R/saat",
+      "40 R, 8 R/saat"
+    ],
+    "correctAnswer": "800 R/saat,4000R"
+  },
+  {
+    "question": "Sığınacağın təmiz ventilyasiya rejimində:",
+    "options": [
+      "Hava radioaktiv tozun iri dənələrindən təmizlənir",
+      "Hava ZM-lərdən təmizlənir",
+      "Yalnız bakterial maddələrdən təmizlənir",
+      "Hava təmizlənir",
+      "Içəriyə oksigen verilir"
+    ],
+    "correctAnswer": "Hava radioaktiv tozun iri dənələrindən təmizlənir"
+  },
+  {
+    "question": "Sığınacağın süzücü ventilyasiya rejimində:",
+    "options": [
+      "Hava radioaktiv,zəhərləyici və bakterial maddələrdən təmizlənir",
+      "Hava yalnız radioaktiv maddələrdən təmizlənir",
+      "Yanız his tutulur",
+      "Yalnız temperatur endirilir",
+      "Nəmlik artırılır"
+    ],
+    "correctAnswer": "Hava radioaktiv,zəhərləyici və bakterial maddələrdən təmizlənir"
+  },
+  {
+    "question": "Təmiz ventilyasiya rejimində sığınacağa verilən havanın miqdarı:",
+    "options": [
+      "Hər adama saatda 7-20",
+      "Adambaşına gündə 10",
+      "Ümumi həcm 100",
+      "Hər adama gündə 10000 m3",
+      "Hər adama saatda 2"
+    ],
+    "correctAnswer": "Hər adama saatda 7-20"
+  },
+  {
+    "question": "Süzücü-ventilyasiya rejimində sığınacağa 1 saatda 1 adam üçün verilən hava:",
+    "options": [
+      "2 – 8",
+      "10",
+      "5 -dən az",
+      "20",
+      "2 -dən az"
+    ],
+    "correctAnswer": "2 – 8"
+  },
+  {
+    "question": "Sığınacaqda hava dayağının minimal qiyməti:",
+    "options": [
+      "Azı 50 Pa",
+      "Azı 10 mm su süt",
+      "Ən çoxu 2 mm su süt",
+      "1 kPa",
+      "2 kPa"
+    ],
+    "correctAnswer": "Azı 50 Pa"
+  },
+  {
+    "question": "Köçürülmə yerinə yetirilir:",
+    "options": [
+      "Nəqliyyat vasitələri ilə və piyada",
+      "Yalnız nəqliyyat vasitələri ilə",
+      "Yalnız piyada",
+      "Yalnız avtomobillə",
+      "Yalnız dəmiryolu ilə"
+    ],
+    "correctAnswer": "Nəqliyyat vasitələri ilə və piyada"
+  },
+  {
+    "question": "Adamlarda yüngül zədələnmə zərbə dalğasının hansı izafi təzyiqində yaranır?",
+    "options": [
+      "20-40 kPa",
+      "1 At",
+      "40-60 kPa",
+      "30-40 kPa",
+      "40-50 kPa"
+    ],
+    "correctAnswer": "20-40 kPa"
+  },
+  {
+    "question": "Adamlarda orta zədələnmə zərbə dalğasının hansı izafi təzyiqində yaranır?",
+    "options": [
+      "40-60 kPa",
+      "20-40 kPa",
+      "2 At",
+      "60-80 kPa",
+      "60-100 kPa"
+    ],
+    "correctAnswer": "40-60 kPa"
+  },
+  {
+    "question": "Adamlarda ağır zədələnmə zərbə dalğasının hansı izafi təzyiqində yaranır?",
+    "options": [
+      "60-100 kPa",
+      "40-60 kPa",
+      "80-90 kPa",
+      "100 kPa-dan böyük",
+      "60-80 kPa"
+    ],
+    "correctAnswer": "60-100 kPa"
+  },
+  {
+    "question": "Adamlarda çox ağır zədələnmələr zərbə dalğasının hansı izafı təzyiqində yaranır?",
+    "options": [
+      "100 kPa-dan yüksək",
+      "200 kPa-dan yüksək",
+      "20-50 kPa",
+      "60-100 kPa",
+      "40-60 kPa"
+    ],
+    "correctAnswer": "100 kPa-dan yüksək"
+  },
+  {
+    "question": "Hava zərbə dalğasının təsirinə daha davamlıdır:",
+    "options": [
+      "Metal karkaslı binalar",
+      "Kərpic binalar",
+      "Taxta binalar",
+      "Taxta körpülər",
+      "Pəncərə şüşələri"
+    ],
+    "correctAnswer": "Metal karkaslı binalar"
+  },
+  {
+    "question": "Işıq şüalanmasının təsirindən yaranan yanıqlar neçə dərəcəyə bölünür?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "I dərəcəli yanıq işıq impulsunun hansı qiymətində yaranır?",
+    "options": [
+      "100-200 kC /",
+      "100-300 kC/",
+      "100 kC",
+      "200-300 kC/",
+      "200-400 kC/"
+    ],
+    "correctAnswer": "100-200 kC /"
+  },
+  {
+    "question": "II dərəcəli yanıq işıq impulsunun hansı qiymətində yaranır?",
+    "options": [
+      "200-400kC/",
+      "200-600 kC/",
+      "100-200 kC/",
+      "300kC",
+      "400 kC"
+    ],
+    "correctAnswer": "200-400kC/"
+  },
+  {
+    "question": "III dərəcəli yanıq işıq impulsunun hansı qiymətində yaranır?",
+    "options": [
+      "400-600kC/",
+      "200kC/",
+      "200-400 kC/",
+      "600 kC/",
+      "500 kC/"
+    ],
+    "correctAnswer": "400-600kC/"
+  },
+  {
+    "question": "Şəhərdən kənar zonada şəhərə ən yaxın yerləşir:",
+    "options": [
+      "Seyrədilənlər",
+      "Köçürülən əhali",
+      "Tələbələr",
+      "Qocalar və qadınlar",
+      "Rəhbər işçilər"
+    ],
+    "correctAnswer": "Seyrədilənlər"
+  },
+  {
+    "question": "Köçürmə üçün istifadə olunur:",
+    "options": [
+      "Avtomobil,dəmiryolu,su yolu nəqliyyatından",
+      "Yalnız avtomobildən",
+      "Yalnız su nəqliyyatından",
+      "Yalnız şəxsi avtomobildən",
+      "Təyyarə,vertolyotdan"
+    ],
+    "correctAnswer": "Avtomobil,dəmiryolu,su yolu nəqliyyatından"
+  },
+  {
+    "question": "Şəhərdənkənar zonada şəhərdən ən uzaqda yerləşir:",
+    "options": [
+      "Işləməyən əhali",
+      "Seyrədilənlər",
+      "Fərqi yoxdur",
+      "MM döyüşçüləri",
+      "Dayandırılan müəssisələrin işçiləri"
+    ],
+    "correctAnswer": "Işləməyən əhali"
+  },
+  {
+    "question": "Fərdi mühafizə vasitələri təyinatına görə olur:",
+    "options": [
+      "Tənəffüz üzvlərini və dərini qoruyan",
+      "Süzücü,izoləedici,dərini qoruyan",
+      "Süzücü",
+      "Izoləedici",
+      "Yalnız tənəffüs üzvlərini mühafizə edən"
+    ],
+    "correctAnswer": "Tənəffüz üzvlərini və dərini qoruyan"
+  },
+  {
+    "question": "Hazırlanma üsuluna görə FMV-lər olur:",
+    "options": [
+      "Sənayedə istehsal olunan və sadə vasitələr",
+      "Yalnız sənayedə istehsal olunan",
+      "Yalnız adamların evdə hazırladığı",
+      "Yalnız sexlərdə hazırlanan",
+      "Yalnız MM döyüşçüləri tərəfindən hazırlanan"
+    ],
+    "correctAnswer": "Sənayedə istehsal olunan və sadə vasitələr"
+  },
+  {
+    "question": "Adamların tənəffüs üzvlərini mühafizə edən vasitələrdən ən geniş yayılmışı:",
+    "options": [
+      "Mülkü əleyhqaz",
+      "Izoləedici əleyhqaz",
+      "DP-6 əleyhqazı",
+      "Nimdaş parça",
+      "Yüngül mühafizə kostyumu"
+    ],
+    "correctAnswer": "Mülkü əleyhqaz"
+  },
+  {
+    "question": "Şüalanma dozası nədir?",
+    "options": [
+      "Şüalanma enerjisinin miqdarı",
+      "Radiasiya səviyyəsi",
+      "Çirklənmə dərəcəsi",
+      "Təhlükəli çirklənmə",
+      "Nüfuzedici radiasiya"
+    ],
+    "correctAnswer": "Şüalanma enerjisinin miqdarı"
+  },
+  {
+    "question": "Radioaktiv çirklənmə zonalarının ölçüləri təyin olunur :",
+    "options": [
+      "Cədvəl və radiasiya xətkeşi",
+      "Yalnız düsturla",
+      "Yalnız radiasiya xətkeşi ilə",
+      "Yalnız cədvəlin köməyi ilə",
+      "Yalnız pərgarla"
+    ],
+    "correctAnswer": "Cədvəl və radiasiya xətkeşi"
+  },
+  {
+    "question": "Əhalinin MQV-dən mühafizəsinin neçə üsulu var?",
+    "options": [
+      "3",
+      "6",
+      "2",
+      "5",
+      "4"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "Kiçik ölçülü sığınacaqların tutumu :",
+    "options": [
+      "150 nəfərə qədər",
+      "200 nəfərə qədər",
+      "100 nəfərə qədər",
+      "50 nəfərə qədər",
+      "Fərqi yoxdur"
+    ],
+    "correctAnswer": "150 nəfərə qədər"
+  },
+  {
+    "question": "Orta ölçülü sığınacaqlarda gizlənə bilər:",
+    "options": [
+      "Ən çoxu 450 nəfər",
+      "Ən azı 500 nəfər",
+      "Ən çoxu 100 nəfər",
+      "100-200 nəfər",
+      "Ən azı 70 nəfər"
+    ],
+    "correctAnswer": "Ən çoxu 450 nəfər"
+  },
+  {
+    "question": "Böyük tutumlu sığınacaqlarda gizlənə bilər:",
+    "options": [
+      "450 nəfərdən çox",
+      "Çoxu 400 nəfər",
+      "Azı 100 nəfər",
+      "Çoxu 200 nəfər",
+      "100-300 nəfər"
+    ],
+    "correctAnswer": "450 nəfərdən çox"
+  },
+  {
+    "question": "Süzgəc – ventiliyasiya avadanlıqları ilə təminatına görə sığınacaqlar:",
+    "options": [
+      "2 cür olur",
+      "3 cür olur",
+      "4 cür olur",
+      "1 cür olur",
+      "5 cür olur"
+    ],
+    "correctAnswer": "2 cür olur"
+  },
+  {
+    "question": "Mənəvi-psixoloji keyfiyyətlərin aşılanmasında kimin şəxsi nümunəsi vacibdir:",
+    "options": [
+      "Komandirlərin",
+      "MM qərargah rəisi",
+      "MM rəisinin",
+      "Döyüşçülərin",
+      "Yaşlıların"
+    ],
+    "correctAnswer": "Komandirlərin"
+  },
+  {
+    "question": "Yaşlı əhali üçün mülki əleyhqaz:",
+    "options": [
+      "QP-5, QP-5m, QP-7",
+      "QP-5,QP-5M ,DP-6",
+      "QP-7,QP-5 , İP-46",
+      "İP-46, İP-46M ,DP-6",
+      "R-2 ,İP-46"
+    ],
+    "correctAnswer": "QP-5, QP-5m, QP-7"
+  },
+  {
+    "question": "Izoləedici əleyhqazlara aiddir:",
+    "options": [
+      "İP-4, İP-46 və.s",
+      "QP-4u, QP-5 və.s",
+      "İP-46, DP-6",
+      "R-2,İP-46, DP-6",
+      "İP-4, DP-6"
+    ],
+    "correctAnswer": "İP-4, İP-46 və.s"
+  },
+  {
+    "question": "Süzücü əleyhqazlar ibarətdir:",
+    "options": [
+      "Süzücü-uducu qutu və üzlük hissədən",
+      "Yalnız süzücü uducu qutudan",
+      "Yalnız üzlük hissədən",
+      "Yalnız süzgəcdən",
+      "Tənzif və pambıqdan"
+    ],
+    "correctAnswer": "Süzücü-uducu qutu və üzlük hissədən"
+  },
+  {
+    "question": "Əleyhqazın süzücü uducu qutusunun daxilində silindrilərin sayı:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4",
+      "Yoxdur"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "QP-4 u əleyhqazının maskası neçə ölçüdə olur:",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "QP-5 əleyhqazının maskası neçə ölçüdə olur:",
+    "options": [
+      "5",
+      "6",
+      "2",
+      "4",
+      "8"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "Respirator tənəffüz üzvlərini mühafizə edir:",
+    "options": [
+      "Radioaktiv toz və bakterial maddərdən",
+      "ZM-lərdən",
+      "Radioaktiv tozlardan",
+      "Yalnız bakterial maddələrdən",
+      "Işıq şüalanmasından"
+    ],
+    "correctAnswer": "Radioaktiv toz və bakterial maddərdən"
+  },
+  {
+    "question": "Sığınacaqda 200 nəfər üçün qapıların sayı müəyyən olunur :",
+    "options": [
+      "80x180 sm ölçüsündə 1 qapı",
+      "80x250 sm ölçüsündə 1 qapı",
+      "100x200 sm ölçüsündə 2 qapı",
+      "120x250 sm ölçüsündə 1 qapı",
+      "Norma yoxdur"
+    ],
+    "correctAnswer": "80x180 sm ölçüsündə 1 qapı"
+  },
+  {
+    "question": "Sığınacaqda 300 nəfər üçün qapıların sayı müəyyən olunur:",
+    "options": [
+      "120x200 sm ölçüdə 1 qapı",
+      "120x250 sm ölçüdə 2 qapı",
+      "120x200 sm ölçüdə 3 qapı",
+      "Norma yoxdur",
+      "Cəmi 5 qapı"
+    ],
+    "correctAnswer": "120x200 sm ölçüdə 1 qapı"
+  },
+  {
+    "question": "Zəlzələ hansı formalı zədələnmə ocağına aiddir?",
+    "options": [
+      "Dairəvi",
+      "Xətti",
+      "Üçbucaq",
+      "Dalğavari",
+      "Dördbucaq"
+    ],
+    "correctAnswer": "Dairəvi"
+  },
+  {
+    "question": "Sürüşmə hansı formalı zədələnmə ocağına aiddir?",
+    "options": [
+      "Qeyri-müəyyən",
+      "Xətti",
+      "Dalğavari",
+      "Üçbucaq",
+      "Dördbucaq"
+    ],
+    "correctAnswer": "Qeyri-müəyyən"
+  },
+  {
+    "question": "Yanğınlar hansı formalı zədələnmə ocağına aiddir?",
+    "options": [
+      "Qeyri-müəyyən",
+      "Xətti",
+      "Dairəvi",
+      "Üçbucaq",
+      "Dördbucaq"
+    ],
+    "correctAnswer": "Qeyri-müəyyən"
+  },
+  {
+    "question": "Taxta tikililər küləyin hansı sürətində tamamilə dağılır (m/san) ?",
+    "options": [
+      "49-58",
+      "39-48",
+      "29-38",
+      "19-25",
+      "23-28"
+    ],
+    "correctAnswer": "49-58"
+  },
+  {
+    "question": "Daş binalar küləyin hansı sürətində tamamilə dağılır (m/san) ?",
+    "options": [
+      "70-80",
+      "30-40",
+      "40-50",
+      "20-40",
+      "50-60"
+    ],
+    "correctAnswer": "70-80"
+  },
+  {
+    "question": "Nüvə partlayış enerjisinin təqribən 50%-i sərf olunan zədələyici amil:",
+    "options": [
+      "Zərbə dalğası",
+      "İşıq şüalanması",
+      "Nüfuzedici radiasiya",
+      "Radioaktiv çirklənmə",
+      "Elektromaqnit impulsu"
+    ],
+    "correctAnswer": "Zərbə dalğası"
+  },
+  {
+    "question": "Nüvə partlayış enerjisinin təqribən 35%-i sərf olunan zədələyici amil:",
+    "options": [
+      "İşıq şüalanması",
+      "Nüfuzedici radiasiya",
+      "Zərbə dalğası",
+      "Radioaktiv çirklənmə",
+      "Elektromaqnit impulsu"
+    ],
+    "correctAnswer": "İşıq şüalanması"
+  },
+  {
+    "question": "Nüvə partlayış enerjisinin təqribən 10%-i sərf olunan zədələyici amil:",
+    "options": [
+      "Ərazinin radioaktiv çirklənməsi",
+      "Nüfuzedici radiasiya",
+      "Elektromaqnit impulsu",
+      "İşıq şüalanması",
+      "Zərbə dalğası"
+    ],
+    "correctAnswer": "Ərazinin radioaktiv çirklənməsi"
+  },
+  {
+    "question": "Nüvə partlayış enerjisinin təqribən 4%-i sərf olunan zədələyici amil:",
+    "options": [
+      "Nüfuzedici radiasiya",
+      "İşıq şüalanması",
+      "Zərbə dalğası",
+      "Elektromaqnit impulsu",
+      "Radioaktiv çirklənmə"
+    ],
+    "correctAnswer": "Nüfuzedici radiasiya"
+  },
+  {
+    "question": "Hansı qalınlıqda polad nüfuzedici radiasiyanı 2 dəfə zəiflədir?",
+    "options": [
+      "2,7 sm",
+      "0,5 sm",
+      "27 sm",
+      "1,5 sm",
+      "35 sm"
+    ],
+    "correctAnswer": "2,7 sm"
+  },
+  {
+    "question": "Hansı qalınlıqda beton nüfuzedici radiasiyanı 2 dəfə zəiflədir?",
+    "options": [
+      "10 sm",
+      "25 sm",
+      "5 sm",
+      "1 sm",
+      "2,5 sm"
+    ],
+    "correctAnswer": "10 sm"
+  },
+  {
+    "question": "Hansı qalınlıqda torpaq qatı nüfuzedici radiasiyanı 2 dəfə zəiflədir?",
+    "options": [
+      "14 sm",
+      "35 sm",
+      "5 sm",
+      "60 sm",
+      "70 sm"
+    ],
+    "correctAnswer": "14 sm"
+  },
+  {
+    "question": "Hansı qalınlıqda ağac materialı nüfuzedici radiasiyanı 2 dəfə zəiflədir?",
+    "options": [
+      "30 sm",
+      "70 sm",
+      "12 sm",
+      "54 sm",
+      "65 sm"
+    ],
+    "correctAnswer": "30 sm"
+  },
+  {
+    "question": "İşıq şüası hansı materiallardan keçə bilmir?",
+    "options": [
+      "Qeyri-şəffaf",
+      "Şəffaf",
+      "Yumşaq",
+      "Şüşə",
+      "Plastik"
+    ],
+    "correctAnswer": "Qeyri-şəffaf"
+  },
+  {
+    "question": "İşıq şüalanmasının təsirini qatı duman, qar neçə dəfə zəiflədir?",
+    "options": [
+      "10-20",
+      "20-30",
+      "30-40",
+      "40-50",
+      "50-60"
+    ],
+    "correctAnswer": "10-20"
+  },
+  {
+    "question": "Çox təhlükəli çirklənmə zonasında 1 saatdan sonra radiasiya səviyyəsi olur:",
+    "options": [
+      "800 R/saatdan çox",
+      "240-800 R/saat",
+      "0,8-8 R/saat",
+      "8-80 R/saat",
+      "80-240 R/saat"
+    ],
+    "correctAnswer": "800 R/saatdan çox"
+  },
+  {
+    "question": "Təhlükəli çirklənmə zonasında 1 saatdan sonra radiasiya səviyyəsi olur:",
+    "options": [
+      "240-800 R/saat",
+      "1000 R/saat",
+      "80-240 R/saat",
+      "0,8-8 R/saat",
+      "8-80 R/saat"
+    ],
+    "correctAnswer": "240-800 R/saat"
+  },
+  {
+    "question": "Güclü çirklənmə zonasında 1 saatdan sonra radiasiya səviyyəsi olur:",
+    "options": [
+      "80-240 R/saat",
+      "1200 R/saat",
+      "2400 R/saat",
+      "8-80 R/saat",
+      "240-800 R/saat"
+    ],
+    "correctAnswer": "80-240 R/saat"
+  },
+  {
+    "question": "Mülayim çirklənmə zonasında 1 saatdan sonra radiasiya səviyyəsi olur:",
+    "options": [
+      "8-80 R/saat",
+      "800 R/saat",
+      "80-240 R/saat",
+      "240-800 R/saat",
+      "1200 R/saat"
+    ],
+    "correctAnswer": "8-80 R/saat"
+  },
+  {
+    "question": "Mülki müdafiə üzrə mühazirənin əsasını təşkil edən hissələr:",
+    "options": [
+      "Giriş, əsas, yekun",
+      "Əsas",
+      "Yekun",
+      "Giriş",
+      "Mühazirənin əsasını təşkil edən hissə yoxdur"
+    ],
+    "correctAnswer": "Giriş, əsas, yekun"
+  },
+  {
+    "question": "\"Bunu bilməlidir\" yaddaşı kimlərə şamil olunur?",
+    "options": [
+      "Əhalinin işləməyən təbəqəsinə",
+      "Fəhlələrə",
+      "Dövlət işçilərinə",
+      "Məktəblilərə",
+      "Tələbələrə"
+    ],
+    "correctAnswer": "Əhalinin işləməyən təbəqəsinə"
+  },
+  {
+    "question": "Mülki müdafiədə məşq nədir?",
+    "options": [
+      "Öyrədilən mövzuların bir neçə dəfə təkrarı",
+      "Tələbələrin məsələni yazması",
+      "Tələbələrin tapşırığı təkrar etməməsi",
+      "Mülki müdafiədə məşq mövzunun yazılmasıdır",
+      "Müəllimin tapşırığı izah etməməsi"
+    ],
+    "correctAnswer": "Öyrədilən mövzuların bir neçə dəfə təkrarı"
+  },
+  {
+    "question": "Əhalinin MM üzrə hazırlıqları neçə qrupa bölünür?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "Əhalinin l qrup üzrə təlim proqramına aiddir:",
+    "options": [
+      "Əhalinin təhsil alan hissəsi",
+      "Əhalinin az yaşlı hissəsi",
+      "Əhalinin işləməyən hissəsi",
+      "Əhalinin savadsız hissəsi",
+      "Əhalinin yaşlı hissəsi"
+    ],
+    "correctAnswer": "Əhalinin təhsil alan hissəsi"
+  },
+  {
+    "question": "Əhalinin lll qrup üzrə təlim proqramına aiddir:",
+    "options": [
+      "Əhalinin işləməyən hissəsi",
+      "Əhalinin təhsil alan hissəsi",
+      "Əhalinin işləyən hissəsi",
+      "Əhalinin hərbidə işləyən hissəsi",
+      "əhalinin əlil olan hissəsi"
+    ],
+    "correctAnswer": "Əhalinin işləməyən hissəsi"
+  },
+  {
+    "question": "İşıq şüalanmasının təsirində yanan inşaat materialları neçə qrupa bölünür?",
+    "options": [
+      "3",
+      "6",
+      "4",
+      "2",
+      "0"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "Yanmasına görə inşaat materialları hansı qruplara bölünür?",
+    "options": [
+      "Yanmayan, çətin yanan və yanan",
+      "Yanmayan",
+      "Tüstülənən",
+      "Tez sönən",
+      "Heç bir qrupa bölünmür"
+    ],
+    "correctAnswer": "Yanmayan, çətin yanan və yanan"
+  },
+  {
+    "question": "Obyektə təsir edən təkrar zədələyici amillərə daxildir:",
+    "options": [
+      "Qəza, patlayış, yanğın",
+      "Meşə yanğınları",
+      "İstehsalat qəzaları",
+      "Müəssisədə partlayış",
+      "Zəlzələ"
+    ],
+    "correctAnswer": "Qəza, patlayış, yanğın"
+  },
+  {
+    "question": "Ağırlıq kateqoriyalarına görə fövqəladə hallar hansı əks-səda doğurur?",
+    "options": [
+      "Müxtəlif cür sosial-psixoloji",
+      "Heç bir əks-səda doğurmur",
+      "Psixoloji",
+      "Sosial",
+      "Siyasi"
+    ],
+    "correctAnswer": "Müxtəlif cür sosial-psixoloji"
+  },
+  {
+    "question": "Müxtəlif ağırlıq kateqoriyalarına (dərəcələrinə) görə fövqəladə hallar neçə dərəcəli olur?",
+    "options": [
+      "5",
+      "8",
+      "12",
+      "17",
+      "11"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "Respublikamızda il ərzində neçə kortəbii hadisə baş verir?",
+    "options": [
+      "15-30",
+      "16-17",
+      "12-20",
+      "10-18",
+      "6-9"
+    ],
+    "correctAnswer": "15-30"
+  },
+  {
+    "question": "Hidrometroloji hadisələrə aiddir:",
+    "options": [
+      "Daşqın, sel",
+      "Vulkan püsgürməsi, zəlzələ",
+      "Qasırğa",
+      "Yanğınlar",
+      "İstehsalat qəzası"
+    ],
+    "correctAnswer": "Daşqın, sel"
+  },
+  {
+    "question": "Geoloji xarakterli təbii fəlakətlər hansı proseslər nəticəsində baş verir?",
+    "options": [
+      "Ekzogen və endogen",
+      "Yalnız ekzogen",
+      "Ekoloji",
+      "Yalnız endogen",
+      "Siyasi"
+    ],
+    "correctAnswer": "Ekzogen və endogen"
+  },
+  {
+    "question": "Zəlzələ ocağının dərinliyi seysmik rayonlarda dəyişə bilər:",
+    "options": [
+      "0-700 km-dək",
+      "1-1500 km-dək",
+      "3-1100 km-dək",
+      "0-600 km-dək",
+      "0-1250 km-dək"
+    ],
+    "correctAnswer": "0-700 km-dək"
+  },
+  {
+    "question": "Törəmə zəlzələlər baş verir:",
+    "options": [
+      "İri su bəndlər, su tutumları və s. tikilərkən yaranan təzyiq nəticəsində",
+      "Qrunt suların daşması nəticəsində",
+      "Yeraltı təkanların artması nəticəsində",
+      "Su bəndlərində suyun səviyyəsinin azalması nəticəsində",
+      "Gur yağışların yağması nəticəsində"
+    ],
+    "correctAnswer": "İri su bəndlər, su tutumları və s. tikilərkən yaranan təzyiq nəticəsində"
+  },
+  {
+    "question": "Atmosferdə hava axınları nəticəsində yaranan təhlükələr hansılardır?",
+    "options": [
+      "Güclü küləklər və intensiv yağıntılar",
+      "Dayanmadan yağan qarlar",
+      "Həzin əsən meh",
+      "Yalnız intensiv yağıntılar",
+      "Yeraltı təkanların intensivliyinin artması"
+    ],
+    "correctAnswer": "Güclü küləklər və intensiv yağıntılar"
+  },
+  {
+    "question": "Küləyin dağıdıcı təsiri asılı olur:",
+    "options": [
+      "Küləyin sürətindən",
+      "Yağışın yağmasından",
+      "Atmosferdə nəmliyin çoxluğundan",
+      "Günəşin yandırıcı təsirindən",
+      "Küləyin barometrik təzyiqindən"
+    ],
+    "correctAnswer": "Küləyin sürətindən"
+  },
+  {
+    "question": "Küləyin dağıdıcı təsiri neçə bal gücündə olur?",
+    "options": [
+      "4",
+      "6",
+      "9",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "Respublikamızda kimyəvi təhlükəli obyektlərin sayı:",
+    "options": [
+      "60-dan artıqdır",
+      "70-dən artıqdır",
+      "78-dən artıqdır",
+      "60-dan azdır",
+      "100-dən artıqdır"
+    ],
+    "correctAnswer": "60-dan artıqdır"
+  },
+  {
+    "question": "İzafi təzyiq bərabərdir:",
+    "options": [
+      "Pi = Pmax - PA",
+      "Pi = Pmax",
+      "Pi = PA",
+      "R = Pmax",
+      "Pmax = Pi"
+    ],
+    "correctAnswer": "Pi = Pmax - PA"
+  },
+  {
+    "question": "Xlorsian hansı tempraturdaqaynayır?",
+    "options": [
+      "13o C",
+      "15o C",
+      "20o C",
+      "25o C",
+      "30o C"
+    ],
+    "correctAnswer": "13o C"
+  },
+  {
+    "question": "Xlorsian hansı tempraturda bərkiyir?",
+    "options": [
+      "-7o C",
+      "-10o C",
+      "-13o C",
+      "-20o C",
+      "-30o C"
+    ],
+    "correctAnswer": "-7o C"
+  },
+  {
+    "question": "Difosgen hansı tempraturda qaynayır?",
+    "options": [
+      "128 o C",
+      "140 o C",
+      "130 o C",
+      "142 o C",
+      "150 o C"
+    ],
+    "correctAnswer": "128 o C"
+  },
+  {
+    "question": "İprit neçə dəqiqədən sonra dərinin alt qatlarına keçir?",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "question": "Difosgen havadan neçə dəfə ağırdır?",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13",
+      "15"
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "question": "Sianid turşusunun ərimə tempraturu:",
+    "options": [
+      "-13,3 o C",
+      "-10,5 o C",
+      "8,2 o C",
+      "5,5 o C",
+      "12,2 o C"
+    ],
+    "correctAnswer": "-13,3 o C"
+  },
+  {
+    "question": "Neçə yaşına qədər uşağı olan qadınları MM dəstələrinə cəlb etmirlər?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": "8"
+  }
+]
