@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İmtahan Hazırlıq Proqramı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="start-screen">
+            <h1>İmtahan Hazırlıq Proqramı</h1>
+            <p>Sual bazasından təsadüfi suallar seçiləcək və variantlar qarışdırılacaq.</p>
+            
+            <div class="input-section">
+                <h2>Sualları Yüklə</h2>
+                <p>Sualları JSON formatında yükləyin, .txt faylı yükləyin (avtomatik çevrilər) və ya nümunə sualları istifadə edin:</p>
+                <textarea id="questions-input" placeholder="Sualları JSON formatında daxil edin və ya fayl yükləyin"></textarea>
+                <input type="file" id="file-input" accept=".json,.txt">
+                <button id="load-sample">Nümunə Sualları Yüklə</button>
+            </div>
+            
+            <div class="exam-options">
+                <h2>İmtahan Rejimi</h2>
+                
+                <div class="option-card">
+                    <input type="radio" id="random-50" name="exam-mode" value="random-50" checked>
+                    <label for="random-50">
+                        <h3>Təsadüfi 50 Sual</h3>
+                        <p>Bütün suallar arasından təsadüfi 50 sual seçilir</p>
+                    </label>
+                </div>
+                
+                <div class="option-card">
+                    <input type="radio" id="custom-range" name="exam-mode" value="custom-range">
+                    <label for="custom-range">
+                        <h3>Sual Aralığı Seçimi</h3>
+                        <p>İstədiyiniz sual aralığından təsadüfi seçim</p>
+                        <div class="range-selector">
+                            <div class="range-input-group">
+                                <label for="from-question">Başlanğıc sual:</label>
+                                <input type="number" id="from-question" min="1" value="1">
+                            </div>
+                            <div class="range-input-group">
+                                <label for="to-question">Son sual:</label>
+                                <input type="number" id="to-question" min="1" value="100">
+                            </div>
+                            <div class="range-input-group">
+                                <label for="question-limit">Seçiləcək sual sayı:</label>
+                                <input type="number" id="question-limit" min="10" max="50" value="50">
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="time-settings">
+                <h2>Vaxt Təyini</h2>
+                <div class="time-selector">
+                    <label for="exam-time">İmtahan vaxtı (dəqiqə):</label>
+                    <select id="exam-time">
+                        <option value="5">5 dəqiqə</option>
+                        <option value="10">10 dəqiqə</option>
+                        <option value="15" selected>15 dəqiqə</option>
+                        <option value="20">20 dəqiqə</option>
+                        <option value="30">30 dəqiqə</option>
+                        <option value="45">45 dəqiqə</option>
+                        <option value="60">60 dəqiqə (1 saat)</option>
+                        <option value="90">90 dəqiqə (1.5 saat)</option>
+                        <option value="120">120 dəqiqə (2 saat)</option>
+                        <option value="custom">Fərdi vaxt</option>
+                    </select>
+                    <div class="custom-time-input" style="display: none;">
+                        <label for="custom-time">Fərdi vaxt (dəqiqə):</label>
+                        <input type="number" id="custom-time" min="1" max="300" value="15">
+                    </div>
+                </div>
+            </div>
+            
+            <button id="start-btn" class="primary-btn">İmtahanı Başlat</button>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+            <div class="quiz-header">
+                <h2>İmtahan</h2>
+                <div class="quiz-info">
+                    <span id="timer" class="timer">Vaxt: 15:00</span>
+                    <span id="question-count">Sual sayı: 50</span>
+                </div>
+                <div class="score-info">
+                    <span id="correct-count" class="correct-count">Düzgün: 0</span>
+                    <span id="wrong-count" class="wrong-count">Səhv: 0</span>
+                    <span id="unanswered-count" class="unanswered-count">Qalan: 50</span>
+                </div>
+            </div>
+
+            <div id="questions-container">
+                <!-- Bütün suallar burada göstəriləcək -->
+            </div>
+
+            <div class="controls">
+                <button id="submit-btn" class="primary-btn">İmtahanı Bitir</button>
+            </div>
+        </div>
+
+        <div id="results-screen" class="hidden">
+            <h2>İmtahan Nəticələri</h2>
+            <div class="results-container">
+                <div class="result-item">
+                    <span class="result-label">Ümumi Sual:</span>
+                    <span id="total-questions">50</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Düzgün Cavablar:</span>
+                    <span id="correct-answers">0</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Səhv Cavablar:</span>
+                    <span id="wrong-answers">0</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Boş Buraxılan:</span>
+                    <span id="unanswered">0</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Uğur Faizi:</span>
+                    <span id="success-rate">0%</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Sual Aralığı:</span>
+                    <span id="question-range">Bütün suallar</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">İmtahan Vaxtı:</span>
+                    <span id="exam-duration">15 dəqiqə</span>
+                </div>
+            </div>
+            
+            <div class="review-section">
+                <h3>Sual Baxışı</h3>
+                <div id="review-container">
+                    <!-- Suallar və cavablar burada siyahılanacaq -->
+                </div>
+            </div>
+            
+            <button id="restart-btn" class="primary-btn">Yeni İmtahan Başlat</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
