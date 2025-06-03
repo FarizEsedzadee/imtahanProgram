@@ -47,10 +47,31 @@
                             </div>
                             <div class="range-input-group">
                                 <label for="question-limit">Seçiləcək sual sayı:</label>
-                                <input type="number" id="question-limit" min="10" max="50" value="50">
+                                <input type="number" id="question-limit" min="1" max="500" value="50">
                             </div>
                         </div>
                     </label>
+                </div>
+            </div>
+
+            <div class="feedback-settings">
+                <h2>Cavab Geri Bildirimi</h2>
+                <div class="feedback-options">
+                    <div class="option-card">
+                        <input type="radio" id="immediate-feedback" name="feedback-mode" value="immediate" checked>
+                        <label for="immediate-feedback">
+                            <h3>Dərhal Göstər</h3>
+                            <p>Hər cavabdan sonra düzgün/səhv olduğunu dərhal göstər</p>
+                        </label>
+                    </div>
+                    
+                    <div class="option-card">
+                        <input type="radio" id="end-feedback" name="feedback-mode" value="end">
+                        <label for="end-feedback">
+                            <h3>İmtahan Sonunda Göstər</h3>
+                            <p>Bütün cavabları imtahan bitdikdən sonra göstər</p>
+                        </label>
+                    </div>
                 </div>
             </div>
 
@@ -81,6 +102,11 @@
         </div>
 
         <div id="quiz-screen" class="hidden">
+            <button id="fullscreen-btn" class="fullscreen-btn" title="Tam Ekran">
+                <svg id="fullscreen-icon" viewBox="0 0 24 24">
+                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+                </svg>
+            </button>
             <div class="quiz-header">
                 <h2>İmtahan</h2>
                 <div class="quiz-info">
@@ -133,6 +159,10 @@
                 <div class="result-item">
                     <span class="result-label">İmtahan Vaxtı:</span>
                     <span id="exam-duration">15 dəqiqə</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Geri Bildiriş Rejimi:</span>
+                    <span id="feedback-mode">Dərhal</span>
                 </div>
             </div>
             

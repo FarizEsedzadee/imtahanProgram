@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const questionLimitInput = document.getElementById("question-limit")
   const optionCards = document.querySelectorAll(".option-card")
 
+  const immediateFeedbackRadio = document.getElementById("immediate-feedback")
+  const endFeedbackRadio = document.getElementById("end-feedback")
+
   const examTimeSelect = document.getElementById("exam-time")
   const customTimeInput = document.getElementById("custom-time")
   const customTimeDiv = document.querySelector(".custom-time-input")
@@ -28,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const unansweredCountEl = document.getElementById("unanswered-count")
 
   const submitBtn = document.getElementById("submit-btn")
+  const fullscreenBtn = document.getElementById("fullscreen-btn")
+  const fullscreenIcon = document.getElementById("fullscreen-icon")
 
   const totalQuestionsEl = document.getElementById("total-questions")
   const correctAnswersEl = document.getElementById("correct-answers")
@@ -36,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const successRateEl = document.getElementById("success-rate")
   const questionRangeEl = document.getElementById("question-range")
   const examDurationEl = document.getElementById("exam-duration")
+  const feedbackModeEl = document.getElementById("feedback-mode")
   const reviewContainer = document.getElementById("review-container")
   const restartBtn = document.getElementById("restart-btn")
 
@@ -51,6 +57,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let unansweredCount = 0
   let usedRange = ""
   let examDuration = "15 dəqiqə"
+  let feedbackMode = "immediate" // "immediate" or "end"
+  let feedbackModeText = "Dərhal"
 
   // Sample Questions in Azerbaijani
   const sampleQuestions = [
@@ -110,8 +118,19 @@ document.addEventListener("DOMContentLoaded", () => {
   loadSampleBtn.addEventListener("click", loadSampleQuestions)
   fileInput.addEventListener("change", handleFileUpload)
   startBtn.addEventListener("click", startQuiz)
-  submitBtn.addEventListener("click", submitQuiz)
+  submitBtn.addEventListener("click", () => {
+    // Show confirmation dialog before submitting
+    if (confirm("İmtahanı bitirmək istədiyinizə əminsiniz?")) {
+      submitQuiz()
+    }
+  })
   restartBtn.addEventListener("click", restartQuiz)
+
+  // Fullscreen functionality
+  fullscreenBtn.addEventListener("click", toggleFullscreen)
+
+  // Exit fullscreen when quiz ends
+  document.addEventListener("fullscreenchange", updateFullscreenButton)
 
   // Exam time selection
   examTimeSelect.addEventListener("change", (e) => {
@@ -149,6 +168,13 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
     document.querySelector(".range-selector").style.display = "grid"
     optionCards[1].classList.add("selected")
+  }
+
+  // Initialize feedback mode selection
+  if (immediateFeedbackRadio.checked) {
+    optionCards[2].classList.add("selected")
+  } else {
+    optionCards[3].classList.add("selected")
   }
 
   // Functions
@@ -364,6 +390,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  function getFeedbackMode() {
+    if (immediateFeedbackRadio.checked) {
+      feedbackMode = "immediate"
+      feedbackModeText = "Dərhal"
+    } else {
+      feedbackMode = "end"
+      feedbackModeText = "İmtahan sonunda"
+    }
+  }
+
   function startQuiz() {
     try {
       // Parse questions from input
@@ -384,6 +420,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const examTimeInSeconds = getExamTime()
       if (examTimeInSeconds === null) return
       timeLimit = examTimeInSeconds
+
+      // Get feedback mode
+      getFeedbackMode()
 
       // Determine which mode is selected and how many questions to use
       let questionsToUse = []
@@ -416,8 +455,8 @@ document.addEventListener("DOMContentLoaded", () => {
           return
         }
 
-        if (limit < 10 || limit > 50) {
-          alert("Seçiləcək sual sayı 10 ilə 50 arasında olmalıdır.")
+        if (limit < 1 || limit > 500) {
+          alert("Seçiləcək sual sayı 1 ilə 500 arasında olmalıdır.")
           return
         }
 
@@ -452,6 +491,9 @@ document.addEventListener("DOMContentLoaded", () => {
       // Show quiz screen
       startScreen.classList.add("hidden")
       quizScreen.classList.remove("hidden")
+
+      // Show fullscreen button
+      fullscreenBtn.classList.remove("hidden")
 
       // Show all questions
       showAllQuestions()
@@ -493,24 +535,25 @@ document.addEventListener("DOMContentLoaded", () => {
         optionDiv.classList.add("answer-option")
         optionDiv.dataset.option = option
 
+        const optionContent = document.createElement("div")
+        optionContent.classList.add("answer-option-content")
+        optionContent.textContent = `${String.fromCharCode(65 + optionIndex)}. ${option}`
+
         const radioInput = document.createElement("input")
         radioInput.type = "radio"
         radioInput.name = `question_${questionIndex}`
         radioInput.value = option
         radioInput.id = `q${questionIndex}_o${optionIndex}`
 
-        const label = document.createElement("label")
-        label.htmlFor = `q${questionIndex}_o${optionIndex}`
-        label.textContent = `${String.fromCharCode(65 + optionIndex)}. ${option}`
-
+        optionDiv.appendChild(optionContent)
         optionDiv.appendChild(radioInput)
-        optionDiv.appendChild(label)
 
-        optionDiv.addEventListener("click", () => {
+        // Only add click event to radio input, not the entire option div
+        radioInput.addEventListener("click", (e) => {
+          e.stopPropagation()
+
           // If already answered, do nothing
           if (userAnswers[questionIndex] !== null) return
-
-          radioInput.checked = true
 
           // Mark as answered
           const isCorrect = option === question.correctAnswer
@@ -525,31 +568,55 @@ document.addEventListener("DOMContentLoaded", () => {
           unansweredCount--
           updateCounters()
 
-          // Show correct/incorrect feedback
-          questionItem.classList.add("answered")
-          questionItem.classList.add(isCorrect ? "correct" : "incorrect")
+          if (feedbackMode === "immediate") {
+            // Show immediate feedback
+            questionItem.classList.add("answered")
+            questionItem.classList.add(isCorrect ? "correct" : "incorrect")
 
-          // Add status indicator
-          const statusDiv = document.createElement("div")
-          statusDiv.classList.add("question-status")
-          statusDiv.classList.add(isCorrect ? "correct" : "incorrect")
-          statusDiv.textContent = isCorrect ? "Düzgün" : "Səhv"
-          questionItem.appendChild(statusDiv)
+            // Add status indicator
+            const statusDiv = document.createElement("div")
+            statusDiv.classList.add("question-status")
+            statusDiv.classList.add(isCorrect ? "correct" : "incorrect")
+            statusDiv.textContent = isCorrect ? "Düzgün" : "Səhv"
+            questionItem.appendChild(statusDiv)
 
-          // Highlight correct and selected options
-          const allOptions = answerOptions.querySelectorAll(".answer-option")
-          allOptions.forEach((opt) => {
-            const optionValue = opt.dataset.option
+            // Highlight correct and selected options
+            const allOptions = answerOptions.querySelectorAll(".answer-option")
+            allOptions.forEach((opt) => {
+              const optionValue = opt.dataset.option
 
-            if (optionValue === question.correctAnswer) {
-              opt.classList.add("correct")
-            } else if (optionValue === option && option !== question.correctAnswer) {
-              opt.classList.add("incorrect")
-            }
+              if (optionValue === question.correctAnswer) {
+                opt.classList.add("correct")
+              } else if (optionValue === option && option !== question.correctAnswer) {
+                opt.classList.add("incorrect")
+              }
 
-            // Disable all options
-            opt.classList.add("disabled")
-          })
+              // Disable all options
+              opt.classList.add("disabled")
+            })
+          } else {
+            // Show only that question is answered, no feedback
+            questionItem.classList.add("answered-no-feedback")
+
+            // Add simple answered status
+            const statusDiv = document.createElement("div")
+            statusDiv.classList.add("question-status", "answered")
+            statusDiv.textContent = "Cavablandı"
+            questionItem.appendChild(statusDiv)
+
+            // Just mark as selected and disable
+            const allOptions = answerOptions.querySelectorAll(".answer-option")
+            allOptions.forEach((opt) => {
+              const optionValue = opt.dataset.option
+
+              if (optionValue === option) {
+                opt.classList.add("selected")
+              }
+
+              // Disable all options
+              opt.classList.add("disabled")
+            })
+          }
         })
 
         answerOptions.appendChild(optionDiv)
@@ -562,8 +629,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateCounters() {
-    correctCountEl.textContent = `Düzgün: ${correctCount}`
-    wrongCountEl.textContent = `Səhv: ${wrongCount}`
+    if (feedbackMode === "immediate") {
+      correctCountEl.textContent = `Düzgün: ${correctCount}`
+      wrongCountEl.textContent = `Səhv: ${wrongCount}`
+    } else {
+      // Don't show correct/wrong counts during exam
+      correctCountEl.textContent = `Düzgün: -`
+      wrongCountEl.textContent = `Səhv: -`
+    }
     unansweredCountEl.textContent = `Qalan: ${unansweredCount}`
   }
 
@@ -619,6 +692,7 @@ document.addEventListener("DOMContentLoaded", () => {
     unansweredEl.textContent = unansweredCount
     questionRangeEl.textContent = usedRange
     examDurationEl.textContent = examDuration
+    feedbackModeEl.textContent = feedbackModeText
 
     const successRate = (correctCount / selectedQuestions.length) * 100
     successRateEl.textContent = `${successRate.toFixed(2)}%`
@@ -629,6 +703,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // Show results screen
     quizScreen.classList.add("hidden")
     resultsScreen.classList.remove("hidden")
+
+    // Hide fullscreen button
+    fullscreenBtn.classList.add("hidden")
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
   function generateReviewSection() {
@@ -684,6 +764,14 @@ document.addEventListener("DOMContentLoaded", () => {
     resultsScreen.classList.add("hidden")
     startScreen.classList.remove("hidden")
 
+    // Hide fullscreen button
+    fullscreenBtn.classList.add("hidden")
+
+    // Exit fullscreen if active
+    if (document.fullscreenElement) {
+      document.exitFullscreen()
+    }
+
     // Clear timer
     clearInterval(timerInterval)
     timer.textContent = "Vaxt: 15:00"
@@ -700,5 +788,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Clear questions input if needed
     // questionsInput.value = ""
+  }
+
+  function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+      document.documentElement
+        .requestFullscreen()
+        .then(() => {
+          updateFullscreenIcon(true)
+        })
+        .catch((err) => {
+          console.log("Tam ekran rejimi dəstəklənmir:", err)
+        })
+    } else {
+      document.exitFullscreen().then(() => {
+        updateFullscreenIcon(false)
+      })
+    }
+  }
+
+  function updateFullscreenButton() {
+    updateFullscreenIcon(!!document.fullscreenElement)
+  }
+
+  function updateFullscreenIcon(isFullscreen) {
+    if (isFullscreen) {
+      // Exit fullscreen icon
+      fullscreenIcon.innerHTML =
+        '<path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/>'
+      fullscreenBtn.title = "Tam Ekrandan Çıx"
+    } else {
+      // Enter fullscreen icon
+      fullscreenIcon.innerHTML =
+        '<path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>'
+      fullscreenBtn.title = "Tam Ekran"
+    }
   }
 })
