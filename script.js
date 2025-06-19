@@ -797,63 +797,61 @@ document.addEventListener("DOMContentLoaded", () => {
     reader.readAsText(file, "UTF-8")
   }
 
-  function parseTextFormat(text) {
-    const questions = []
-    const lines = text
-      .split("\n")
-      .map((line) => line.trim())
-      .filter((line) => line.length > 0)
+function parseTextFormat(text) {
+  const questions = []
+  const lines = text
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0)
 
-    let currentQuestion = null
-    let currentOptions = []
+  let currentQuestion = null
+  let currentOptions = []
 
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i]
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]
 
-      // Check if line starts with a number followed by )
-      const questionMatch = line.match(/^(\d+)\)\s*(.+)/)
-      if (questionMatch) {
-        // Save previous question if exists
-        if (currentQuestion && currentOptions.length > 0) {
-          questions.push({
-            question: currentQuestion,
-            options: currentOptions.map((opt) => opt.text),
-            correctAnswer: currentOptions[0].text, // Assuming first option is correct for now
-          })
-        }
-
-        // Start new question
-        currentQuestion = questionMatch[2]
-        currentOptions = []
-        continue
-      }
-
-      // Check if line is an option (a), b), c), etc.)
-      const optionMatch = line.match(/^([a-e])\)\s*(.+)/)
-      if (optionMatch && currentQuestion) {
-        currentOptions.push({
-          letter: optionMatch[1],
-          text: optionMatch[2],
+    // 1. və ya 1) ilə başlayan sətirləri tanı
+    const questionMatch = line.match(/^(\d+)[\).]\s*(.+)/)
+    if (questionMatch) {
+      if (currentQuestion && currentOptions.length > 0) {
+        questions.push({
+          question: currentQuestion,
+          options: currentOptions.map((opt) => opt.text),
+          correctAnswer: currentOptions[0].text, // İstəyə görə dəyişilə bilər
         })
-        continue
       }
+
+      currentQuestion = questionMatch[2]
+      currentOptions = []
+      continue
     }
 
-    // Add the last question
-    if (currentQuestion && currentOptions.length > 0) {
-      questions.push({
-        question: currentQuestion,
-        options: currentOptions.map((opt) => opt.text),
-        correctAnswer: currentOptions[0].text, // Assuming first option is correct for now
+    // Yalnız böyük A-E şıklarını tanı
+    const optionMatch = line.match(/^([A-E])\)\s*(.+)/)
+    if (optionMatch && currentQuestion) {
+      currentOptions.push({
+        letter: optionMatch[1],
+        text: optionMatch[2].trim(),
       })
     }
-
-    if (questions.length === 0) {
-      throw new Error("Heç bir sual tapılmadı")
-    }
-
-    return questions
   }
+
+  // Sonuncu sualı da əlavə et
+  if (currentQuestion && currentOptions.length > 0) {
+    questions.push({
+      question: currentQuestion,
+      options: currentOptions.map((opt) => opt.text),
+      correctAnswer: currentOptions[0].text,
+    })
+  }
+
+  if (questions.length === 0) {
+    throw new Error("Heç bir sual tapılmadı")
+  }
+
+  return questions
+}
+
 
   function showCorrectAnswerDialog(questions) {
     const modal = document.createElement("div")
